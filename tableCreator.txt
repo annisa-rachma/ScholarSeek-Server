@@ -1,0 +1,1 @@
+npx sequelize-cli model:generate --name User --attributes username:string,email:string,password:string,role:string,profileImg:string,school:array,major:array,scholarship:array,linkedinUrl:string,description:text,isMentorValidate:boolean
