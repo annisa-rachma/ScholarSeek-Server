@@ -14,6 +14,7 @@ const clientController = require('../controllers/clientController')
 
 // router.use(authentication)
 
+//
 
 // router.get('/threads', clientController.getAllThreads)
 // router.get('/threads/:threadsId', clientController.getThreadsById) //include comments
