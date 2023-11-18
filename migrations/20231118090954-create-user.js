@@ -9,14 +9,22 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      username: {
-        type: Sequelize.STRING
+      firstName: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      lastName: {
+        type: Sequelize.STRING,
+        allowNull: false,
       },
       email: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        allowNull: false,
+        unique : true
       },
       password: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        allowNull: false,
       },
       role: {
         type: Sequelize.STRING
@@ -24,22 +32,13 @@ module.exports = {
       profileImg: {
         type: Sequelize.STRING
       },
-      school: {
-        type: Sequelize.ARRAY
-      },
-      major: {
-        type: Sequelize.ARRAY
-      },
-      scholarship: {
-        type: Sequelize.ARRAY
-      },
       linkedinUrl: {
         type: Sequelize.STRING
       },
       description: {
         type: Sequelize.TEXT
       },
-      isMentorValidate: {
+      isAwardeeValidate: {
         type: Sequelize.BOOLEAN
       },
       createdAt: {

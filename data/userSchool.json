@@ -1,0 +1,22 @@
+[
+    {
+        "UserId" : 2,
+        "school" : "UCL",
+        "major" : "M.Arch Architecture",
+        "scholarship" : "Chevening Scholarship",
+        "year" : "2017-2018"
+    },
+    {
+        "UserId" : 2,
+        "school" : "TU Delft",
+        "major" : "PhD Architecture",
+        "scholarship" : "LPDP Scholarship",
+        "year" : "2022-present"
+    },
+    {
+        "UserId" : 3,
+        "school" : "ITB",
+        "major" : "S1 Arsitektur",
+        "year" : "2020-present"
+    }
+]
