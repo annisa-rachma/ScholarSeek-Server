@@ -1,10 +1,10 @@
-const {User} = require("../models")
+const {User, userSchool} = require("../models")
 const {comparePassword} = require('../helpers/bcrypt')
 const { signToken } = require("../helpers/jwt")
 class clientController {
     static async loginUser(req, res, next) {
         try {
-            console.log(req.body)
+            // console.log(req.body)
             const {email, password} = req.body
             if(!email || !password) throw { name : "InvalidInput" }
 
@@ -24,15 +24,21 @@ class clientController {
 
     static async registerUserAwardee(req, res, next) {
         try {
-            const {firstName, lastName, email, password, profileImg, linkedinUrl, description} = req.body
+            const {firstName, lastName, email, password, profileImg, linkedinUrl, description, school, major, scholarship, year} = req.body
             if(!linkedinUrl) {
                 return res.status(400).json({message : "please fill in the linkedin link"})
             }
-            const user = await User.create({firstName, lastName, email, password, role: 'awardee', profileImg, linkedinUrl, description})
+
+            await User.create({firstName, lastName, email, password, role: 'awardee', profileImg, linkedinUrl, description})
             
+            if(!school || !major || !scholarship || !year) {
+                return res.status(400).json({message : "please fill in the input field"})
+            }
+            await userSchool.create({UserId : user.id, school, major, scholarship, year})
 
             res.status(201).json({message : "succesfully registered, please wait a few days for our team to validate your mentor application"})
         } catch (err) {
+            console.log(err)
             next(err)
         }
     }
@@ -43,6 +49,7 @@ class clientController {
             const user = await User.create({firstName, lastName, email, password, role: 'mentee', profileImg, linkedinUrl, description})
             res.status(201).json({message : "succesfully registered"})
         } catch (err) {
+            console.log(err)
             next(err)
         }
     }

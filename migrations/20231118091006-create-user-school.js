@@ -17,7 +17,9 @@ module.exports = {
           },
           key: 'id'
         },
-        allowNull: false
+        allowNull: false,
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE'
       },
       school: {
         type: Sequelize.STRING
