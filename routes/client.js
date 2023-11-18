@@ -9,10 +9,11 @@ const clientController = require('../controllers/clientController')
 // router.post('/register', clientController.registerUser)
 // router.post('/google-signin', clientController.loginGoogle)
 
-// router.use(authentication)
-
 // router.get('/scholarships', clientController.getAllScholarships)
 // router.get('/scholarships/:scholarshipId', clientController.getScholarshipsById)
+
+// router.use(authentication)
+
 
 // router.get('/threads', clientController.getAllThreads)
 // router.get('/threads/:threadsId', clientController.getThreadsById) //include comments
