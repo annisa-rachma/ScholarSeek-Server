@@ -1,0 +1,23 @@
+[
+    {
+        "username" : "admin1",
+        "email" : "admin1@mail.com",
+        "password" : "12345",
+        "role" : "admin",
+        "profileImg" : "https://xsgames.co/randomusers/avatar.php?g=male",
+        "isMentorValidate" : false
+    },
+    {
+        "username" : "awardee1",
+        "email" : "awardee1@mail.com",
+        "password" : "12345",
+        "role" : "awardee",
+        "profileImg" : "https://xsgames.co/randomusers/avatar.php?g=male",
+        "schoolId" : ["UCL", "Oxford University"],
+        "major" : [],
+        "scholarship" : [],
+        "linkedinUrl" : "",
+        "description" : "",
+        "isMentorValidate" : false
+    }
+]
