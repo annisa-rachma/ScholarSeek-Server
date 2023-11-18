@@ -47,6 +47,12 @@ class clientController {
         try {
             const {firstName, lastName, email, password, profileImg, linkedinUrl, description} = req.body
             const user = await User.create({firstName, lastName, email, password, role: 'mentee', profileImg, linkedinUrl, description})
+            
+            if(!school || !major || !year) {
+                return res.status(400).json({message : "please fill in the input field"})
+            }
+            await userSchool.create({UserId : user.id, school, major, year})
+            
             res.status(201).json({message : "succesfully registered"})
         } catch (err) {
             console.log(err)
