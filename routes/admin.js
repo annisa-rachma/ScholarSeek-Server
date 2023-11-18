@@ -1,16 +1,16 @@
 const express = require('express')
 const router = express.Router()
 const adminController = require('../controllers/adminController')
-// const { authentication } = require('../middlewares/authentication')
+const { authentication } = require('../middlewares/authentication')
 // const { authorization, authorizationForStatus } = require('../middlewares/authorization')
 
 
-// router.post('/login', adminController.loginUser)
+router.post('/login', adminController.loginUser)
 // router.post('/google-signin', adminController.loginGoogle)
 
-// router.use(authentication)
+router.use(authentication)
 
-// router.post('/register', adminController.registerUser)
+router.post('/register', adminController.registerUser)
 // router.get('/scholarships', adminController.getAllScholarships)
 // router.post('/scholarships', adminController.postScholarships)
 // router.get('/scholarships/:scholarshipId', adminController.getScholarshipsById)

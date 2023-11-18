@@ -2,30 +2,85 @@
 const {
   Model
 } = require('sequelize');
+const { hashPassword } = require('../helpers/bcrypt');
 module.exports = (sequelize, DataTypes) => {
   class User extends Model {
-    /**
-     * Helper method for defining associations.
-     * This method is not a part of Sequelize lifecycle.
-     * The `models/index` file will call this method automatically.
-     */
     static associate(models) {
-      // define association here
+      User.hasMany(models.userSchool, {foreignKey: 'UserId'})
     }
   }
   User.init({
-    username: DataTypes.STRING,
-    email: DataTypes.STRING,
-    password: DataTypes.STRING,
+    firstName: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notNull: {
+          msg : "First name is required"
+        },
+        notEmpty: {
+          msg : "First name is required"
+        }
+      }
+    },
+    lastName: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notNull: {
+          msg : "Last name is required"
+        },
+        notEmpty: {
+          msg : "Last name is required"
+        }
+      }
+    },
+    email: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      unique: {
+        args : true,
+        msg : "Email already registered"
+      },
+      validate: {
+        notNull: {
+          msg : "Email is required"
+        },
+        notEmpty: {
+          msg : "Email is required"
+        },
+        isEmail: {
+          args: true,
+          msg: "Invalid email format"
+        },
+      }
+    },
+    password: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notNull: {
+          msg : "Password is required"
+        },
+        notEmpty: {
+          msg : "Password is required"
+        }
+      }
+    },
     role: DataTypes.STRING,
     profileImg: DataTypes.STRING,
-    school: DataTypes.ARRAY,
-    major: DataTypes.ARRAY,
-    scholarship: DataTypes.ARRAY,
     linkedinUrl: DataTypes.STRING,
     description: DataTypes.TEXT,
-    isMentorValidate: DataTypes.BOOLEAN
+    isAwardeeValidate: DataTypes.BOOLEAN
   }, {
+    hooks: {
+      beforeCreate: (user) => {
+        user.password = hashPassword(user.password);
+        user.isAwardeeValidate = false
+        if(!user.profileImg) {
+          user.profileImg = 'https://source.boringavatars.com/beam/40/bryan'
+        }
+      }
+    },
     sequelize,
     modelName: 'User',
   });
