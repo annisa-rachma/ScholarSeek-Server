@@ -3,6 +3,7 @@ const { comparePassword } = require("../helpers/bcrypt");
 const { signToken } = require("../helpers/jwt");
 const cloudinary = require("../utils/cloudinary");
 const promisify = require("util.promisify");
+const { Op } = require("sequelize");
 const cloudinaryUpload = promisify(cloudinary.uploader.upload);
 
 class clientController {
@@ -224,31 +225,65 @@ class clientController {
   }
 
   static async getAllThreads(req, res, next) {
-    try {
-      const threads = await Thread.findAll({
-        where: { isActive: true },
-        include: [
-          {
-            model: User,
-            attributes: {
-              exclude: [
-                "createdAt",
-                "updatedAt",
-                "password",
-                "email",
-                "linkedinUrl",
-                "description",
-                "isAwardeeValidate",
-              ],
-            },
+    const { search, page } = req.query;
+
+    let limit;
+    let offset;
+
+    const option = {
+      where: { isActive: true },
+      include: [
+        {
+          model: User,
+          attributes: {
+            exclude: [
+              "createdAt",
+              "updatedAt",
+              "password",
+              "email",
+              "linkedinUrl",
+              "description",
+              "isAwardeeValidate",
+            ],
           },
-        ],
-        attributes: {
-          exclude: ["updatedAt"],
         },
-        order: [["createdAt"]],
-      });
-      res.status(200).json(threads);
+        {
+          model: Comment,
+          attributes: {
+            exclude: ["updatedAt", "createdAt", "UserId", "ThreadId", "like", "dislike", "content"],
+          }
+        },
+      ],
+      attributes: {
+        exclude: ["updatedAt"],
+      },
+      order: [["createdAt"]],
+    };
+
+    if (search !== "" && typeof search !== "undefined") {
+      option.where.title = { [Op.iLike]: `%${search}%` };
+    }
+
+    // if (page !== "" && typeof page !== "undefined") {
+    //   if (page.size !== "" && typeof page.size !== "undefined") {
+    //     limit = page.size;
+    //     option.limit = limit;
+    //   }
+
+    //   if (page.number !== "" && typeof page.number !== "undefined") {
+    //     offset = page.number * limit - limit;
+    //     option.offset = offset;
+    //   }
+    // } else {
+    //   limit = 5; // limit 5 item
+    //   offset = 0;
+    //   option.limit = limit;
+    //   option.offset = offset;
+    // }
+
+    try {
+      const threads = await Thread.findAll(option);
+      res.status(200).json({total:threads.length, threads});
     } catch (err) {
       console.log(err);
       next(err);
@@ -277,6 +312,22 @@ class clientController {
           {
             model: Comment,
             order: [["createdAt"]],
+            include : [
+              {
+                model: User,
+                attributes: {
+                  exclude: [
+                    "createdAt",
+                    "updatedAt",
+                    "password",
+                    "email",
+                    "linkedinUrl",
+                    "description",
+                    "isAwardeeValidate",
+                  ],
+                },
+              },
+            ]
           },
         ],
         attributes: {
@@ -290,7 +341,24 @@ class clientController {
     }
   }
 
-  
+  static async postThreads(req, res, next) {
+    try {
+      await Thread.create({ ...req.body, UserId: req.user.id });
+      res.status(201).json({ message: `Successfully added new thread` });
+    } catch (err) {
+      next(err);
+    }
+  }
+
+  static async postComments(req, res, next) {
+    try {
+      const {threadsId} = req.params
+      await Comment.create({ ...req.body, UserId: req.user.id,  ThreadId: threadsId});
+      res.status(201).json({ message: `Successfully added new comment` });
+    } catch (err) {
+      next(err);
+    }
+  }
 }
 
 module.exports = clientController;

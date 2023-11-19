@@ -18,10 +18,10 @@ router.get('/profile/:userId', clientController.getProfileById)
 
 router.get('/threads', clientController.getAllThreads)
 router.get('/threads/:threadsId', clientController.getThreadsById) //include comments
-// router.post('/threads', clientController.postThreads)
+router.post('/threads', clientController.postThreads)
 // router.put('/threads/:threadsId, clientController.putLikeDislikeThreads)
 
-// router.post('/comments', clientController.postComments)
+router.post('/threads/:threadsId/comment', clientController.postComments)
 // router.put('/comments/:commentId, clientController.putLikeDislikeComments)
 
 // router.get('/mentoring', clientController.getAllMentoring)
