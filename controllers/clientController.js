@@ -393,6 +393,20 @@ class clientController {
       next(err);
     }
   }
+
+  static async getAllBookmarkThreads(req, res, next) {
+    try {
+      const bookmarkThreads = await BookmarkThread.findAll({ 
+        where: { UserId: req.user.id },
+        order: [["id"]] 
+      });
+      res.status(200).json(bookmarkThreads);
+    } catch (err) {
+      next(err);
+    }
+  }
+
+  
 }
 
 module.exports = clientController;

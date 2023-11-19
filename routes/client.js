@@ -29,10 +29,10 @@ router.post('/threads/:threadsId/bookmarks', clientController.postBookmarkThread
 // router.post('/mentoring', clientController.postMentoring)
 // router.get('/mentoring/:mentoringId', clientController.getMentoringById)
 
+router.get('/bookmarks/thread', clientController.getAllBookmarkThreads)
+
 // router.post('/bookmarks/scholarships', clientController.postBookmarkScholarship)
 // router.get('/bookmarks/scholarships', clientController.getAllBookmarkScholarship)
-
-// router.get('/bookmarks/threads', clientController.getAllBookmarkThreads)
 
 // router.post('/bookmarks/mentoring', clientController.postBookmarkMentoring)
 // router.get('/bookmarks/mentoring', clientController.getAllBookmarkMentoring)
