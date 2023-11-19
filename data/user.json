@@ -28,5 +28,15 @@
         "profileImg" : "https://xsgames.co/randomusers/avatar.php?g=female",
         "description" : "Hey, I'm Sarah, currently immersing myself in the world of architecture at Institut Teknologi Bandung (ITB). The creative vibes here are incredible, fueling my passion for blending design and functionality. I'm all about envisioning spaces that go beyond the ordinary and finding innovative solutions. Keep an eye out—I'm on my way to leave my mark in the architecture scene, courtesy of ITB's inspiring program.",
         "isAwardeeValidate" : false
+    },
+    {
+        "firstName" : "mentee2",
+        "lastName" : "mentee2",
+        "email" : "mentee2@mail.com",
+        "password" : "12345",
+        "role" : "mentee",
+        "profileImg" : "https://xsgames.co/randomusers/avatar.php?g=female",
+        "description" : "Hey, kndaln  kadlaml kancnacnols canncalmca cnackanalca",
+        "isAwardeeValidate" : false
     }
 ]

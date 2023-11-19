@@ -26,7 +26,9 @@ class adminController {
     static async registerUser(req, res, next) {
         try {
             const {firstName, lastName, email, password} = req.body
-            const user = await User.create({firstName, lastName, email, password, role : "admin"})
+            let profileImg = "https://source.boringavatars.com/beam/40/bryan";
+
+            const user = await User.create({firstName, lastName, email, password,profileImg, role : "admin"})
             res.status(201).json({message : "succesfully registered"})
         } catch (err) {
             next(err)

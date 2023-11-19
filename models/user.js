@@ -7,6 +7,9 @@ module.exports = (sequelize, DataTypes) => {
   class User extends Model {
     static associate(models) {
       User.hasMany(models.userSchool, {foreignKey: 'UserId'})
+      User.hasMany(models.Thread, {foreignKey: 'UserId'})
+      User.hasMany(models.Comment, {foreignKey: 'UserId'})
+
     }
   }
   User.init({
@@ -76,9 +79,6 @@ module.exports = (sequelize, DataTypes) => {
       beforeCreate: (user) => {
         user.password = hashPassword(user.password);
         user.isAwardeeValidate = false
-        if(!user.profileImg) {
-          user.profileImg = 'https://source.boringavatars.com/beam/40/bryan'
-        }
       }
     },
     sequelize,
