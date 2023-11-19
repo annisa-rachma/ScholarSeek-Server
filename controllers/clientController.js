@@ -1,4 +1,11 @@
-const { User, userSchool, Thread, Comment, sequelize } = require("../models");
+const {
+  User,
+  userSchool,
+  Thread,
+  Comment,
+  BookmarkThread,
+  sequelize,
+} = require("../models");
 const { comparePassword } = require("../helpers/bcrypt");
 const { signToken } = require("../helpers/jwt");
 const cloudinary = require("../utils/cloudinary");
@@ -9,7 +16,7 @@ const cloudinaryUpload = promisify(cloudinary.uploader.upload);
 class clientController {
   static async loginUser(req, res, next) {
     try {
-      // console.log(req.body)
+      // console.log(req.body);
       const { email, password } = req.body;
       if (!email || !password) throw { name: "InvalidInput" };
 
@@ -250,8 +257,16 @@ class clientController {
         {
           model: Comment,
           attributes: {
-            exclude: ["updatedAt", "createdAt", "UserId", "ThreadId", "like", "dislike", "content"],
-          }
+            exclude: [
+              "updatedAt",
+              "createdAt",
+              "UserId",
+              "ThreadId",
+              "like",
+              "dislike",
+              "content",
+            ],
+          },
         },
       ],
       attributes: {
@@ -283,7 +298,7 @@ class clientController {
 
     try {
       const threads = await Thread.findAll(option);
-      res.status(200).json({total:threads.length, threads});
+      res.status(200).json({ total: threads.length, threads });
     } catch (err) {
       console.log(err);
       next(err);
@@ -312,7 +327,7 @@ class clientController {
           {
             model: Comment,
             order: [["createdAt"]],
-            include : [
+            include: [
               {
                 model: User,
                 attributes: {
@@ -327,7 +342,7 @@ class clientController {
                   ],
                 },
               },
-            ]
+            ],
           },
         ],
         attributes: {
@@ -352,13 +367,29 @@ class clientController {
 
   static async postComments(req, res, next) {
     try {
-      const {threadsId} = req.params
-      await Comment.create({ ...req.body, UserId: req.user.id,  ThreadId: threadsId});
+      const { threadsId } = req.params;
+      await Comment.create({
+        ...req.body,
+        UserId: req.user.id,
+        ThreadId: threadsId,
+      });
       res.status(201).json({ message: `Successfully added new comment` });
     } catch (err) {
       next(err);
     }
   }
+
+  // static async postBookmarkThreads(req, res, next) {
+  //   try {
+  //     const { threadsId } = req.params;
+  //     await BookmarkThread.create({ UserId: req.user.id, ThreadId: threadsId });
+  //     res
+  //       .status(201)
+  //       .json({ message: `Successfully added thread to bookmark` });
+  //   } catch (err) {
+  //     next(err);
+  //   }
+  // }
 }
 
 module.exports = clientController;

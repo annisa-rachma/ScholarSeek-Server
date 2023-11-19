@@ -17,8 +17,8 @@ router.use(authentication)
 router.get('/profile/:userId', clientController.getProfileById)
 
 router.get('/threads', clientController.getAllThreads)
-router.get('/threads/:threadsId', clientController.getThreadsById) //include comments
 router.post('/threads', clientController.postThreads)
+router.get('/threads/:threadsId', clientController.getThreadsById) //include comments
 // router.put('/threads/:threadsId, clientController.putLikeDislikeThreads)
 
 router.post('/threads/:threadsId/comment', clientController.postComments)
