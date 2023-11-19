@@ -14,6 +14,7 @@ module.exports = (sequelize, DataTypes) => {
   Scholarship.init(
     {
       name: DataTypes.STRING,
+      slug: DataTypes.STRING,
       isFullyFunded: DataTypes.BOOLEAN,
       registrationOpen: DataTypes.DATEONLY,
       registrationDeadline: DataTypes.DATEONLY,
@@ -38,5 +39,15 @@ module.exports = (sequelize, DataTypes) => {
       modelName: "Scholarship",
     }
   );
+  // Scholarship.beforeCreate((scholarship) =>{
+  //   scholarship.isFullyFunded === true ? "Fully Funded" : "Partial"
+  // })
+  Scholarship.beforeValidate((scholarship) => {
+    scholarship.slug = scholarship.name.toLowerCase().replace(/[^a-z0-9\s]+/g, '').replaceAll(' ','-')
+  })
+  Scholarship.beforeUpdate((scholarship) => {
+    console.log(scholarship);
+    scholarship.slug = scholarship.name.toLowerCase().replace(/[^a-z0-9\s]+/g, '').replaceAll(' ','-')
+  })
   return Scholarship;
 };

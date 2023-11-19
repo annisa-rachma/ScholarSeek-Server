@@ -1,8 +1,9 @@
 [
   {
     "name": "Berklee Merit-Based Scholarships - Summer (May)",
+    "slug": "berklee-merit-based-scholarships-summer-may",
     "isFullyFunded": true,
-    "degrees": ["S1"],
+    "degrees": ["S1", "S2"],
     "countries": ["Amerika Serikat"],
     "registrationOpen": null,
     "registrationDeadline": "2023-12-01",
@@ -14,14 +15,15 @@
     "ageRequirement": "",
     "gpaRequirement": "",
     "englishTest": ["IELTS (6)", "TOEFL iBT (72)","PTE Academic (48)","Duolingo (110)"],
-    "otherLangTest": [""],
-    "standarizedTest": [""],
+    "otherLangTest":[],
+    "standarizedTest":[],
     "documents": ["Curriculum Vitae", "Proof of English Proficiency", "Academic Transcript", "Portfolio", "Ijazah", "Credential Evaluation"],
     "links": "https://www.berklee.edu/scholarships/berklee-merit-based-scholarships",
-    "others": [""]
+    "others":[]
   },
   {
     "name": "Education University of Hong Kong Scholarship",
+    "slug": "education-university-of-hong-kong-scholarship",
     "isFullyFunded": false,
     "degrees": ["S1"],
     "countries": ["Hong kong"],
@@ -43,6 +45,7 @@
   },
   {
     "name": "MEXT University Recommendation - APU",
+    "slug": "mext-university-recommendation-apu",
     "isFullyFunded": true,
     "degrees": ["S3"],
     "countries": ["Jepang"],
@@ -56,14 +59,15 @@
     "ageRequirement": "34",
     "gpaRequirement": "",
     "englishTest": ["IELTS (6.5)", "TOEFL iBT (85)"],
-    "otherLangTest": [""],
+    "otherLangTest":[],
     "standarizedTest": ["GRE (no min. score)", "GMAT (no min. score)"],
     "documents": ["GRE", "Research Proposal", "Passport", "Application Form", "Degree Certificate", "Recommendation Letters", "Proof of English Proficiency", "Personal Statement", "ID photo"],
     "links": "https://admissions.apu.ac.jp/graduate/how_to_apply/external_scholarship/u_recommendation/",
-    "others": [""]
+    "others":[]
   },
   {
     "name": "ADB JSP - National Graduate Institute for Policy Studies - MP1, MP2",
+    "slug": "adb-jsp-national-graduate-institute-for-policy-studies-mp1-mp2",
     "isFullyFunded": true,
     "degrees": ["S2"],
     "countries": ["Jepang"],
@@ -77,16 +81,17 @@
     "ageRequirement": "35",
     "gpaRequirement": "",
     "englishTest": ["IELTS (6)", "TOEFL iBT (79)"],
-    "otherLangTest": [""],
-    "standarizedTest": [""],
+    "otherLangTest":[],
+    "standarizedTest":[],
     "documents": ["Recommendation Letters", "Proof of English Proficiency", "Certificate(s) of Employment/Internship", "Academic Transcript", "Financial certification", "Application fee", "Ijazah"],
     "links": "https://www.grips.ac.jp/en/admissions/apply/",
-    "others": [""]
+    "others":[]
   },
   {
     "name": "MEXT University Recommendation - National Graduate Institute for Policy Studies MP1, MP2, PA, G-cube, STI",
+    "slug": "mext-university-recommendation-national-graduate-institute-for-policy-studies-mp1-mp2-pa-gcube-sti",
     "isFullyFunded": true,
-    "degrees": ["S2"],
+    "degrees": ["S2", "S3"],
     "countries": ["Jepang"],
     "registrationOpen": null,
     "registrationDeadline": "2023-11-24",
@@ -98,14 +103,15 @@
     "ageRequirement": "34",
     "gpaRequirement": "",
     "englishTest": ["IELTS (6)", "TOEFL iBT (79)"],
-    "otherLangTest": [""],
-    "standarizedTest": [""],
+    "otherLangTest":[],
+    "standarizedTest":[],
     "documents": ["Degree Certificate", "Recommendation Letters", "Proof of English Proficiency", "Certificate(s) of Employment/Internship", "Academic Transcript", "Application fee", "Financial Statement"],
     "links": "https://www.grips.ac.jp/en/admissions/apply/",
-    "others": [""]
+    "others":[]
   },
   {
     "name": "MEXT University Recommendation - “Special Training Program for Robotics Engineers for the Post-Corona Society” - Osaka University",
+    "slug": "mext-university-recommendation-special-training-program-for-robotics-engineers-for-the-post-corona-society-osaka-university",
     "isFullyFunded": true,
     "degrees": ["S2"],
     "countries": ["Jepang"],
@@ -119,16 +125,17 @@
     "ageRequirement": "34",
     "gpaRequirement": "",
     "englishTest": ["IELTS (6)", "TOEFL iBT (79)", "TOEFL PBT (550)"],
-    "otherLangTest": [""],
-    "standarizedTest": [""],
+    "otherLangTest":[],
+    "standarizedTest":[],
     "documents": ["Passport", "Application Form", "Graduation Diploma or Certificate", "Recommendation Letters", "Proof of English Proficiency", "Academic Transcript", "Abstracts of thesis", "Study Plan", "ID photo"],
     "links": "https://www.es.osaka-u.ac.jp/en/admission-aid/mext-granted/index.html",
-    "others": [""]
+    "others":[]
   },
   {
     "name": "MEXT University Recommendation - “Special Training Program for Robotics Engineers for the Post-Corona Society” - Osaka University - copy",
+    "slug": "mext-university-recommendation-special-training-program-for-robotics-engineers-for-the-post-corona-society-osaka-university-copy",
     "isFullyFunded": true,
-    "degrees": ["S3"],
+    "degrees": ["S3", "S1"],
     "countries": ["Jepang"],
     "registrationOpen": "2023-11-13",
     "registrationDeadline": "2023-11-27",
@@ -140,16 +147,17 @@
     "ageRequirement": "34",
     "gpaRequirement": "",
     "englishTest": ["IELTS (6)", "TOEFL iBT (79)", "TOEFL PBT (550)"],
-    "otherLangTest": [""],
-    "standarizedTest": [""],
+    "otherLangTest":[],
+    "standarizedTest":[],
     "documents": ["Passport", "Application Form", "Graduation Diploma or Certificate", "Recommendation Letters", "Proof of English Proficiency", "Academic Transcript", "Abstracts of thesis", "Study Plan", "ID photo"],
     "links": "https://www.es.osaka-u.ac.jp/en/admission-aid/mext-granted/index.html",
-    "others": [""]
+    "others":[]
   },
   {
     "name": "DGIST Scholarship",
+    "slug": "dgist-scholarship",
     "isFullyFunded": true,
-    "degrees": ["S2"],
+    "degrees": ["S2", "S1"],
     "countries": ["Korea"],
     "registrationOpen": "2023-11-16",
     "registrationDeadline": "2023-11-30",
@@ -160,11 +168,11 @@
     "benefit": ["M.S. programs: A minimum of 15,000,000 KRW / year", "Ph.D. programs : A minimum of 22,000,000 KRW / year", "*Set amounts vary by personal research achievements and the research activities"],
     "ageRequirement": "34",
     "gpaRequirement": "",
-    "englishTest": [""],
-    "otherLangTest": [""],
-    "standarizedTest": [""],
+    "englishTest":[],
+    "otherLangTest":[],
+    "standarizedTest":[],
     "documents": ["Application Form", "Essays", "Academic Transcript", "Ijazah"],
     "links": "https://www.dgist.ac.kr/iadm/html/sub02/020105.html",
-    "others": [""]
+    "others":[]
   }
 ]
