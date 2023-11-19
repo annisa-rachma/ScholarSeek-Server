@@ -1,9 +1,11 @@
-const { User, userSchool,Thread,Comment, sequelize } = require("../models");
+const { User, userSchool, Thread, Comment, sequelize, Scholarship, Category, Country, Degree, Document, FundingType, Link, Major, University, Test } = require("../models");
 const { comparePassword } = require("../helpers/bcrypt");
 const { signToken } = require("../helpers/jwt");
 const cloudinary = require("../utils/cloudinary");
 const promisify = require("util.promisify");
 const cloudinaryUpload = promisify(cloudinary.uploader.upload);
+const redis = require("../config/redis")
+const { filterAndPagination, searchAndOrderBy } = require("../helpers/pagination_filter_search_orderBy")
 
 class clientController {
   static async loginUser(req, res, next) {
@@ -198,7 +200,7 @@ class clientController {
           {
             model: User,
             attributes: {
-              exclude: ["createdAt","updatedAt","password", "email", "linkedinUrl", "description", "isAwardeeValidate"],
+              exclude: ["createdAt", "updatedAt", "password", "email", "linkedinUrl", "description", "isAwardeeValidate"],
             },
           }
         ],
@@ -209,7 +211,7 @@ class clientController {
       });
       res.status(200).json(threads);
     } catch (err) {
-    console.log(err)
+      console.log(err)
       next(err);
     }
   }
@@ -222,7 +224,7 @@ class clientController {
           {
             model: User,
             attributes: {
-              exclude: ["createdAt","updatedAt","password", "email", "linkedinUrl", "description", "isAwardeeValidate"],
+              exclude: ["createdAt", "updatedAt", "password", "email", "linkedinUrl", "description", "isAwardeeValidate"],
             },
           },
           {
@@ -236,8 +238,73 @@ class clientController {
       });
       res.status(200).json(thread);
     } catch (err) {
-    console.log(err)
+      console.log(err)
       next(err);
+    }
+  }
+
+  static async getAllScholarships(req, res, next) {
+    try {
+      console.log("Masuk CLIENT getAllScholarships");
+      let { name, orderBy } = req.query
+      let data, option
+      data = await redis.get("scholarships:all")
+      if (!data) {
+        const scholarships = await Scholarship.findAll({
+          include: [FundingType, Degree, Link, Document, Country, Major, University,
+            {
+              model: Category,
+              include: [Test]
+            }
+          ],
+          order: [["id", "ASC"]],
+        })
+        await redis.set("scholarships:all", JSON.stringify(scholarships))
+        data = scholarships
+      } else if (name || orderBy) {
+        option = searchAndOrderBy(req.query)
+        const scholarships = await Scholarship.findAll(option)
+        data = scholarships
+      } else {
+        data = JSON.parse(data)
+      }
+      const result = filterAndPagination(req.query, data)
+      res.status(200).json(result)
+    } catch (error) {
+      console.log(error);
+      next(error)
+    }
+  }
+  static async getScholarshipsById(req, res, next) {
+    try {
+      console.log("Masuk client getScholarshipsById");
+      let { scholarshipId } = req.params
+      let result, data, reFetch = false
+      data = await redis.get("scholarships:all")
+      if (data) {
+        console.log("CACHE ADA");
+        data = JSON.parse(data)
+        result = data.find(el => el.id == scholarshipId)
+        result ? reFetch = false : reFetch = true
+      }
+      if (reFetch) {
+        console.log("MASUKREFETCH");
+        const scholarship = await Scholarship.findOne({
+          where: { id: scholarshipId },
+          include: [FundingType, Degree, Link, Document, Country, Major, University,
+            {
+              model: Category,
+              include: [Test]
+            }
+          ],
+          order: [["id", "ASC"]],
+        })
+        result = scholarship
+      }
+      res.status(200).json(result)
+    } catch (error) {
+      console.log(error);
+      next(error)
     }
   }
 }

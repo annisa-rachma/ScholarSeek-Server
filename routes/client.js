@@ -9,8 +9,8 @@ router.post('/register/awardee', multer.single('image'), clientController.regist
 router.post('/register/mentee', multer.single('image'), clientController.registerUserMentee)
 
 
-// router.get('/scholarships', clientController.getAllScholarships)
-// router.get('/scholarships/:scholarshipId', clientController.getScholarshipsById)
+router.get('/scholarships', clientController.getAllScholarships)
+router.get('/scholarships/:scholarshipId', clientController.getScholarshipsById)
 
 router.use(authentication)
 

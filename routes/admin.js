@@ -14,9 +14,9 @@ router.post('/register', adminController.registerUser)
 
 // router.patch('/user', clientController.patchIsValidateUser)
 
-// router.get('/scholarships', adminController.getAllScholarships)
+router.get('/scholarships', adminController.getAllScholarships)
 // router.post('/scholarships', adminController.postScholarships)
-// router.get('/scholarships/:scholarshipId', adminController.getScholarshipsById)
+router.get('/scholarships/:scholarshipId', adminController.getScholarshipsById)
 // router.put('/scholarships/:scholarshipId', adminController.putScholarshipsById)
 // router.delete('/scholarships/:scholarshipId',  adminController.deleteScholarshipsById)
 

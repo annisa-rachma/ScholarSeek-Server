@@ -1,0 +1,994 @@
+[
+    {
+        "scholarships_id": 1,
+        "name": "Sapienza Università di Roma"
+    },
+    {
+        "scholarships_id": 1,
+        "name": "University of Évora"
+    },
+    {
+        "scholarships_id": 1,
+        "name": "Aristotle University of Thessaloniki"
+    },
+    {
+        "scholarships_id": 2,
+        "name": "Universitat de Barcelona"
+    },
+    {
+        "scholarships_id": 3,
+        "name": "Ghent University"
+    },
+    {
+        "scholarships_id": 4,
+        "name": "University of Antwerp"
+    },
+    {
+        "scholarships_id": 5,
+        "name": "Vrije Universiteit Brussel"
+    },
+    {
+        "scholarships_id": 6,
+        "name": "Vrije Universiteit Brussel"
+    },
+    {
+        "scholarships_id": 7,
+        "name": "Hasselt University"
+    },
+    {
+        "scholarships_id": 8,
+        "name": "Ghent University"
+    },
+    {
+        "scholarships_id": 9,
+        "name": "Ghent University"
+    },
+    {
+        "scholarships_id": 10,
+        "name": "RHEINISCHE FRIEDRICH-WILHELMS-UNIVERSITAT BONN"
+    },
+    {
+        "scholarships_id": 10,
+        "name": "Universitätsklinikum Bonn "
+    },
+    {
+        "scholarships_id": 11,
+        "name": "Ruhr-Universität Bochum"
+    },
+    {
+        "scholarships_id": 12,
+        "name": "Osaka University"
+    },
+    {
+        "scholarships_id": 13,
+        "name": "University of Oviedo"
+    },
+    {
+        "scholarships_id": 13,
+        "name": "Åbo Akademi University"
+    },
+    {
+        "scholarships_id": 13,
+        "name": "University of Chemistry and Technology Prague"
+    },
+    {
+        "scholarships_id": 14,
+        "name": "Hasselt University"
+    },
+    {
+        "scholarships_id": 15,
+        "name": "Kyushu University"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Universitat Politecnica de Catalunya"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Ecole Centrale de Nantes"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "UNIVERSITATEA POLITEHNICA DIN BUCURESTI"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Hochschule für Technik und Wirtschaft"
+    },
+    {
+        "scholarships_id": 17,
+        "name": "KU Leuven"
+    },
+    {
+        "scholarships_id": 18,
+        "name": "Hungarian University of Agriculture and Life Sciences (former Szent István University)"
+    },
+    {
+        "scholarships_id": 18,
+        "name": "University of Zagreb"
+    },
+    {
+        "scholarships_id": 18,
+        "name": "Slovak University of Agriculture"
+    },
+    {
+        "scholarships_id": 18,
+        "name": "University of Novi Sad"
+    },
+    {
+        "scholarships_id": 18,
+        "name": "Czech University of Life Science, Prague"
+    },
+    {
+        "scholarships_id": 18,
+        "name": "University of Natural Resources and Life Sciences"
+    },
+    {
+        "scholarships_id": 18,
+        "name": "Banat’s University of Agricultural Sciences and Veterinary Medicine „King Michael I of Romania”"
+    },
+    {
+        "scholarships_id": 19,
+        "name": "SZINHAZ-ES FILMMUVESZETI EGYETEM"
+    },
+    {
+        "scholarships_id": 19,
+        "name": "LUCA SCHOOL OF ARTS"
+    },
+    {
+        "scholarships_id": 19,
+        "name": "COFAC COOPERATIVA DE FORMACAO E ANIMACAO CULTURAL CRL"
+    },
+    {
+        "scholarships_id": 20,
+        "name": "KU Leuven"
+    },
+    {
+        "scholarships_id": 21,
+        "name": "EPFL"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "UNIVERSITE DE LILLE"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "UNIVERSITA DEGLI STUDI DI BARI ALDO MORO"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "UNIVERSITE DE TECHNOLOGIE DE TROYES"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "TECHNICAL UNIVERSITY OF MOMBASA"
+    },
+    {
+        "scholarships_id": 23,
+        "name": "UNIVERSITE D'AIX MARSEILLE"
+    },
+    {
+        "scholarships_id": 23,
+        "name": "UNIVERSITAT POLITECNICA DE VALENCIA"
+    },
+    {
+        "scholarships_id": 23,
+        "name": "ECOLE CENTRALE DE MARSEILLE EGIM"
+    },
+    {
+        "scholarships_id": 23,
+        "name": "UNIVERSIDADE DE COIMBRA"
+    },
+    {
+        "scholarships_id": 24,
+        "name": "Osaka University"
+    },
+    {
+        "scholarships_id": 25,
+        "name": "Universidade de Lisboa"
+    },
+    {
+        "scholarships_id": 25,
+        "name": "UNIVERSITE DE TOULON"
+    },
+    {
+        "scholarships_id": 25,
+        "name": "UNIVERSITAT JAUME I DE CASTELLON"
+    },
+    {
+        "scholarships_id": 25,
+        "name": "NORGES TEKNISK-NATURVITENSKAPELIGE UNIVERSITET"
+    },
+    {
+        "scholarships_id": 27,
+        "name": "Pompeu Fabra University"
+    },
+    {
+        "scholarships_id": 27,
+        "name": "Sapienza Università di Roma"
+    },
+    {
+        "scholarships_id": 27,
+        "name": "University of Ljubljana"
+    },
+    {
+        "scholarships_id": 27,
+        "name": "Radboud University"
+    },
+    {
+        "scholarships_id": 28,
+        "name": "KU Leuven"
+    },
+    {
+        "scholarships_id": 29,
+        "name": "Yokohama National University"
+    },
+    {
+        "scholarships_id": 30,
+        "name": "U Oldernburg"
+    },
+    {
+        "scholarships_id": 30,
+        "name": "University of Stavanger"
+    },
+    {
+        "scholarships_id": 30,
+        "name": "University of South Bohemia"
+    },
+    {
+        "scholarships_id": 30,
+        "name": "Mbarara University of Science and Technology "
+    },
+    {
+        "scholarships_id": 30,
+        "name": "Rabindra Bharati University"
+    },
+    {
+        "scholarships_id": 30,
+        "name": "The University of Nova Gorica"
+    },
+    {
+        "scholarships_id": 30,
+        "name": "University of the Witwatersrand "
+    },
+    {
+        "scholarships_id": 31,
+        "name": "University of Tartu"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "University of Glasgow"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "National University of Ireland, Galway"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "Trinity College Dublin"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "University College Cork"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "University of Malta"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "Radboud University"
+    },
+    {
+        "scholarships_id": 32,
+        "name": "UNIVERSITAT DE GIRONA"
+    },
+    {
+        "scholarships_id": 32,
+        "name": "SVEUCILISTE U ZAGREBU"
+    },
+    {
+        "scholarships_id": 32,
+        "name": "EOTVOS LORAND TUDOMANYEGYETEM"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "University of Turku"
+    },
+    {
+        "scholarships_id": 34,
+        "name": "UNIVERSITE DE LIEGE"
+    },
+    {
+        "scholarships_id": 34,
+        "name": "ECOLE CENTRALE DE NANTES"
+    },
+    {
+        "scholarships_id": 34,
+        "name": "UNIVERSITAET ROSTOCK"
+    },
+    {
+        "scholarships_id": 34,
+        "name": "UNIVERSIDAD POLITECNICA DE MADRID"
+    },
+    {
+        "scholarships_id": 35,
+        "name": "University of Göttingen"
+    },
+    {
+        "scholarships_id": 35,
+        "name": "AgroParisTech"
+    },
+    {
+        "scholarships_id": 35,
+        "name": "Universitat Politècnica de València"
+    },
+    {
+        "scholarships_id": 35,
+        "name": "University of Padova"
+    },
+    {
+        "scholarships_id": 35,
+        "name": "Agrocampus Ouest"
+    },
+    {
+        "scholarships_id": 35,
+        "name": "Montpellier SupAgro"
+    },
+    {
+        "scholarships_id": 36,
+        "name": "Brookings Institute"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "University of Miskolc"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "University of Liege"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Université de Bordeaux"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Technical University of Darmstadt"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Universidade Nova de Lisboa"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "UNIVERSIDAD POLITECNICA DE MADRID"
+    },
+    {
+        "scholarships_id": 38,
+        "name": "Università degli Studi di Pavia"
+    },
+    {
+        "scholarships_id": 38,
+        "name": "UNIVERSITE PARIS CITE"
+    },
+    {
+        "scholarships_id": 38,
+        "name": "UNIVERSITE D'ANGERS"
+    },
+    {
+        "scholarships_id": 38,
+        "name": "PANEPISTIMIO PATRON"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "Daegu Gyeongbuk Institute of Science & Technology (DGIST)"
+    },
+    {
+        "scholarships_id": 40,
+        "name": "Kadir Has University"
+    },
+    {
+        "scholarships_id": 40,
+        "name": "SRH Berlin University of Applied Sciences"
+    },
+    {
+        "scholarships_id": 40,
+        "name": "Cyril and Methodius University"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "University Collage Cork"
+    },
+    {
+        "scholarships_id": 42,
+        "name": "Kyushu University"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "CityU Hong Kong"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Hong Kong University of Science and Technology"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Hong Kong Baptist University"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "The Hong Kong Polytechnic University (PolyuHK)"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Lingnan University"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "University of Hong Kong"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Education University of Hong Kong"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Chinese University of Hong Kong"
+    },
+    {
+        "scholarships_id": 44,
+        "name": "Universitat de Barcelona"
+    },
+    {
+        "scholarships_id": 44,
+        "name": "UNIVERSITE LYON 1 CLAUDE BERNARD"
+    },
+    {
+        "scholarships_id": 44,
+        "name": "UNIVERSITEIT ANTWERPEN"
+    },
+    {
+        "scholarships_id": 44,
+        "name": "UNIVERSITE JEAN MONNET SAINT-ETIENNE"
+    },
+    {
+        "scholarships_id": 44,
+        "name": "UNIVERSIDAD AUTONOMA DE BARCELONA"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "University of Lille"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Universidade de Lisboa"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Mykolas Romeris University"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Nicolaus Copernicus University in Torun"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Lunex University"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "Riga Technical University"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "University of Liege"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "Aalto University"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "University of Bordeaux"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "Technical University of Darmstadt"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "Grenoble INP"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "University of Glasgow"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Erasmus University Rotterdam"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Instituto Universitario de Lisboa"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Universidade de Lisboa"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Institut d'Études Supérieures des Arts"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Tata Institute of Social Sciences"
+    },
+    {
+        "scholarships_id": 49,
+        "name": "Geneva Graduate Institute"
+    },
+    {
+        "scholarships_id": 50,
+        "name": "University of Padua"
+    },
+    {
+        "scholarships_id": 50,
+        "name": "Université Paris 1 Panthéon-Sorbonne"
+    },
+    {
+        "scholarships_id": 50,
+        "name": "University of Évora"
+    },
+    {
+        "scholarships_id": 52,
+        "name": "APU Ritsumeikan"
+    },
+    {
+        "scholarships_id": 53,
+        "name": "U Greifswald"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "UNIVERSITE JEAN MONNET SAINT-ETIENNE"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "POLITECNICO DI TORINO"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "UNIVERSITE PARIS XII VAL DE MARNE"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "ITA-SUOMEN YLIOPISTO"
+    },
+    {
+        "scholarships_id": 55,
+        "name": "UNIVERSIDAD DEL PAIS VASCO/ EUSKAL HERRIKO UNIBERTSITATEA"
+    },
+    {
+        "scholarships_id": 55,
+        "name": "ECOLE CENTRALE DE NANTES"
+    },
+    {
+        "scholarships_id": 55,
+        "name": "UNIVERSITY COLLEGE CORK - NATIONAL UNIVERSITY OF IRELAND, CORK"
+    },
+    {
+        "scholarships_id": 55,
+        "name": "NORGES TEKNISK-NATURVITENSKAPELIGE UNIVERSITET NTNU"
+    },
+    {
+        "scholarships_id": 56,
+        "name": "UNIVERSITE DE PICARDIE JULES VERNE"
+    },
+    {
+        "scholarships_id": 56,
+        "name": "UNIVERSIDAD DEL PAIS VASCO/ EUSKAL HERRIKO UNIBERTSITATEA"
+    },
+    {
+        "scholarships_id": 56,
+        "name": "POLITECHNIKA WARSZAWSKA"
+    },
+    {
+        "scholarships_id": 56,
+        "name": "UNIVERSITE PAUL SABATIER TOULOUSE III"
+    },
+    {
+        "scholarships_id": 56,
+        "name": "UNIVERZA V LJUBLJANI"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "TH Koln"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "The Autonomous University of San Luis Potosí (UASLP)"
+    },
+    {
+        "scholarships_id": 58,
+        "name": "UNIVERSITE PARIS-SACLAY"
+    },
+    {
+        "scholarships_id": 58,
+        "name": "SZEGEDI TUDOMANYEGYETEM"
+    },
+    {
+        "scholarships_id": 58,
+        "name": "UNIVERSITA DEGLI STUDI DI ROMA LA SAPIENZA"
+    },
+    {
+        "scholarships_id": 58,
+        "name": "LUNDS UNIVERSITET"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Linn-Benton Community College"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "University of Padua"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "University of Lisbon"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "University of Zagreb"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "University of Jyväskylä"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Vrije Universiteit Amsterdam"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Bar-Ilan Univestity"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "University of Warwick"
+    },
+    {
+        "scholarships_id": 62,
+        "name": "Institute of Science and Technology Austria (ISTA)"
+    },
+    {
+        "scholarships_id": 63,
+        "name": "The University of Tokyo"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "KATHOLIEKE UNIVERSITEIT LEUVEN"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "UNIVERSITE JEAN MONNET SAINT-ETIENNE"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "UNIVERSITE DE MONTPELLIER"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "JYVASKYLAN YLIOPISTO"
+    },
+    {
+        "scholarships_id": 65,
+        "name": "United Nations University"
+    },
+    {
+        "scholarships_id": 65,
+        "name": "University of Bonn"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "University of Tartu"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "Kungliga Tekniska Högskolan (KTH) - Royal Institute of Technology"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "Aalto University"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "Norwegian University of Science and Technology"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "Technical University of Denmark"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "EURECOM"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "National Taiwan University"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Sogang University"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "SciencesPo"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "University of Groningen"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "Uppsala University"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "University College Dublin"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "University of Malta"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "Aix-Marseille Université"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "Ruhr-Universität Bochum"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "University of Deusto"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "UNIWERSYTET WARSZAWSKI"
+    },
+    {
+        "scholarships_id": 72,
+        "name": "National Graduate Institute for Policy Studies (GRIPS)"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "King Abdullah University of Science and Technology (KAUST)"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "King Abdullah University of Science and Technology (KAUST)"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "King Abdullah University of Science and Technology (KAUST)"
+    },
+    {
+        "scholarships_id": 78,
+        "name": "Tsukuba University"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "The University of New South Wales (including ADFA)"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "University of Adelaide"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "National Taiwan University"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "MOSCOW INSTITUTE OF PHYSICS AND TECHNOLOGY (STATE UNIVERSITY)"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Higher School of Economics"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Tomsk State University"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "ITMO University"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Novosibirsk State University"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "National Research Nuclear University MEPhI"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "National University of Science and Technology MSIS"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Ural Federal University"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Saint Petersburg Electrotechnical University \"LETI\""
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Sechenov First Moscow State Medical University"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Peter the Great St.Petersburg Polytechnic University (SPbPU)"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Tomsk Polytechnic University"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Immanuel Kant Baltic Federal University"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "People's Friendship University of Russia (RUDN)"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "University of Tyumen"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Far Eastern Federal University"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Kazan University"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Lobachevsky State University of Nizhni Novgorod (UNN)"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Samara National Research University"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Siberian Federal University"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "South Ural State University"
+    },
+    {
+        "scholarships_id": 86,
+        "name": "National Taiwan University of Science and Technology"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "National Taiwan University"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "University of Auckland"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Sogang University"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "University of Aizu"
+    },
+    {
+        "scholarships_id": 91,
+        "name": "UNIVERSIDAD DE OVIEDO"
+    },
+    {
+        "scholarships_id": 91,
+        "name": "KAROLINSKA INSTITUTET"
+    },
+    {
+        "scholarships_id": 91,
+        "name": "EDUCATIONAL EXCELLENCE CORPORATION LIMITED"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "University of British Columbia"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "McGill University"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Carleton University"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "McMaster University"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Université Laval"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "University of Alberta"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "University of Ontario Institute of Technology"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "University of Ottawa/ Université d'Ottawa"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "University of Waterloo"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "RWTH Aachen"
+    },
+    {
+        "scholarships_id": 93,
+        "name": "National University of Singapore - Lee Kuan Yew School of Public Policy"
+    },
+    {
+        "scholarships_id": 94,
+        "name": "Chonnam National University"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "King Abdullah University of Science and Technology (KAUST)"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "King Abdullah University of Science and Technology (KAUST)"
+    },
+    {
+        "scholarships_id": 97,
+        "name": "National Graduate Institute for Policy Studies (GRIPS)"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Tampere University"
+    },
+    {
+        "scholarships_id": 99,
+        "name": "ETH Zurich"
+    },
+    {
+        "scholarships_id": 99,
+        "name": "Lund University"
+    },
+    {
+        "scholarships_id": 99,
+        "name": "University of Queensland"
+    },
+    {
+        "scholarships_id": 99,
+        "name": "Ghent University"
+    },
+    {
+        "scholarships_id": 99,
+        "name": "University of Edinburgh"
+    },
+    {
+        "scholarships_id": 99,
+        "name": "University of Maryland"
+    }
+]

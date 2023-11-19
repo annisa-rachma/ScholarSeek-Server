@@ -1,0 +1,3426 @@
+[
+    {
+        "scholarships_id": 2,
+        "name": "Biomedical Sciences"
+    },
+    {
+        "scholarships_id": 3,
+        "name": "Aquaculture"
+    },
+    {
+        "scholarships_id": 4,
+        "name": "Clinical and Psychosocial Epidemiology"
+    },
+    {
+        "scholarships_id": 5,
+        "name": "Water engineering"
+    },
+    {
+        "scholarships_id": 6,
+        "name": "Marine and Lacustrine Science and Management"
+    },
+    {
+        "scholarships_id": 7,
+        "name": "Transportation Sciences"
+    },
+    {
+        "scholarships_id": 8,
+        "name": "Agro- and Environmental Nematology "
+    },
+    {
+        "scholarships_id": 9,
+        "name": "Master of Science in Rural Development (IMRD)"
+    },
+    {
+        "scholarships_id": 10,
+        "name": "Public Health"
+    },
+    {
+        "scholarships_id": 10,
+        "name": "Global Health"
+    },
+    {
+        "scholarships_id": 11,
+        "name": "International Development"
+    },
+    {
+        "scholarships_id": 12,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 12,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 12,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 12,
+        "name": "Bioengineering"
+    },
+    {
+        "scholarships_id": 13,
+        "name": "Technologies for Circular Economy"
+    },
+    {
+        "scholarships_id": 13,
+        "name": "Policy and Management for Circular Economy"
+    },
+    {
+        "scholarships_id": 13,
+        "name": "Science for Circular Economy"
+    },
+    {
+        "scholarships_id": 14,
+        "name": "Statistic and Data Science"
+    },
+    {
+        "scholarships_id": 15,
+        "name": "Biotechnology"
+    },
+    {
+        "scholarships_id": 15,
+        "name": "Agricultural Studies"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Energy Engineering"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Monitoring and Control of Electrical Power Systems"
+    },
+    {
+        "scholarships_id": 17,
+        "name": "Sustainable Development"
+    },
+    {
+        "scholarships_id": 18,
+        "name": "Agricultural Studies"
+    },
+    {
+        "scholarships_id": 18,
+        "name": "Food Sciences"
+    },
+    {
+        "scholarships_id": 19,
+        "name": "Film production"
+    },
+    {
+        "scholarships_id": 20,
+        "name": "Anthropology"
+    },
+    {
+        "scholarships_id": 21,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 21,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 21,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "Biotechnology"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "Agricultural Studies"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "Biodiversity"
+    },
+    {
+        "scholarships_id": 23,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 23,
+        "name": "Acoustical Engineering"
+    },
+    {
+        "scholarships_id": 24,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 24,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 24,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 24,
+        "name": "Bioengineering"
+    },
+    {
+        "scholarships_id": 25,
+        "name": "Marine/Forestry"
+    },
+    {
+        "scholarships_id": 25,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 25,
+        "name": "Artificial Intelligence"
+    },
+    {
+        "scholarships_id": 27,
+        "name": "Artificial Intelligence"
+    },
+    {
+        "scholarships_id": 28,
+        "name": "Urban Planning"
+    },
+    {
+        "scholarships_id": 29,
+        "name": "Civil Engineering"
+    },
+    {
+        "scholarships_id": 30,
+        "name": "Cultural and Religious Studies"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "Intangible Cultural Heritage"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "Digital Cultures and Humanities"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "Museum and Heritage Education"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "Arts and Culture"
+    },
+    {
+        "scholarships_id": 32,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Physics"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Astronomy"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Medical Science"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Biomedical Sciences"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Cultural and Religious Studies"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Gender Studies"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Economics"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Data Science"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Information Technology"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Business Management"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "General Education"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Government"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "International Relations"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Public Administration"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Public Policy"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Regional Studies"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Political Science"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Regional Studies"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "International Affairs"
+    },
+    {
+        "scholarships_id": 34,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 34,
+        "name": "Water engineering"
+    },
+    {
+        "scholarships_id": 34,
+        "name": "Marine Engineering"
+    },
+    {
+        "scholarships_id": 35,
+        "name": "Agricultural Studies"
+    },
+    {
+        "scholarships_id": 36,
+        "name": "Gender Studies"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Biotechnology"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Agricultural Studies"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Food Sciences"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Marine/Forestry"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Aquaculture"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Biodiversity"
+    },
+    {
+        "scholarships_id": 38,
+        "name": "Pharmacy"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "Civil Engineering"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "Chemical Engineering"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "Aerospace Engineering"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "Mine and Petroleum Engineering"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "Industrial Engineering"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "Environmental Engineering"
+    },
+    {
+        "scholarships_id": 40,
+        "name": "Cyber Security"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "Finance"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "Economics"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "Tax"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "Accounting"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "Quantitative Finance"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "Statistics"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "macroeconomics"
+    },
+    {
+        "scholarships_id": 42,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 42,
+        "name": "Biotechnology"
+    },
+    {
+        "scholarships_id": 42,
+        "name": "Food Sciences"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Statistics"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Physics"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Earth Sciences"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Applied Natural Sciences"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Astronomy"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Biotechnology"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Agricultural Studies"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Food Sciences"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Marine/Forestry"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Aquaculture"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Clinical Psychology"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Medical Science"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Biomedical Sciences"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Public Health"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Pharmacy"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Veterinary"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Civil Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Chemical Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Aerospace Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Mine and Petroleum Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Industrial Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Environmental Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Biomedical Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Psychology"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Law and Legal Studies"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Language and Literature"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Anthropology"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Communication Studies"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Cultural and Religious Studies"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Philosophy"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Liberal Arts"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Gender Studies"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Business Administration"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Business Management"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Marketing"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Human Resource Management"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Organizational Management"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Science in Society Program"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "History"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Sociology"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Linguistics"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Supply Chain and Logistics Management"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Regional Studies"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Social Work"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Lexicography"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Archaeology"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Bioengineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Criminology"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Water engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Hydrology"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Informatics Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Artificial Intelligence"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Nuclear"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Neuroscience"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Humanitarian"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Marine Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Laboratory"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Nanotechnology"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Nanoscience"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Journalism"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Biodiversity"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Acoustical Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "People Studies"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Pilot Studies"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Dentistry"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Physiotherapy"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Communication Design"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Society and Culture"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Engineering Systems and Management"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Health, Safety and Environmental Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Applied Chemistry"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Petroleum Geosciences"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Medical Physics "
+    },
+    {
+        "scholarships_id": 43,
+        "name": "psy"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Industrial Management"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Informatio"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Human Science"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Animal Science"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Plant Science"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Biosystems Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Automation Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Transdisciplinary Science and Engineering"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Mechatronics"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Humanities"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Biology"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Game Studies"
+    },
+    {
+        "scholarships_id": 44,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 44,
+        "name": "Biotechnology"
+    },
+    {
+        "scholarships_id": 44,
+        "name": "Biomedical Sciences"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Tourism"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Sports"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Sports Science"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Sports Health"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Sports Education"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Physical Training"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Sports Training"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Social Sports Instruction and Administration"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Martial Arts and Traditional Ethnic Sports"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Physical Education and Sports Coaching"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Human Kinesiology"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Physical Therapy"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Sport and leisure management"
+    },
+    {
+        "scholarships_id": 46,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 46,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 46,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 46,
+        "name": "Law and Legal Studies"
+    },
+    {
+        "scholarships_id": 46,
+        "name": "Language and Literature"
+    },
+    {
+        "scholarships_id": 46,
+        "name": "Economics"
+    },
+    {
+        "scholarships_id": 46,
+        "name": "Business Management"
+    },
+    {
+        "scholarships_id": 46,
+        "name": "History"
+    },
+    {
+        "scholarships_id": 46,
+        "name": "Political Science"
+    },
+    {
+        "scholarships_id": 46,
+        "name": "Biology"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "Innovation and Industrial Management"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "Entrepreneurship"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Collecting and the Art Market"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Managing the Cultural Heritage of the Future"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Economics of Heritage"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Economics of Heritage and Tourism"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Economics of Cultural Tourism"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Art Management and Art Markets"
+    },
+    {
+        "scholarships_id": 49,
+        "name": "Law and Legal Studies"
+    },
+    {
+        "scholarships_id": 49,
+        "name": "Anthropology"
+    },
+    {
+        "scholarships_id": 49,
+        "name": "Economics"
+    },
+    {
+        "scholarships_id": 49,
+        "name": "International Relations"
+    },
+    {
+        "scholarships_id": 49,
+        "name": "History"
+    },
+    {
+        "scholarships_id": 49,
+        "name": "Sociology"
+    },
+    {
+        "scholarships_id": 49,
+        "name": "Political Science"
+    },
+    {
+        "scholarships_id": 50,
+        "name": "Urban Planning"
+    },
+    {
+        "scholarships_id": 50,
+        "name": "History"
+    },
+    {
+        "scholarships_id": 52,
+        "name": "Economics"
+    },
+    {
+        "scholarships_id": 52,
+        "name": "Tourism"
+    },
+    {
+        "scholarships_id": 52,
+        "name": "International Relations"
+    },
+    {
+        "scholarships_id": 52,
+        "name": "Public Administration"
+    },
+    {
+        "scholarships_id": 52,
+        "name": "Society and Culture"
+    },
+    {
+        "scholarships_id": 53,
+        "name": "Natural Resource Management"
+    },
+    {
+        "scholarships_id": 53,
+        "name": "General Environmental Studies"
+    },
+    {
+        "scholarships_id": 53,
+        "name": "Green Energy Management"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "Industrial Engineering"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "Artificial Intelligence"
+    },
+    {
+        "scholarships_id": 55,
+        "name": "Marine Engineering"
+    },
+    {
+        "scholarships_id": 56,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "Natural Resource Management"
+    },
+    {
+        "scholarships_id": 58,
+        "name": "Physics"
+    },
+    {
+        "scholarships_id": 58,
+        "name": "Nuclear and Quantum Engineering"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Physics"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Agricultural Studies"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Food Sciences"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Industrial Engineering"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Psychology"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Language and Literature"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Anthropology"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Communication Studies"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Cultural and Religious Studies"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Philosophy"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Music"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Economics"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Accounting"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Business Administration"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "General Environmental Studies"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "General Education"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Visual Arts"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "History"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Sociology"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Political Science"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Journalism"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Biomedical Engineering"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Brain and Data Science"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Advanced Neurophysiology  "
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Synaptic Neurochemistry"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Cognitive Neuroscience"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Clinical Neuropsychology with Data Processing"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Systems Neuroscience and Data Processing"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Statistics"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Physics"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Psychology"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Law and Legal Studies"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Language and Literature"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Anthropology"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Communication Studies"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Cultural and Religious Studies"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Philosophy"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Gender Studies"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Performing Arts"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Finance"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Economics"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Business Management"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Human Resource Management"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Language Education"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "General Education"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "International Relations"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Public Policy"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Visual Arts"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Political Science"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Regional Studies"
+    },
+    {
+        "scholarships_id": 62,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 62,
+        "name": "Physics"
+    },
+    {
+        "scholarships_id": 62,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 62,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 62,
+        "name": "Data Science"
+    },
+    {
+        "scholarships_id": 62,
+        "name": "Biology"
+    },
+    {
+        "scholarships_id": 63,
+        "name": "Agricultural Studies"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "Physics"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "Nuclear"
+    },
+    {
+        "scholarships_id": 65,
+        "name": "General Environmental Studies"
+    },
+    {
+        "scholarships_id": 65,
+        "name": "Geography"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "Information Technology"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Earth Sciences"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Biotechnology"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Agricultural Studies"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Food Sciences"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Marine/Forestry"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Medical Science"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Pharmacy"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Civil Engineering"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Chemical Engineering"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Industrial Engineering"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Environmental Engineering"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Biomedical Engineering"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Psychology"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Language and Literature"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Fine Arts"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Music"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Economics"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Data Science"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Business Administration"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Business Management"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Architecture"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Physics"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Chemical Engineering"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Biomedical Engineering"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Psychology"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Law and Legal Studies"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Language and Literature"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Communication Studies"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Cultural and Religious Studies"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Philosophy"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Gender Studies"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Fashion"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Visual Design"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Product Design"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Fine Arts"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Music"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Performing Arts"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Visual Arts"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "History"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Political Science"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Media"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Film production"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Animation"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Regional Studies"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Industrial Design"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Commercial Design"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Information Design"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Law and Legal Studies"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Anthropology"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Communication Studies"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Finance"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Economics"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Business Management"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Marketing"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Human Resource Management"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Organizational Management"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Urban Planning"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Government"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "International Relations"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Public Policy"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Regional Studies"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Political Science"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "Law and Legal Studies"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "Anthropology"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "Cultural and Religious Studies"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "International Relations"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "Political Science"
+    },
+    {
+        "scholarships_id": 72,
+        "name": "Public Policy"
+    },
+    {
+        "scholarships_id": 72,
+        "name": "Political Science"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Statistics"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Physics"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Earth Sciences"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Applied Natural Sciences"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Marine/Forestry"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Chemical Engineering"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Mine and Petroleum Engineering"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Environmental Engineering"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Bioengineering"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Plant Science"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Statistics"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Physics"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Earth Sciences"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Applied Natural Sciences"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Marine/Forestry"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Chemical Engineering"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Mine and Petroleum Engineering"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Environmental Engineering"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Bioengineering"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Plant Science"
+    },
+    {
+        "scholarships_id": 75,
+        "name": "Anthropology"
+    },
+    {
+        "scholarships_id": 75,
+        "name": "Cultural and Religious Studies"
+    },
+    {
+        "scholarships_id": 75,
+        "name": "Economics"
+    },
+    {
+        "scholarships_id": 75,
+        "name": "Sociology"
+    },
+    {
+        "scholarships_id": 75,
+        "name": "Regional Studies"
+    },
+    {
+        "scholarships_id": 75,
+        "name": "Social Work"
+    },
+    {
+        "scholarships_id": 75,
+        "name": "Humanitarian"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Civil Engineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Chemical Engineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Aerospace Engineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Mine and Petroleum Engineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Industrial Engineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Environmental Engineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Biomedical Engineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Data Science"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Artificial Intelligence"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Information System"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Information Technology"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Digital Technology"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Bioengineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Water engineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Informatics Engineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Artificial Intelligence"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Nuclear"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Marine Engineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Nanotechnology"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Acoustical Engineering"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Pilot Studies"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Communication Design"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Engineering Systems and Management"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Health, Safety and Environmental Engineering"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Statistics"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Physics"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Earth Sciences"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Applied Natural Sciences"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Marine/Forestry"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Chemical Engineering"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Mine and Petroleum Engineering"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Environmental Engineering"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Bioengineering"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Plant Science"
+    },
+    {
+        "scholarships_id": 78,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Data Science"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Artificial Intelligence"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Information System"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Information Technology"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Digital Technology"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "General Environmental Studies"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Public Policy"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Cyber Security"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Information Networking"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Machine Learning"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Transdisciplinary Studies"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Information Security"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Business Analytic"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Biotechnology"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Agricultural Studies"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Food Sciences"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Marine/Forestry"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Aquaculture"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Biodiversity"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Animal Science"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Plant Science"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Life Sciences"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Biochemistry"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Ecotoxicology"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Bioresources"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Bioinformatics"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Sustainable Development"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Marine and Lacustrine Science and Management"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Agro- and Environmental Nematology "
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Master of Science in Rural Development (IMRD)"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Biostatistics"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Earth Sciences"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Biotechnology"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Agricultural Studies"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Food Sciences"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Marine/Forestry"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Pharmacy"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Civil Engineering"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Chemical Engineering"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Industrial Engineering"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Environmental Engineering"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Biomedical Engineering"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Psychology"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Language and Literature"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Fine Arts"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Music"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Economics"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Data Science"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Business Administration"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Business Management"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Architecture"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Physics"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Earth Sciences"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Biotechnology"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Public Health"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Psychology"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Language and Literature"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Economics"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Data Science"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Artificial Intelligence"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Business Management"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "General Education"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "International Relations"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Political Science"
+    },
+    {
+        "scholarships_id": 86,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 86,
+        "name": "Civil Engineering"
+    },
+    {
+        "scholarships_id": 86,
+        "name": "Chemical Engineering"
+    },
+    {
+        "scholarships_id": 86,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Earth Sciences"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Biotechnology"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Agricultural Studies"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Food Sciences"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Marine/Forestry"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Pharmacy"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Civil Engineering"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Chemical Engineering"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Industrial Engineering"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Environmental Engineering"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Biomedical Engineering"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Psychology"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Language and Literature"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Fine Arts"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Music"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Economics"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Data Science"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Business Administration"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Business Management"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Architecture"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Applied Natural Sciences"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Biotechnology"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Agricultural Studies"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Food Sciences"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Marine/Forestry"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Aquaculture"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Clinical Psychology"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Medical Science"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Biomedical Sciences"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Public Health"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Pharmacy"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Law and Legal Studies"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Language and Literature"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Philosophy"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Fine Arts"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Music"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Performing Arts"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Digital Technology"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Business Management"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Architecture"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "General Education"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Biodiversity"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Physics"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Chemical Engineering"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Psychology"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Language and Literature"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Cultural and Religious Studies"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Philosophy"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Economics"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Business Administration"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "History"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Sociology"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Political Science"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Media"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "Information System"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "Information Technology"
+    },
+    {
+        "scholarships_id": 91,
+        "name": "Public Health"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Biotechnology"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Agricultural Studies"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Food Sciences"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Marine/Forestry"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Aquaculture"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Clinical Psychology"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Medical Science"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Biomedical Sciences"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Public Health"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Pharmacy"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Veterinary"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Neuroscience"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Laboratory"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Biodiversity"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Dentistry"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Physiotherapy"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Medical Physics "
+    },
+    {
+        "scholarships_id": 93,
+        "name": "International Relations"
+    },
+    {
+        "scholarships_id": 93,
+        "name": "Public Policy"
+    },
+    {
+        "scholarships_id": 94,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Statistics"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Physics"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Earth Sciences"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Applied Natural Sciences"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Marine/Forestry"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Chemical Engineering"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Mine and Petroleum Engineering"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Environmental Engineering"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Bioengineering"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Plant Science"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Statistics"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Physics"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Earth Sciences"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Applied Natural Sciences"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Astronomy"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Civil Engineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Chemical Engineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Aerospace Engineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Mine and Petroleum Engineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Industrial Engineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Material Science and Engineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Environmental Engineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Biomedical Engineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Digital Technology"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Science in Society Program"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Bioengineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Water engineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Hydrology"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Informatics Engineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Artificial Intelligence"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Nuclear"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Marine Engineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Nanotechnology"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Nanoscience"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Acoustical Engineering"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Pilot Studies"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Communication Design"
+    },
+    {
+        "scholarships_id": 97,
+        "name": "Public Policy"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Physics"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Chemistry"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Applied Natural Sciences"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Electrical Engineering"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Mechanical"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Robotic Engineering"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Computer Engineering"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Biomedical Engineering"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Psychology"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Law and Legal Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Language and Literature"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Anthropology"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Communication Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Cultural and Religious Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Philosophy"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Liberal Arts"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Gender Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Computer Science"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Digital Technology"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Urban Planning"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "General Education"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "History"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Sociology"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Linguistics"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Regional Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Social Work"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Lexicography"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Archaeology"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Criminology"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Humanitarian"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Journalism"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "People Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Society and Culture"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Human Science"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Humanities"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Game Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Digital Humanities and Computational Social Sciences"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Chinese Language"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Chinese Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "English Language and Linguistics"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "English Literature"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Global Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Japanese Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Malay Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "South Asian Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Southeast Asian Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Americas Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Childhood Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Classical Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Comparative Literatures and Cultures"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "French Literature"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "German Literature"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Italian Literature"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Modern Language"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Portuguese Literature"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Russian Literature"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Spanish Literature"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Hungarian Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Italianistica"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Romanian Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Slavonic Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Conservation"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Human right"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Critical Security Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Conflict Management and Humanitarian Action"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "media studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Inequalities and Social Science"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Asian Capacity Building"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Artificial Intellegent"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Dutch Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "European Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Greek, Latin, Ancient Middle East"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Hebrew and Jewish Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Scandinavian Studies"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "peace and conflict"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Violence and Authoritarianism"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Clinical Health Psychology"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "LLM Global Environmental Law and Governance"
+    },
+    {
+        "scholarships_id": 99,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 100,
+        "name": "Mathematics"
+    },
+    {
+        "scholarships_id": 100,
+        "name": "Biological Sciences"
+    },
+    {
+        "scholarships_id": 100,
+        "name": "General Engineering"
+    },
+    {
+        "scholarships_id": 100,
+        "name": "Law and Legal Studies"
+    },
+    {
+        "scholarships_id": 100,
+        "name": "Language and Literature"
+    },
+    {
+        "scholarships_id": 100,
+        "name": "Economics"
+    },
+    {
+        "scholarships_id": 100,
+        "name": "Business Management"
+    },
+    {
+        "scholarships_id": 100,
+        "name": "History"
+    },
+    {
+        "scholarships_id": 100,
+        "name": "Political Science"
+    },
+    {
+        "scholarships_id": 100,
+        "name": "Biology"
+    }
+]

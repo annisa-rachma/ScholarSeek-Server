@@ -1,0 +1,434 @@
+[
+    {
+        "scholarships_id": 1,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 2,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 3,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 4,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 5,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 6,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 7,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 8,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 9,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 10,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 11,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 12,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 13,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 14,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 15,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 17,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 18,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 19,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 20,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 21,
+        "name": "NONDEGREE"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 23,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 24,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 25,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 26,
+        "name": "NONDEGREE"
+    },
+    {
+        "scholarships_id": 27,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 28,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 29,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 29,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 30,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 32,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 34,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 35,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 36,
+        "name": "NONDEGREE"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 38,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 40,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "S1"
+    },
+    {
+        "scholarships_id": 42,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 44,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 46,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 49,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 50,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 51,
+        "name": "NONDEGREE"
+    },
+    {
+        "scholarships_id": 52,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 53,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 55,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 56,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 58,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "D2"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 62,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 63,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 63,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 65,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 70,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 72,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 75,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 75,
+        "name": "NONDEGREE"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 78,
+        "name": "S1"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 81,
+        "name": "NONDEGREE"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 84,
+        "name": "NONDEGREE"
+    },
+    {
+        "scholarships_id": 85,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 86,
+        "name": "S1"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "S1"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 91,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 93,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 94,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 94,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "S3"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "NONDEGREE"
+    },
+    {
+        "scholarships_id": 97,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "S1"
+    },
+    {
+        "scholarships_id": 99,
+        "name": "S2"
+    },
+    {
+        "scholarships_id": 100,
+        "name": "S2"
+    }
+]

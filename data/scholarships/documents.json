@@ -1,0 +1,2806 @@
+[
+    {
+        "scholarships_id": 1,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 1,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 1,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 1,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 1,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 1,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 1,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 1,
+        "name": "Translation of documents"
+    },
+    {
+        "scholarships_id": 1,
+        "name": "Declaration"
+    },
+    {
+        "scholarships_id": 1,
+        "name": "Studiorum"
+    },
+    {
+        "scholarships_id": 2,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 2,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 2,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 2,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 3,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 3,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 3,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 3,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 3,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 3,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 3,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 3,
+        "name": "Course Description"
+    },
+    {
+        "scholarships_id": 4,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 4,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 4,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 4,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 4,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 4,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 4,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 4,
+        "name": "Course Description"
+    },
+    {
+        "scholarships_id": 5,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 5,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 5,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 5,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 5,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 5,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 6,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 6,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 6,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 6,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 6,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 6,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 6,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 7,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 7,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 7,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 7,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 7,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 7,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 8,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 8,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 8,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 8,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 8,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 8,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 8,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 8,
+        "name": "Course Description"
+    },
+    {
+        "scholarships_id": 9,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 9,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 9,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 9,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 9,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 9,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 9,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 9,
+        "name": "Course Description"
+    },
+    {
+        "scholarships_id": 10,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 10,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 10,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 10,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 10,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 10,
+        "name": "Certificate(s) of Employment/Internship"
+    },
+    {
+        "scholarships_id": 10,
+        "name": "DAAD Application Form"
+    },
+    {
+        "scholarships_id": 10,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 11,
+        "name": "Research Proposal"
+    },
+    {
+        "scholarships_id": 11,
+        "name": "S1 - Academic Transcript"
+    },
+    {
+        "scholarships_id": 11,
+        "name": "S2 - Academic Transcript"
+    },
+    {
+        "scholarships_id": 11,
+        "name": "S1 - Certificate of Graduate"
+    },
+    {
+        "scholarships_id": 11,
+        "name": "S2 - Certificate of Graduate"
+    },
+    {
+        "scholarships_id": 11,
+        "name": "Recommendation Letter - Academic"
+    },
+    {
+        "scholarships_id": 11,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 11,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 11,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 12,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 12,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 12,
+        "name": "Graduation Diploma or Certificate"
+    },
+    {
+        "scholarships_id": 12,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 12,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 12,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 12,
+        "name": "Abstracts of thesis"
+    },
+    {
+        "scholarships_id": 12,
+        "name": "Study Plan"
+    },
+    {
+        "scholarships_id": 12,
+        "name": "ID photo"
+    },
+    {
+        "scholarships_id": 13,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 13,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 13,
+        "name": "Self Medical Assessment"
+    },
+    {
+        "scholarships_id": 13,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 13,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 13,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 13,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 13,
+        "name": "Certificate of Recognition of Previous Foreign Education"
+    },
+    {
+        "scholarships_id": 14,
+        "name": "GRE"
+    },
+    {
+        "scholarships_id": 14,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 14,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 14,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 14,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 14,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 14,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 15,
+        "name": "Recent Photo (portrait)"
+    },
+    {
+        "scholarships_id": 15,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 15,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 15,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 15,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 15,
+        "name": "English Profiency"
+    },
+    {
+        "scholarships_id": 15,
+        "name": "Proof of Residency"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Proof of Residency"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Letter of Reference"
+    },
+    {
+        "scholarships_id": 16,
+        "name": "Mobility Preferences"
+    },
+    {
+        "scholarships_id": 17,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 17,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 17,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 17,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 17,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 17,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 18,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 18,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 18,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 18,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 18,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 18,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 19,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 19,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 19,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 19,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 19,
+        "name": "ID photo"
+    },
+    {
+        "scholarships_id": 19,
+        "name": "Video"
+    },
+    {
+        "scholarships_id": 19,
+        "name": "Proof of Residency"
+    },
+    {
+        "scholarships_id": 20,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 20,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 20,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 20,
+        "name": "Essays"
+    },
+    {
+        "scholarships_id": 20,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 20,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 20,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 20,
+        "name": "Ijazah"
+    },
+    {
+        "scholarships_id": 21,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 21,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 21,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "Declaration"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "Proof of Residency"
+    },
+    {
+        "scholarships_id": 22,
+        "name": "Ranking in the Class"
+    },
+    {
+        "scholarships_id": 23,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 23,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 23,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 23,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 23,
+        "name": "English Profiency"
+    },
+    {
+        "scholarships_id": 23,
+        "name": "Proof of Residency"
+    },
+    {
+        "scholarships_id": 23,
+        "name": "Cover Letter"
+    },
+    {
+        "scholarships_id": 24,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 24,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 24,
+        "name": "Graduation Diploma or Certificate"
+    },
+    {
+        "scholarships_id": 24,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 24,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 24,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 24,
+        "name": "Abstracts of thesis"
+    },
+    {
+        "scholarships_id": 24,
+        "name": "Study Plan"
+    },
+    {
+        "scholarships_id": 24,
+        "name": "ID photo"
+    },
+    {
+        "scholarships_id": 25,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 25,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 25,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 25,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 25,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 25,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 25,
+        "name": "English Profiency"
+    },
+    {
+        "scholarships_id": 26,
+        "name": "Research Proposal"
+    },
+    {
+        "scholarships_id": 26,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 26,
+        "name": "S3 - Certificate of Graduate"
+    },
+    {
+        "scholarships_id": 26,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 26,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 26,
+        "name": "Research Plan"
+    },
+    {
+        "scholarships_id": 27,
+        "name": "Recommendation Letter - Academic"
+    },
+    {
+        "scholarships_id": 27,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 27,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 27,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 27,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 27,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 27,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 27,
+        "name": "The EMAI Student Supplement Questionnaire"
+    },
+    {
+        "scholarships_id": 28,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 28,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 28,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 28,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 28,
+        "name": "Essays"
+    },
+    {
+        "scholarships_id": 28,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 28,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 28,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 28,
+        "name": "Portfolio"
+    },
+    {
+        "scholarships_id": 28,
+        "name": "Ijazah"
+    },
+    {
+        "scholarships_id": 29,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 29,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 29,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 29,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 29,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 29,
+        "name": "Contact Information of Referees"
+    },
+    {
+        "scholarships_id": 29,
+        "name": "Research Plan"
+    },
+    {
+        "scholarships_id": 30,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 30,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 30,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 30,
+        "name": "English Profiency"
+    },
+    {
+        "scholarships_id": 30,
+        "name": "Letter of Reference"
+    },
+    {
+        "scholarships_id": 30,
+        "name": "Statement of Purpose"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "Translation of documents"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "Scholarship Application Form"
+    },
+    {
+        "scholarships_id": 31,
+        "name": "Letter of Reference"
+    },
+    {
+        "scholarships_id": 32,
+        "name": "Recent Photo (portrait)"
+    },
+    {
+        "scholarships_id": 32,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 32,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 32,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 32,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 32,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 32,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 32,
+        "name": "English Profiency"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 33,
+        "name": "Ijazah"
+    },
+    {
+        "scholarships_id": 34,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 34,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 34,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 34,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 34,
+        "name": "English Profiency"
+    },
+    {
+        "scholarships_id": 34,
+        "name": "Abstracts of Publications"
+    },
+    {
+        "scholarships_id": 34,
+        "name": "Cover Letter"
+    },
+    {
+        "scholarships_id": 35,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 35,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 35,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 35,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 35,
+        "name": "English Profiency"
+    },
+    {
+        "scholarships_id": 35,
+        "name": "Declaration"
+    },
+    {
+        "scholarships_id": 35,
+        "name": "Proof of Residency"
+    },
+    {
+        "scholarships_id": 36,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 36,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 36,
+        "name": "Cover Letter"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "English Profiency"
+    },
+    {
+        "scholarships_id": 37,
+        "name": "ID photo"
+    },
+    {
+        "scholarships_id": 38,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 38,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 38,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 38,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 38,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 38,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 38,
+        "name": "English Profiency"
+    },
+    {
+        "scholarships_id": 38,
+        "name": "Proof of Residency"
+    },
+    {
+        "scholarships_id": 38,
+        "name": "Reference Form"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "Essays"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 39,
+        "name": "Ijazah"
+    },
+    {
+        "scholarships_id": 40,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 40,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 40,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 40,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 40,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 40,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 40,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 40,
+        "name": "Translation of documents"
+    },
+    {
+        "scholarships_id": 40,
+        "name": "Proof of Residency"
+    },
+    {
+        "scholarships_id": 40,
+        "name": "Cover Letter"
+    },
+    {
+        "scholarships_id": 40,
+        "name": "Publications"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "English Profiency"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "Personal Statement"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "Application fee"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "ID photo"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "Letter of Reference"
+    },
+    {
+        "scholarships_id": 41,
+        "name": "Graduation Certificate"
+    },
+    {
+        "scholarships_id": 42,
+        "name": "Recent Photo (portrait)"
+    },
+    {
+        "scholarships_id": 42,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 42,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 42,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 42,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 42,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 42,
+        "name": "Proof of Residency"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 43,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 44,
+        "name": "Recent Photo (portrait)"
+    },
+    {
+        "scholarships_id": 44,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 44,
+        "name": "Graduation Diploma or Certificate"
+    },
+    {
+        "scholarships_id": 44,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 44,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 44,
+        "name": "English Profiency"
+    },
+    {
+        "scholarships_id": 44,
+        "name": "Job Reference"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 45,
+        "name": "Proof of Residency"
+    },
+    {
+        "scholarships_id": 46,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 46,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 46,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 46,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 46,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "GRE"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "S1 - Academic Transcript"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "Reference Form"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "Publications"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "Letter of Statement"
+    },
+    {
+        "scholarships_id": 47,
+        "name": "Identification Document"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Translation of documents"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Scholarship Application Form"
+    },
+    {
+        "scholarships_id": 48,
+        "name": "Letter of Reference"
+    },
+    {
+        "scholarships_id": 49,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 49,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 49,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 49,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 49,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 49,
+        "name": "Letter of Reference"
+    },
+    {
+        "scholarships_id": 50,
+        "name": "Language Proficiency Certificate"
+    },
+    {
+        "scholarships_id": 50,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 50,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 50,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 50,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 50,
+        "name": "Study Plan"
+    },
+    {
+        "scholarships_id": 50,
+        "name": "Cover Letter"
+    },
+    {
+        "scholarships_id": 51,
+        "name": "Citizenship Document (KTP/KK/Akta)"
+    },
+    {
+        "scholarships_id": 51,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 51,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 52,
+        "name": "GRE"
+    },
+    {
+        "scholarships_id": 52,
+        "name": "Research Proposal"
+    },
+    {
+        "scholarships_id": 52,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 52,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 52,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 52,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 52,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 52,
+        "name": "Personal Statement"
+    },
+    {
+        "scholarships_id": 52,
+        "name": "ID photo"
+    },
+    {
+        "scholarships_id": 53,
+        "name": "Language Proficiency Certificate"
+    },
+    {
+        "scholarships_id": 53,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 53,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 53,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 53,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 53,
+        "name": "Certificate(s) of Employment/Internship"
+    },
+    {
+        "scholarships_id": 53,
+        "name": "DAAD Application Form"
+    },
+    {
+        "scholarships_id": 53,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 53,
+        "name": "Letter of Recommedation"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 54,
+        "name": "Birth Certificate"
+    },
+    {
+        "scholarships_id": 55,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 55,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 55,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 55,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 55,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 55,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 55,
+        "name": "English Profiency"
+    },
+    {
+        "scholarships_id": 55,
+        "name": "Proof of Residency"
+    },
+    {
+        "scholarships_id": 56,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 56,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 56,
+        "name": "Graduation Diploma or Certificate"
+    },
+    {
+        "scholarships_id": 56,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 56,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 56,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 56,
+        "name": "Address Label"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "Citizenship Document (KTP/KK/Akta)"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "Research Proposal"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "Recommendation Letter - Academic"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "Proof of Germany Proficiency"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "Proof of Spanish Proficiency"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "DAAD Application Form"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 57,
+        "name": "Ijazah"
+    },
+    {
+        "scholarships_id": 58,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 58,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 58,
+        "name": "Graduation Diploma or Certificate"
+    },
+    {
+        "scholarships_id": 58,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 58,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 58,
+        "name": "Explanation of the transcript grading system"
+    },
+    {
+        "scholarships_id": 58,
+        "name": "Proof of Residency"
+    },
+    {
+        "scholarships_id": 58,
+        "name": "Cover Letter"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 59,
+        "name": "Bank Certificate"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Recommendation Letter - Academic"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Proof of Residency"
+    },
+    {
+        "scholarships_id": 60,
+        "name": "Recent passport photo"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Essays"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 61,
+        "name": "Evidence of Supervision"
+    },
+    {
+        "scholarships_id": 62,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 62,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 62,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 62,
+        "name": "Contact Information of Referees"
+    },
+    {
+        "scholarships_id": 62,
+        "name": "Statement of Purpose"
+    },
+    {
+        "scholarships_id": 63,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 63,
+        "name": "Essay 1"
+    },
+    {
+        "scholarships_id": 63,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 63,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 63,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 63,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 63,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 63,
+        "name": "Research Experience"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "English Profiency"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "Residence History"
+    },
+    {
+        "scholarships_id": 64,
+        "name": "Birth Certificate"
+    },
+    {
+        "scholarships_id": 65,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 65,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 65,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 65,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "Work Experience Letters"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "Description of Relevant Courses"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "Publications"
+    },
+    {
+        "scholarships_id": 66,
+        "name": "Ijazah"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Citizenship Document (KTP/KK/Akta)"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Recent Photo (portrait)"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Language Proficiency Certificate"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Application fee"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Ijazah"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Financial Statement"
+    },
+    {
+        "scholarships_id": 67,
+        "name": "Declaration and Authorization Form"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Language Proficiency Certificate"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Study Plan"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Bank Certificate"
+    },
+    {
+        "scholarships_id": 68,
+        "name": "Birth Certificate"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Language Proficiency Certificate"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Essays"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Translation of documents"
+    },
+    {
+        "scholarships_id": 69,
+        "name": "Cumulative GPA"
+    },
+    {
+        "scholarships_id": 70,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 70,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 70,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 70,
+        "name": "Research Plan"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "Proof of Residency"
+    },
+    {
+        "scholarships_id": 71,
+        "name": "Ijazah"
+    },
+    {
+        "scholarships_id": 72,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 72,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 72,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 72,
+        "name": "Certificate(s) of Employment/Internship"
+    },
+    {
+        "scholarships_id": 72,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 72,
+        "name": "Application fee"
+    },
+    {
+        "scholarships_id": 72,
+        "name": "Financial Statement"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Recommendation Letter - Academic"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Essays"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 73,
+        "name": "Photocopy of valid TOEFL/IELTS/GRE/GMAT/GATE Scores"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "GRE"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Recommendation Letter - Academic"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Essays"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 74,
+        "name": "Photocopy of valid TOEFL/IELTS/GRE/GMAT/GATE Scores"
+    },
+    {
+        "scholarships_id": 75,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 75,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 75,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 75,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 75,
+        "name": "List of Achievement"
+    },
+    {
+        "scholarships_id": 75,
+        "name": "Research Project"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 76,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "GRE"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Essays"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 77,
+        "name": "Standardized Tests"
+    },
+    {
+        "scholarships_id": 78,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 78,
+        "name": "Graduation Diploma or Certificate"
+    },
+    {
+        "scholarships_id": 78,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 78,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 78,
+        "name": "Personal Statement"
+    },
+    {
+        "scholarships_id": 78,
+        "name": "Standardized Tests"
+    },
+    {
+        "scholarships_id": 78,
+        "name": "School Information Form"
+    },
+    {
+        "scholarships_id": 78,
+        "name": "Financial Plan"
+    },
+    {
+        "scholarships_id": 78,
+        "name": "Reference Form"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Statement of Purpose"
+    },
+    {
+        "scholarships_id": 79,
+        "name": "Samples of Written Work"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "S1 - Academic Transcript"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 80,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 81,
+        "name": "Research Proposal"
+    },
+    {
+        "scholarships_id": 81,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 81,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 81,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 81,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 81,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Citizenship Document (KTP/KK/Akta)"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Recent Photo (portrait)"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Language Proficiency Certificate"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Application fee"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Ijazah"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Financial Statement"
+    },
+    {
+        "scholarships_id": 82,
+        "name": "Declaration and Authorization Form"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 83,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 84,
+        "name": "Research Proposal"
+    },
+    {
+        "scholarships_id": 84,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 84,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 84,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 84,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 84,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 85,
+        "name": "Research Proposal"
+    },
+    {
+        "scholarships_id": 85,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 85,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 85,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 85,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 85,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 86,
+        "name": "Recommendation Letter - Academic"
+    },
+    {
+        "scholarships_id": 86,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 86,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 86,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 86,
+        "name": "Study Plan"
+    },
+    {
+        "scholarships_id": 86,
+        "name": "Ijazah"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Citizenship Document (KTP/KK/Akta)"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Recent Photo (portrait)"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Language Proficiency Certificate"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Application fee"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Ijazah"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Financial Statement"
+    },
+    {
+        "scholarships_id": 87,
+        "name": "Declaration and Authorization Form"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 88,
+        "name": "English Profiency"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Language Proficiency Certificate"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Graduation Diploma or Certificate"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Financial certification"
+    },
+    {
+        "scholarships_id": 89,
+        "name": "Certificate of Family Relationship (KK/Akta)"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "Recent Photo (portrait)"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "Application for Japanese government (MEXT) scholarship"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "List of academic papers"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "Comprehensive Performance Evaluation Report"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "Field of study and study program"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "Proof of Japanese Proficiency"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "Ranking in the Class"
+    },
+    {
+        "scholarships_id": 90,
+        "name": "Ijazah"
+    },
+    {
+        "scholarships_id": 91,
+        "name": "Recent Photo (portrait)"
+    },
+    {
+        "scholarships_id": 91,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 91,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 91,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 91,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 91,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 91,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 91,
+        "name": "English Profiency"
+    },
+    {
+        "scholarships_id": 91,
+        "name": "Proof of Residency"
+    },
+    {
+        "scholarships_id": 91,
+        "name": "Syllabus"
+    },
+    {
+        "scholarships_id": 91,
+        "name": "Personal Details"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 92,
+        "name": "Letter of Interest"
+    },
+    {
+        "scholarships_id": 93,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 93,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 93,
+        "name": "Professional Project"
+    },
+    {
+        "scholarships_id": 93,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 93,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 93,
+        "name": "Letter of Reference"
+    },
+    {
+        "scholarships_id": 93,
+        "name": "Income tax"
+    },
+    {
+        "scholarships_id": 94,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 94,
+        "name": "Contact Information of Referees"
+    },
+    {
+        "scholarships_id": 94,
+        "name": "Cover Letter"
+    },
+    {
+        "scholarships_id": 94,
+        "name": "Research Accomplishment List"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Recommendation Letter - Academic"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Essays"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 95,
+        "name": "Photocopy of valid TOEFL/IELTS/GRE/GMAT/GATE Scores"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "Statement of Purpose"
+    },
+    {
+        "scholarships_id": 96,
+        "name": "COVID-19 Proof of Vaccination"
+    },
+    {
+        "scholarships_id": 97,
+        "name": "Recommendation Letters"
+    },
+    {
+        "scholarships_id": 97,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 97,
+        "name": "Certificate(s) of Employment/Internship"
+    },
+    {
+        "scholarships_id": 97,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 97,
+        "name": "Financial certification"
+    },
+    {
+        "scholarships_id": 97,
+        "name": "Application fee"
+    },
+    {
+        "scholarships_id": 97,
+        "name": "Ijazah"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Motivation Letter"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Proof of English Proficiency"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 98,
+        "name": "Ijazah"
+    },
+    {
+        "scholarships_id": 99,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 99,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 99,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 99,
+        "name": "Academic Transcript"
+    },
+    {
+        "scholarships_id": 99,
+        "name": "Personal Statement"
+    },
+    {
+        "scholarships_id": 99,
+        "name": "ID photo"
+    },
+    {
+        "scholarships_id": 99,
+        "name": "Letter of Reference"
+    },
+    {
+        "scholarships_id": 100,
+        "name": "Passport"
+    },
+    {
+        "scholarships_id": 100,
+        "name": "Application Form"
+    },
+    {
+        "scholarships_id": 100,
+        "name": "Curriculum Vitae"
+    },
+    {
+        "scholarships_id": 100,
+        "name": "Degree Certificate"
+    },
+    {
+        "scholarships_id": 100,
+        "name": "Academic Transcript"
+    }
+]

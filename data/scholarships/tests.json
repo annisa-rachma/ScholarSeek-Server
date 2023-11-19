@@ -1,0 +1,2267 @@
+[
+    {
+        "category_id": 1,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 2,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 2,
+        "name": "TOEFL iBT",
+        "min_score": 87
+    },
+    {
+        "category_id": 3,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 4,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 5,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 6,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 7,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 8,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 8,
+        "name": "TOEFL iBT",
+        "min_score": 80
+    },
+    {
+        "category_id": 8,
+        "name": "TOEFL PBT",
+        "min_score": 570
+    },
+    {
+        "category_id": 9,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 10,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 11,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 11,
+        "name": "TOEFL iBT",
+        "min_score": 80
+    },
+    {
+        "category_id": 12,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 13,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 14,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 14,
+        "name": "TOEFL iBT",
+        "min_score": 79
+    },
+    {
+        "category_id": 15,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 16,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 17,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 17,
+        "name": "TOEFL iBT",
+        "min_score": 79
+    },
+    {
+        "category_id": 18,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 19,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 20,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 20,
+        "name": "TOEFL iBT",
+        "min_score": 80
+    },
+    {
+        "category_id": 20,
+        "name": "TOEFL PBT",
+        "min_score": 550
+    },
+    {
+        "category_id": 21,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 22,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 23,
+        "name": "IELTS",
+        "min_score": 5.5
+    },
+    {
+        "category_id": 23,
+        "name": "TOEFL iBT",
+        "min_score": 80
+    },
+    {
+        "category_id": 23,
+        "name": "TOEFL PBT",
+        "min_score": 500
+    },
+    {
+        "category_id": 24,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 25,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 26,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 26,
+        "name": "TOEFL iBT",
+        "min_score": 80
+    },
+    {
+        "category_id": 26,
+        "name": "TOEFL PBT",
+        "min_score": 550
+    },
+    {
+        "category_id": 27,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 28,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 29,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 29,
+        "name": "TOEFL iBT",
+        "min_score": 80
+    },
+    {
+        "category_id": 30,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 31,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 32,
+        "name": "IELTS",
+        "min_score": 7
+    },
+    {
+        "category_id": 32,
+        "name": "TOEFL iBT",
+        "min_score": 94
+    },
+    {
+        "category_id": 33,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 34,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 35,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 35,
+        "name": "TOEFL iBT",
+        "min_score": 79
+    },
+    {
+        "category_id": 35,
+        "name": "TOEFL PBT",
+        "min_score": 550
+    },
+    {
+        "category_id": 36,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 37,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 38,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 38,
+        "name": "TOEFL iBT",
+        "min_score": 80
+    },
+    {
+        "category_id": 38,
+        "name": "Duolingo",
+        "min_score": 90
+    },
+    {
+        "category_id": 39,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 40,
+        "name": "GRE",
+        "min_score": 0
+    },
+    {
+        "category_id": 41,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 41,
+        "name": "TOEFL iBT",
+        "min_score": 89
+    },
+    {
+        "category_id": 42,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 43,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 44,
+        "name": "IELTS",
+        "min_score": 0
+    },
+    {
+        "category_id": 44,
+        "name": "TOEFL iBT",
+        "min_score": 0
+    },
+    {
+        "category_id": 44,
+        "name": "TOEIC",
+        "min_score": 0
+    },
+    {
+        "category_id": 45,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 46,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 47,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 47,
+        "name": "TOEFL iBT",
+        "min_score": 80
+    },
+    {
+        "category_id": 47,
+        "name": "TOEFL ITP",
+        "min_score": 550
+    },
+    {
+        "category_id": 47,
+        "name": "TOEIC",
+        "min_score": 800
+    },
+    {
+        "category_id": 47,
+        "name": "CAE",
+        "min_score": 160
+    },
+    {
+        "category_id": 48,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 49,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 50,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 50,
+        "name": "TOEFL iBT",
+        "min_score": 94
+    },
+    {
+        "category_id": 51,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 52,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 53,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 53,
+        "name": "TOEFL iBT",
+        "min_score": 90
+    },
+    {
+        "category_id": 53,
+        "name": "TOEFL PBT",
+        "min_score": 577
+    },
+    {
+        "category_id": 53,
+        "name": "TOEIC",
+        "min_score": 785
+    },
+    {
+        "category_id": 54,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 55,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 56,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 56,
+        "name": "TOEFL iBT",
+        "min_score": 79
+    },
+    {
+        "category_id": 56,
+        "name": "TOEFL PBT",
+        "min_score": 550
+    },
+    {
+        "category_id": 56,
+        "name": "TOEFL CBT",
+        "min_score": 213
+    },
+    {
+        "category_id": 57,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 58,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 59,
+        "name": "IELTS",
+        "min_score": 7
+    },
+    {
+        "category_id": 59,
+        "name": "TOEFL iBT",
+        "min_score": 100
+    },
+    {
+        "category_id": 59,
+        "name": "TOEFL PBT",
+        "min_score": 600
+    },
+    {
+        "category_id": 60,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 61,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 62,
+        "name": "IELTS",
+        "min_score": 0
+    },
+    {
+        "category_id": 62,
+        "name": "TOEFL iBT",
+        "min_score": 0
+    },
+    {
+        "category_id": 63,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 64,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 65,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 65,
+        "name": "TOEFL iBT",
+        "min_score": 90
+    },
+    {
+        "category_id": 65,
+        "name": "TOEFL PBT",
+        "min_score": 575
+    },
+    {
+        "category_id": 65,
+        "name": "TOEFL CBT",
+        "min_score": 190
+    },
+    {
+        "category_id": 66,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 67,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 68,
+        "name": "IELTS",
+        "min_score": 5.5
+    },
+    {
+        "category_id": 69,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 70,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 71,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 71,
+        "name": "TOEFL iBT",
+        "min_score": 79
+    },
+    {
+        "category_id": 71,
+        "name": "TOEFL PBT",
+        "min_score": 550
+    },
+    {
+        "category_id": 72,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 73,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 74,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 74,
+        "name": "TOEFL iBT",
+        "min_score": 90
+    },
+    {
+        "category_id": 74,
+        "name": "TOEFL PBT",
+        "min_score": 550
+    },
+    {
+        "category_id": 74,
+        "name": "TOEIC",
+        "min_score": 800
+    },
+    {
+        "category_id": 74,
+        "name": "TOEFL CBT",
+        "min_score": 220
+    },
+    {
+        "category_id": 75,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 76,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 77,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 78,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 79,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 80,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 81,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 82,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 83,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 83,
+        "name": "TOEFL iBT",
+        "min_score": 80
+    },
+    {
+        "category_id": 83,
+        "name": "TOEFL PBT",
+        "min_score": 550
+    },
+    {
+        "category_id": 84,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 85,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 86,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 86,
+        "name": "TOEFL iBT",
+        "min_score": 84
+    },
+    {
+        "category_id": 87,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 88,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 89,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 89,
+        "name": "TOEFL iBT",
+        "min_score": 88
+    },
+    {
+        "category_id": 89,
+        "name": "TOEFL ITP",
+        "min_score": 570
+    },
+    {
+        "category_id": 89,
+        "name": "TOEFL CBT",
+        "min_score": 230
+    },
+    {
+        "category_id": 90,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 91,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 92,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 92,
+        "name": "TOEFL iBT",
+        "min_score": 90
+    },
+    {
+        "category_id": 92,
+        "name": "PTE Academic",
+        "min_score": 60
+    },
+    {
+        "category_id": 93,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 94,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 95,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 95,
+        "name": "TOEFL iBT",
+        "min_score": 72
+    },
+    {
+        "category_id": 95,
+        "name": "TOEIC",
+        "min_score": 0
+    },
+    {
+        "category_id": 96,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 97,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 98,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 98,
+        "name": "TOEFL iBT",
+        "min_score": 90
+    },
+    {
+        "category_id": 98,
+        "name": "PTE Academic",
+        "min_score": 62
+    },
+    {
+        "category_id": 99,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 100,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 101,
+        "name": "IELTS",
+        "min_score": 5.5
+    },
+    {
+        "category_id": 102,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 103,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 104,
+        "name": "IELTS",
+        "min_score": 5.5
+    },
+    {
+        "category_id": 104,
+        "name": "TOEFL iBT",
+        "min_score": 70
+    },
+    {
+        "category_id": 104,
+        "name": "TOEFL PBT",
+        "min_score": 520
+    },
+    {
+        "category_id": 104,
+        "name": "TOEFL CBT",
+        "min_score": 190
+    },
+    {
+        "category_id": 105,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 106,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 107,
+        "name": "IELTS",
+        "min_score": 0
+    },
+    {
+        "category_id": 107,
+        "name": "TOEFL iBT",
+        "min_score": 0
+    },
+    {
+        "category_id": 108,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 109,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 110,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 110,
+        "name": "TOEFL iBT",
+        "min_score": 75
+    },
+    {
+        "category_id": 111,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 112,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 113,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 113,
+        "name": "TOEFL iBT",
+        "min_score": 92
+    },
+    {
+        "category_id": 113,
+        "name": "TOEFL PBT",
+        "min_score": 580
+    },
+    {
+        "category_id": 113,
+        "name": "TOEFL CBT",
+        "min_score": 237
+    },
+    {
+        "category_id": 114,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 115,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 116,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 117,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 118,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 119,
+        "name": "TOEFL iBT",
+        "min_score": 92
+    },
+    {
+        "category_id": 119,
+        "name": "PTE Academic",
+        "min_score": 62
+    },
+    {
+        "category_id": 120,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 121,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 122,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 122,
+        "name": "TOEFL iBT",
+        "min_score": 90
+    },
+    {
+        "category_id": 123,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 124,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 125,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 125,
+        "name": "TOEFL iBT",
+        "min_score": 80
+    },
+    {
+        "category_id": 125,
+        "name": "TOEIC",
+        "min_score": 785
+    },
+    {
+        "category_id": 126,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 127,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 128,
+        "name": "IELTS",
+        "min_score": 0
+    },
+    {
+        "category_id": 128,
+        "name": "TOEFL iBT",
+        "min_score": 0
+    },
+    {
+        "category_id": 129,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 130,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 131,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 131,
+        "name": "TOEFL iBT",
+        "min_score": 84
+    },
+    {
+        "category_id": 131,
+        "name": "TOEFL PBT",
+        "min_score": 550
+    },
+    {
+        "category_id": 132,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 133,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 134,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 134,
+        "name": "TOEFL iBT",
+        "min_score": 88
+    },
+    {
+        "category_id": 135,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 136,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 137,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 138,
+        "name": "DELF",
+        "min_score": 0
+    },
+    {
+        "category_id": 139,
+        "name": "GRE",
+        "min_score": 0
+    },
+    {
+        "category_id": 139,
+        "name": "GMAT",
+        "min_score": 0
+    },
+    {
+        "category_id": 140,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 140,
+        "name": "TOEFL iBT",
+        "min_score": 92
+    },
+    {
+        "category_id": 140,
+        "name": "TOEFL PBT",
+        "min_score": 580
+    },
+    {
+        "category_id": 140,
+        "name": "CAE",
+        "min_score": 0
+    },
+    {
+        "category_id": 140,
+        "name": "CPE",
+        "min_score": 0
+    },
+    {
+        "category_id": 140,
+        "name": "PTE Academic",
+        "min_score": 59
+    },
+    {
+        "category_id": 141,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 142,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 143,
+        "name": "IELTS",
+        "min_score": 7
+    },
+    {
+        "category_id": 143,
+        "name": "TOEFL iBT",
+        "min_score": 95
+    },
+    {
+        "category_id": 143,
+        "name": "PTE Academic",
+        "min_score": 68
+    },
+    {
+        "category_id": 144,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 145,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 146,
+        "name": "IELTS",
+        "min_score": 7
+    },
+    {
+        "category_id": 146,
+        "name": "TOEFL iBT",
+        "min_score": 100
+    },
+    {
+        "category_id": 146,
+        "name": "TOEFL PBT",
+        "min_score": 600
+    },
+    {
+        "category_id": 146,
+        "name": "TOEFL CBT",
+        "min_score": 250
+    },
+    {
+        "category_id": 147,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 148,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 149,
+        "name": "IELTS",
+        "min_score": 0
+    },
+    {
+        "category_id": 149,
+        "name": "TOEFL iBT",
+        "min_score": 0
+    },
+    {
+        "category_id": 150,
+        "name": "DELF",
+        "min_score": 0
+    },
+    {
+        "category_id": 151,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 152,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 152,
+        "name": "TOEFL iBT",
+        "min_score": 61
+    },
+    {
+        "category_id": 152,
+        "name": "TOEFL ITP",
+        "min_score": 500
+    },
+    {
+        "category_id": 152,
+        "name": "Duolingo",
+        "min_score": 95
+    },
+    {
+        "category_id": 153,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 154,
+        "name": "GRE",
+        "min_score": 0
+    },
+    {
+        "category_id": 154,
+        "name": "GMAT",
+        "min_score": 0
+    },
+    {
+        "category_id": 155,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 155,
+        "name": "TOEFL iBT",
+        "min_score": 85
+    },
+    {
+        "category_id": 156,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 157,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 158,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 158,
+        "name": "TOEFL iBT",
+        "min_score": 80
+    },
+    {
+        "category_id": 159,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 160,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 161,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 161,
+        "name": "TOEFL iBT",
+        "min_score": 90
+    },
+    {
+        "category_id": 162,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 163,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 164,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 164,
+        "name": "TOEFL iBT",
+        "min_score": 90
+    },
+    {
+        "category_id": 164,
+        "name": "TOEIC",
+        "min_score": 800
+    },
+    {
+        "category_id": 165,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 166,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 167,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 167,
+        "name": "TOEFL iBT",
+        "min_score": 79
+    },
+    {
+        "category_id": 167,
+        "name": "TOEFL PBT",
+        "min_score": 550
+    },
+    {
+        "category_id": 167,
+        "name": "CAE",
+        "min_score": 0
+    },
+    {
+        "category_id": 167,
+        "name": "TOEFL CBT",
+        "min_score": 213
+    },
+    {
+        "category_id": 168,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 169,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 170,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 170,
+        "name": "TOEFL iBT",
+        "min_score": 79
+    },
+    {
+        "category_id": 171,
+        "name": "DSH",
+        "min_score": 0
+    },
+    {
+        "category_id": 172,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 173,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 173,
+        "name": "TOEFL iBT",
+        "min_score": 82
+    },
+    {
+        "category_id": 173,
+        "name": "TOEFL PBT",
+        "min_score": 550
+    },
+    {
+        "category_id": 174,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 175,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 176,
+        "name": "IELTS",
+        "min_score": 5.5
+    },
+    {
+        "category_id": 176,
+        "name": "TOEFL iBT",
+        "min_score": 61
+    },
+    {
+        "category_id": 176,
+        "name": "TOEFL PBT",
+        "min_score": 500
+    },
+    {
+        "category_id": 176,
+        "name": "Duolingo",
+        "min_score": 95
+    },
+    {
+        "category_id": 177,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 178,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 179,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 179,
+        "name": "TOEFL iBT",
+        "min_score": 85
+    },
+    {
+        "category_id": 179,
+        "name": "PTE Academic",
+        "min_score": 70
+    },
+    {
+        "category_id": 180,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 181,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 182,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 183,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 184,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 185,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 186,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 187,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 188,
+        "name": "IELTS",
+        "min_score": 7
+    },
+    {
+        "category_id": 188,
+        "name": "TOEFL iBT",
+        "min_score": 98
+    },
+    {
+        "category_id": 189,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 190,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 191,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 191,
+        "name": "TOEFL iBT",
+        "min_score": 90
+    },
+    {
+        "category_id": 192,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 193,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 194,
+        "name": "IELTS",
+        "min_score": 7
+    },
+    {
+        "category_id": 194,
+        "name": "TOEFL iBT",
+        "min_score": 100
+    },
+    {
+        "category_id": 195,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 196,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 197,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 197,
+        "name": "TOEFL iBT",
+        "min_score": 92
+    },
+    {
+        "category_id": 198,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 199,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 200,
+        "name": "IELTS",
+        "min_score": 0
+    },
+    {
+        "category_id": 200,
+        "name": "TOEFL iBT",
+        "min_score": 0
+    },
+    {
+        "category_id": 200,
+        "name": "TOEIC",
+        "min_score": 0
+    },
+    {
+        "category_id": 201,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 202,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 203,
+        "name": "IELTS",
+        "min_score": 5.5
+    },
+    {
+        "category_id": 203,
+        "name": "TOEFL iBT",
+        "min_score": 80
+    },
+    {
+        "category_id": 204,
+        "name": "TOPIK",
+        "min_score": 0
+    },
+    {
+        "category_id": 205,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 206,
+        "name": "IELTS",
+        "min_score": 7
+    },
+    {
+        "category_id": 206,
+        "name": "TOEFL iBT",
+        "min_score": 100
+    },
+    {
+        "category_id": 207,
+        "name": "DELF",
+        "min_score": 0
+    },
+    {
+        "category_id": 207,
+        "name": "DALF",
+        "min_score": 0
+    },
+    {
+        "category_id": 207,
+        "name": "TCF",
+        "min_score": 500
+    },
+    {
+        "category_id": 208,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 209,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 210,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 211,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 212,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 212,
+        "name": "TOEFL iBT",
+        "min_score": 93
+    },
+    {
+        "category_id": 213,
+        "name": "DELF",
+        "min_score": 0
+    },
+    {
+        "category_id": 214,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 215,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 215,
+        "name": "TOEFL iBT",
+        "min_score": 79
+    },
+    {
+        "category_id": 216,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 217,
+        "name": "GRE",
+        "min_score": 0
+    },
+    {
+        "category_id": 218,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 218,
+        "name": "TOEFL iBT",
+        "min_score": 79
+    },
+    {
+        "category_id": 218,
+        "name": "CAE",
+        "min_score": 176
+    },
+    {
+        "category_id": 218,
+        "name": "PTE Academic",
+        "min_score": 62
+    },
+    {
+        "category_id": 219,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 220,
+        "name": "GRE",
+        "min_score": 0
+    },
+    {
+        "category_id": 221,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 221,
+        "name": "TOEFL iBT",
+        "min_score": 79
+    },
+    {
+        "category_id": 221,
+        "name": "CAE",
+        "min_score": 176
+    },
+    {
+        "category_id": 221,
+        "name": "PTE Academic",
+        "min_score": 62
+    },
+    {
+        "category_id": 222,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 223,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 224,
+        "name": "IELTS",
+        "min_score": 0
+    },
+    {
+        "category_id": 225,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 226,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 227,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 228,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 229,
+        "name": "GRE",
+        "min_score": 0
+    },
+    {
+        "category_id": 230,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 230,
+        "name": "TOEFL iBT",
+        "min_score": 79
+    },
+    {
+        "category_id": 230,
+        "name": "CAE",
+        "min_score": 176
+    },
+    {
+        "category_id": 230,
+        "name": "PTE Academic",
+        "min_score": 62
+    },
+    {
+        "category_id": 231,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 232,
+        "name": "SAT",
+        "min_score": 0
+    },
+    {
+        "category_id": 232,
+        "name": "A-Level",
+        "min_score": 0
+    },
+    {
+        "category_id": 232,
+        "name": "ACT",
+        "min_score": 0
+    },
+    {
+        "category_id": 233,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 233,
+        "name": "TOEFL iBT",
+        "min_score": 80
+    },
+    {
+        "category_id": 234,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 235,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 236,
+        "name": "IELTS",
+        "min_score": 0
+    },
+    {
+        "category_id": 236,
+        "name": "TOEFL iBT",
+        "min_score": 0
+    },
+    {
+        "category_id": 237,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 238,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 239,
+        "name": "IELTS",
+        "min_score": 0
+    },
+    {
+        "category_id": 240,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 241,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 242,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 243,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 244,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 245,
+        "name": "IELTS",
+        "min_score": 0
+    },
+    {
+        "category_id": 245,
+        "name": "TOEFL iBT",
+        "min_score": 0
+    },
+    {
+        "category_id": 245,
+        "name": "TOEIC",
+        "min_score": 0
+    },
+    {
+        "category_id": 246,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 247,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 248,
+        "name": "IELTS",
+        "min_score": 0
+    },
+    {
+        "category_id": 248,
+        "name": "TOEFL iBT",
+        "min_score": 0
+    },
+    {
+        "category_id": 249,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 250,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 251,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 252,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 253,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 254,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 255,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 256,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 257,
+        "name": "IELTS",
+        "min_score": 7
+    },
+    {
+        "category_id": 257,
+        "name": "TOEFL iBT",
+        "min_score": 0
+    },
+    {
+        "category_id": 257,
+        "name": "TOEFL ITP",
+        "min_score": 0
+    },
+    {
+        "category_id": 257,
+        "name": "TOEIC",
+        "min_score": 850
+    },
+    {
+        "category_id": 258,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 259,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 260,
+        "name": "IELTS",
+        "min_score": 5.5
+    },
+    {
+        "category_id": 260,
+        "name": "TOEFL iBT",
+        "min_score": 71
+    },
+    {
+        "category_id": 260,
+        "name": "TOEIC",
+        "min_score": 750
+    },
+    {
+        "category_id": 261,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 262,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 263,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 264,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 265,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 266,
+        "name": "IELTS",
+        "min_score": 0
+    },
+    {
+        "category_id": 266,
+        "name": "TOEFL iBT",
+        "min_score": 0
+    },
+    {
+        "category_id": 267,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 268,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 269,
+        "name": "IELTS",
+        "min_score": 5.5
+    },
+    {
+        "category_id": 269,
+        "name": "TOEFL iBT",
+        "min_score": 72
+    },
+    {
+        "category_id": 269,
+        "name": "TOEIC",
+        "min_score": 785
+    },
+    {
+        "category_id": 270,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 271,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 272,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 272,
+        "name": "TOEFL iBT",
+        "min_score": 79
+    },
+    {
+        "category_id": 272,
+        "name": "TOEFL PBT",
+        "min_score": 575
+    },
+    {
+        "category_id": 273,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 274,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 275,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 276,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 277,
+        "name": "GRE",
+        "min_score": 0
+    },
+    {
+        "category_id": 277,
+        "name": "GMAT",
+        "min_score": 0
+    },
+    {
+        "category_id": 278,
+        "name": "IELTS",
+        "min_score": 7
+    },
+    {
+        "category_id": 278,
+        "name": "TOEFL iBT",
+        "min_score": 100
+    },
+    {
+        "category_id": 279,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 280,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 281,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 282,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 283,
+        "name": "GRE",
+        "min_score": 0
+    },
+    {
+        "category_id": 284,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 284,
+        "name": "TOEFL iBT",
+        "min_score": 79
+    },
+    {
+        "category_id": 284,
+        "name": "CAE",
+        "min_score": 176
+    },
+    {
+        "category_id": 284,
+        "name": "PTE Academic",
+        "min_score": 62
+    },
+    {
+        "category_id": 285,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 286,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 287,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 287,
+        "name": "TOEFL iBT",
+        "min_score": 79
+    },
+    {
+        "category_id": 288,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 289,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 290,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 290,
+        "name": "TOEFL iBT",
+        "min_score": 79
+    },
+    {
+        "category_id": 291,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 292,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 293,
+        "name": "IELTS",
+        "min_score": 6
+    },
+    {
+        "category_id": 293,
+        "name": "TOEFL iBT",
+        "min_score": 78
+    },
+    {
+        "category_id": 293,
+        "name": "PTE Academic",
+        "min_score": 54
+    },
+    {
+        "category_id": 294,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 295,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 296,
+        "name": "IELTS",
+        "min_score": 6.5
+    },
+    {
+        "category_id": 296,
+        "name": "TOEFL iBT",
+        "min_score": 92
+    },
+    {
+        "category_id": 297,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 298,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 299,
+        "name": null,
+        "min_score": null
+    },
+    {
+        "category_id": 300,
+        "name": "DELF",
+        "min_score": 0
+    }
+]
