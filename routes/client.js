@@ -17,19 +17,24 @@ router.use(authentication)
 router.get('/profile/:userId', clientController.getProfileById)
 
 router.get('/threads', clientController.getAllThreads)
+router.post('/threads', clientController.postThreads)
 router.get('/threads/:threadsId', clientController.getThreadsById) //include comments
-// router.post('/threads', clientController.postThreads)
 // router.put('/threads/:threadsId, clientController.putLikeDislikeThreads)
 
-// router.post('/comments', clientController.postComments)
+router.post('/threads/:threadsId/comment', clientController.postComments)
 // router.put('/comments/:commentId, clientController.putLikeDislikeComments)
 
 // router.get('/mentoring', clientController.getAllMentoring)
 // router.post('/mentoring', clientController.postMentoring)
 // router.get('/mentoring/:mentoringId', clientController.getMentoringById)
 
+// router.post('/bookmarks/scholarships', clientController.postBookmarkScholarship)
 // router.get('/bookmarks/scholarships', clientController.getAllBookmarkScholarship)
+
+// router.post('/bookmarks/threads', clientController.postBookmarkThreads)
 // router.get('/bookmarks/threads', clientController.getAllBookmarkThreads)
+
+// router.post('/bookmarks/mentoring', clientController.postBookmarkMentoring)
 // router.get('/bookmarks/mentoring', clientController.getAllBookmarkMentoring)
 
 

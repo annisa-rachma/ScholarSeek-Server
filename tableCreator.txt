@@ -5,3 +5,5 @@ npx sequelize-cli model:generate --name userSchool --attributes UserId:integer,s
 npx sequelize-cli model:generate --name Thread --attributes UserId:integer,tag:string,like:integer,dislike:integer,content:text,status:boolean
 
 npx sequelize-cli model:generate --name Comment --attributes UserId:integer,ThreadId:integer,like:integer,dislike:integer,content:text,status:boolean
+
+npx sequelize-cli model:generate --name BookmarkThread --attributes UserId:integer,ThreadId:integer
