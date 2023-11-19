@@ -31,6 +31,9 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
+      slug : {
+        type: Sequelize.STRING,
+      },
       content: {
         type: Sequelize.TEXT,
         allowNull: false,

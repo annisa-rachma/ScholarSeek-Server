@@ -37,6 +37,9 @@ module.exports = (sequelize, DataTypes) => {
         }
       }
     },
+    slug :{
+      type: Sequelize.STRING,
+    },
     email: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -77,6 +80,9 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     hooks: {
       beforeCreate: (user) => {
+        let firstName = user.firstName.toLowerCase().split(' ').join('-')
+        let lastName = user.lastName.toLowerCase().split(' ').join('-')
+        user.slug = `${firstName}-${lastName}`
         user.password = hashPassword(user.password);
         user.isAwardeeValidate = false
       }

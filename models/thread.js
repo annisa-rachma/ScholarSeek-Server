@@ -26,6 +26,9 @@ module.exports = (sequelize, DataTypes) => {
         }
       }
     },
+    slug :{
+      type: Sequelize.STRING,
+    },
     content: {
       type: DataTypes.TEXT,
       allowNull: false,
@@ -42,6 +45,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     hooks: {
       beforeCreate: (el) => {
+        el.slug = el.title.toLowerCase().split(' ').join('-')
         el.like = el.dislike = 0
         el.isActive = true
       }
