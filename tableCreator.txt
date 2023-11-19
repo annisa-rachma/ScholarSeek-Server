@@ -11,3 +11,6 @@ npx sequelize-cli model:generate --name BookmarkThread --attributes UserId:integ
 npx sequelize-cli model:generate --name Mentoring --attributes CreatorId:integer,title:string,schedule:date,hour:time,status:string,quota:integer,room:string,topik:array
 
 npx sequelize-cli model:generate --name MentoringSessions --attributes UserId:integer,MentoringId:integer
+
+
+npx sequelize-cli model:generate --name BookmarkScholarship --attributes UserId:integer,Scholarship:integer

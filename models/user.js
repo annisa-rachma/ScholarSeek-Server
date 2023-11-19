@@ -11,6 +11,7 @@ module.exports = (sequelize, DataTypes) => {
       User.hasMany(models.Comment, {foreignKey: 'UserId'})
       User.hasMany(models.BookmarkThread, {foreignKey: 'UserId'})
       User.hasMany(models.Mentoring, {foreignKey: 'CreatorId'})
+      User.hasMany(models.BookmarkScholarship, {foreignKey: 'UserId'})
     }
   }
   User.init({
@@ -39,7 +40,7 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     slug :{
-      type: Sequelize.STRING,
+      type: DataTypes.STRING,
     },
     email: {
       type: DataTypes.STRING,
