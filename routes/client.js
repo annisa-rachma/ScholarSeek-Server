@@ -14,15 +14,15 @@ router.post('/register/mentee', multer.single('image'), clientController.registe
 
 router.use(authentication)
 
-// router.get('/profile/:userId', clientController.getProfileById)
+router.get('/profile/:userId', clientController.getProfileById)
 
-// router.get('/threads', clientController.getAllThreads)
-// router.get('/threads/:threadsId', clientController.getThreadsById) //include comments
+router.get('/threads', clientController.getAllThreads)
+router.get('/threads/:threadsId', clientController.getThreadsById) //include comments
 // router.post('/threads', clientController.postThreads)
-// router.put('/threads/:id, clientController.putLikeDislikeThreads)
+// router.put('/threads/:threadsId, clientController.putLikeDislikeThreads)
 
 // router.post('/comments', clientController.postComments)
-// router.put('/comments/:id, clientController.putLikeDislikeComments)
+// router.put('/comments/:commentId, clientController.putLikeDislikeComments)
 
 // router.get('/mentoring', clientController.getAllMentoring)
 // router.post('/mentoring', clientController.postMentoring)

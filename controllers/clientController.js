@@ -1,4 +1,4 @@
-const { User, userSchool, sequelize } = require("../models");
+const { User, userSchool,Thread,Comment, sequelize } = require("../models");
 const { comparePassword } = require("../helpers/bcrypt");
 const { signToken } = require("../helpers/jwt");
 const cloudinary = require("../utils/cloudinary");
@@ -23,6 +23,7 @@ class clientController {
         access_token,
         id: user.id,
         email: user.email,
+        role: user.role,
         profileImg: user.profileImg,
       });
     } catch (err) {
@@ -166,7 +167,79 @@ class clientController {
     }
   }
 
-  
+  static async getProfileById(req, res, next) {
+    try {
+      const user = await User.findOne({
+        where: { id: req.params.userId },
+        include: [
+          {
+            model: userSchool,
+            attributes: {
+              exclude: ["createdAt", "updatedAt"],
+            },
+          },
+        ],
+        attributes: {
+          exclude: ["createdAt", "updatedAt", "password"],
+        },
+      });
+      if (!user) throw { name: "NotFound" };
+      res.status(200).json(user);
+    } catch (err) {
+      console.log(err);
+      next(err);
+    }
+  }
+
+  static async getAllThreads(req, res, next) {
+    try {
+      const threads = await Thread.findAll({
+        include: [
+          {
+            model: User,
+            attributes: {
+              exclude: ["createdAt","updatedAt","password", "email", "linkedinUrl", "description", "isAwardeeValidate"],
+            },
+          }
+        ],
+        attributes: {
+          exclude: ["updatedAt"],
+        },
+        order: [["createdAt"]],
+      });
+      res.status(200).json(threads);
+    } catch (err) {
+    console.log(err)
+      next(err);
+    }
+  }
+
+  static async getThreadsById(req, res, next) {
+    try {
+      const thread = await Thread.findOne({
+        where: { id: req.params.threadsId },
+        include: [
+          {
+            model: User,
+            attributes: {
+              exclude: ["createdAt","updatedAt","password", "email", "linkedinUrl", "description", "isAwardeeValidate"],
+            },
+          },
+          {
+            model: Comment,
+            order: [["createdAt"]]
+          }
+        ],
+        attributes: {
+          exclude: ["updatedAt"],
+        },
+      });
+      res.status(200).json(thread);
+    } catch (err) {
+    console.log(err)
+      next(err);
+    }
+  }
 }
 
 module.exports = clientController;
