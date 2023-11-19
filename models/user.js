@@ -19,9 +19,9 @@ module.exports = (sequelize, DataTypes) => {
     password: DataTypes.STRING,
     role: DataTypes.STRING,
     profileImg: DataTypes.STRING,
-    school: DataTypes.ARRAY,
-    major: DataTypes.ARRAY,
-    scholarship: DataTypes.ARRAY,
+    school: DataTypes.ARRAY(DataTypes.STRING),
+    major: DataTypes.ARRAY(DataTypes.STRING),
+    scholarship: DataTypes.ARRAY(DataTypes.STRING),
     linkedinUrl: DataTypes.STRING,
     description: DataTypes.TEXT,
     isMentorValidate: DataTypes.BOOLEAN

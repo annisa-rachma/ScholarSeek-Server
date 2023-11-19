@@ -1,1 +1,3 @@
 npx sequelize-cli model:generate --name User --attributes username:string,email:string,password:string,role:string,profileImg:string,school:array,major:array,scholarship:array,linkedinUrl:string,description:text,isMentorValidate:boolean
+
+npx sequelize-cli model:generate --name Scholarship --attributes name:string,isFullyFunded:boolean,registrationOpen:dateonly,registrationDeadline:dateonly,isOpen:boolean,description:text,university:array,major:array,benefit:array,ageRequirement:string,englishTest:array,otherLangTest:array,standarizedTest:array,documents:array,others:array,links:text,degrees:array,countries:array,gpaRequirement:string

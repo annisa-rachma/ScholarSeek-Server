@@ -11,7 +11,7 @@ const adminController = require('../controllers/adminController')
 // router.use(authentication)
 
 // router.post('/register', adminController.registerUser)
-// router.get('/scholarships', adminController.getAllScholarships)
+router.get('/scholarships', adminController.getAllScholarships)
 // router.post('/scholarships', adminController.postScholarships)
 // router.get('/scholarships/:scholarshipId', adminController.getScholarshipsById)
 // router.put('/scholarships/:scholarshipId', adminController.putScholarshipsById)
