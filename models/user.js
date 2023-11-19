@@ -76,9 +76,6 @@ module.exports = (sequelize, DataTypes) => {
       beforeCreate: (user) => {
         user.password = hashPassword(user.password);
         user.isAwardeeValidate = false
-        if(!user.profileImg) {
-          user.profileImg = 'https://source.boringavatars.com/beam/40/bryan'
-        }
       }
     },
     sequelize,

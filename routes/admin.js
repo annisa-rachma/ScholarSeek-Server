@@ -11,6 +11,9 @@ router.post('/login', adminController.loginUser)
 router.use(authentication)
 
 router.post('/register', adminController.registerUser)
+
+// router.patch('/user', clientController.patchIsValidateUser)
+
 // router.get('/scholarships', adminController.getAllScholarships)
 // router.post('/scholarships', adminController.postScholarships)
 // router.get('/scholarships/:scholarshipId', adminController.getScholarshipsById)
@@ -22,6 +25,7 @@ router.post('/register', adminController.registerUser)
 
 // router.get('/mentoring', adminController.getAllMentoring)
 // router.patch('/mentoring/:mentoringId', adminController.patchMentoringById)
+
 
 
 module.exports = router
