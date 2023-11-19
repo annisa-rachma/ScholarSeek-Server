@@ -7,7 +7,7 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       Thread.belongsTo(models.User, {foreignKey: 'UserId', onDelete: 'CASCADE', onUpdate: 'CASCADE'})
       Thread.hasMany(models.Comment, {foreignKey: 'ThreadId'})
-      Thread.hasOne(models.BookmarkThread, {foreignKey: 'ThreadId'})
+      Thread.hasMany(models.BookmarkThread, {foreignKey: 'ThreadId'})
     }
   }
   Thread.init({
@@ -26,6 +26,9 @@ module.exports = (sequelize, DataTypes) => {
         }
       }
     },
+    slug :{
+      type: Sequelize.STRING,
+    },
     content: {
       type: DataTypes.TEXT,
       allowNull: false,
@@ -42,6 +45,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     hooks: {
       beforeCreate: (el) => {
+        el.slug = el.title.toLowerCase().split(' ').join('-')
         el.like = el.dislike = 0
         el.isActive = true
       }

@@ -6,6 +6,9 @@ const { hashPassword } = require('../helpers/bcrypt');
 module.exports = {
   async up (queryInterface, Sequelize) {
     let dataUser = require('../data/user.json').map((el) => {
+      let firstName = el.firstName.toLowerCase().split(' ').join('-')
+      let lastName = el.lastName.toLowerCase().split(' ').join('-')
+      el.slug = `${firstName}-${lastName}`
       el.createdAt = el.updatedAt = new Date()
       el.password = hashPassword(el.password)
       return el

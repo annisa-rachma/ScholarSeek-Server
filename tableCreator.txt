@@ -7,3 +7,7 @@ npx sequelize-cli model:generate --name Thread --attributes UserId:integer,tag:s
 npx sequelize-cli model:generate --name Comment --attributes UserId:integer,ThreadId:integer,like:integer,dislike:integer,content:text,status:boolean
 
 npx sequelize-cli model:generate --name BookmarkThread --attributes UserId:integer,ThreadId:integer
+
+npx sequelize-cli model:generate --name Mentoring --attributes CreatorId:integer,title:string,schedule:date,hour:time,status:string,quota:integer,room:string,topik:array
+
+npx sequelize-cli model:generate --name MentoringSessions --attributes UserId:integer,MentoringId:integer

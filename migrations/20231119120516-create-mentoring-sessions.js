@@ -2,7 +2,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('Threads', {
+    await queryInterface.createTable('MentoringSessions', {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -21,25 +21,17 @@ module.exports = {
         onDelete: 'CASCADE',
         onUpdate: 'CASCADE'
       },
-      like: {
-        type: Sequelize.INTEGER
-      },
-      dislike: {
-        type: Sequelize.INTEGER
-      },
-      title : {
-        type: Sequelize.STRING,
+      MentoringId:{
+        type: Sequelize.INTEGER,
+        references: {
+          model: {
+            tableName: 'Mentorings'
+          },
+          key: 'id'
+        },
         allowNull: false,
-      },
-      slug : {
-        type: Sequelize.STRING,
-      },
-      content: {
-        type: Sequelize.TEXT,
-        allowNull: false,
-      },
-      isActive: {
-        type: Sequelize.BOOLEAN
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE'
       },
       createdAt: {
         allowNull: false,
@@ -52,6 +44,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('Threads');
+    await queryInterface.dropTable('MentoringSessions');
   }
 };

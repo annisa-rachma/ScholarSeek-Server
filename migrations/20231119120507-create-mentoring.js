@@ -2,14 +2,14 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('Threads', {
+    await queryInterface.createTable('Mentorings', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      UserId: {
+      CreatorId: {
         type: Sequelize.INTEGER,
         references: {
           model: {
@@ -21,25 +21,26 @@ module.exports = {
         onDelete: 'CASCADE',
         onUpdate: 'CASCADE'
       },
-      like: {
+      title: {
+        type: Sequelize.STRING
+      },
+      schedule: {
+        type: Sequelize.DATE
+      },
+      hour: {
+        type: Sequelize.TIME
+      },
+      status: {
+        type: Sequelize.STRING
+      },
+      quota: {
         type: Sequelize.INTEGER
       },
-      dislike: {
-        type: Sequelize.INTEGER
+      room: {
+        type: Sequelize.STRING
       },
-      title : {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
-      slug : {
-        type: Sequelize.STRING,
-      },
-      content: {
-        type: Sequelize.TEXT,
-        allowNull: false,
-      },
-      isActive: {
-        type: Sequelize.BOOLEAN
+      topik: {
+        type: Sequelize.ARRAY(Sequelize.STRING)
       },
       createdAt: {
         allowNull: false,
@@ -52,6 +53,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('Threads');
+    await queryInterface.dropTable('Mentorings');
   }
 };

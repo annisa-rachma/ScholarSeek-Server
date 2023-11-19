@@ -9,7 +9,8 @@ module.exports = (sequelize, DataTypes) => {
       User.hasMany(models.userSchool, {foreignKey: 'UserId'})
       User.hasMany(models.Thread, {foreignKey: 'UserId'})
       User.hasMany(models.Comment, {foreignKey: 'UserId'})
-      User.hasOne(models.BookmarkThread, {foreignKey: 'UserId'})
+      User.hasMany(models.BookmarkThread, {foreignKey: 'UserId'})
+      User.hasMany(models.Mentoring, {foreignKey: 'CreatorId'})
     }
   }
   User.init({
@@ -36,6 +37,9 @@ module.exports = (sequelize, DataTypes) => {
           msg : "Last name is required"
         }
       }
+    },
+    slug :{
+      type: Sequelize.STRING,
     },
     email: {
       type: DataTypes.STRING,
@@ -77,6 +81,9 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     hooks: {
       beforeCreate: (user) => {
+        let firstName = user.firstName.toLowerCase().split(' ').join('-')
+        let lastName = user.lastName.toLowerCase().split(' ').join('-')
+        user.slug = `${firstName}-${lastName}`
         user.password = hashPassword(user.password);
         user.isAwardeeValidate = false
       }
