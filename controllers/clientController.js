@@ -379,17 +379,20 @@ class clientController {
     }
   }
 
-  // static async postBookmarkThreads(req, res, next) {
-  //   try {
-  //     const { threadsId } = req.params;
-  //     await BookmarkThread.create({ UserId: req.user.id, ThreadId: threadsId });
-  //     res
-  //       .status(201)
-  //       .json({ message: `Successfully added thread to bookmark` });
-  //   } catch (err) {
-  //     next(err);
-  //   }
-  // }
+  static async postBookmarkThreads(req, res, next) {
+    try {
+      // console.log('<<<masuk')
+      const { threadsId } = req.params;
+      // console.log(req.params.threadsId)
+      await BookmarkThread.create({ UserId: req.user.id, ThreadId: threadsId });
+      res
+        .status(201)
+        .json({ message: `Successfully added thread to bookmark` });
+    } catch (err) {
+      console.log(err)
+      next(err);
+    }
+  }
 }
 
 module.exports = clientController;

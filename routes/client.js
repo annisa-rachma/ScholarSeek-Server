@@ -22,6 +22,7 @@ router.get('/threads/:threadsId', clientController.getThreadsById) //include com
 // router.put('/threads/:threadsId, clientController.putLikeDislikeThreads)
 
 router.post('/threads/:threadsId/comment', clientController.postComments)
+router.post('/threads/:threadsId/bookmarks', clientController.postBookmarkThreads)
 // router.put('/comments/:commentId, clientController.putLikeDislikeComments)
 
 // router.get('/mentoring', clientController.getAllMentoring)
@@ -31,7 +32,6 @@ router.post('/threads/:threadsId/comment', clientController.postComments)
 // router.post('/bookmarks/scholarships', clientController.postBookmarkScholarship)
 // router.get('/bookmarks/scholarships', clientController.getAllBookmarkScholarship)
 
-// router.post('/bookmarks/threads', clientController.postBookmarkThreads)
 // router.get('/bookmarks/threads', clientController.getAllBookmarkThreads)
 
 // router.post('/bookmarks/mentoring', clientController.postBookmarkMentoring)

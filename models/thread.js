@@ -7,8 +7,7 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       Thread.belongsTo(models.User, {foreignKey: 'UserId', onDelete: 'CASCADE', onUpdate: 'CASCADE'})
       Thread.hasMany(models.Comment, {foreignKey: 'ThreadId'})
-      // Thread.hasOne(models.BookmarkThread, {foreignKey: 'ThreadId'})
-
+      Thread.hasOne(models.BookmarkThread, {foreignKey: 'ThreadId'})
     }
   }
   Thread.init({
