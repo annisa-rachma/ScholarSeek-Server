@@ -9,7 +9,8 @@ module.exports = (sequelize, DataTypes) => {
       User.hasMany(models.userSchool, {foreignKey: 'UserId'})
       User.hasMany(models.Thread, {foreignKey: 'UserId'})
       User.hasMany(models.Comment, {foreignKey: 'UserId'})
-      User.hasOne(models.BookmarkThread, {foreignKey: 'UserId'})
+      User.hasMany(models.BookmarkThread, {foreignKey: 'UserId'})
+      User.hasMany(models.Mentoring, {foreignKey: 'CreatorId'})
     }
   }
   User.init({
