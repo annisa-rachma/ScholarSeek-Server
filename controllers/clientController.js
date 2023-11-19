@@ -1,4 +1,4 @@
-const { User, userSchool,Thread,Comment, sequelize } = require("../models");
+const { User, userSchool, Thread, Comment, sequelize } = require("../models");
 const { comparePassword } = require("../helpers/bcrypt");
 const { signToken } = require("../helpers/jwt");
 const cloudinary = require("../utils/cloudinary");
@@ -36,6 +36,7 @@ class clientController {
     const t = await sequelize.transaction();
 
     try {
+      // console.log(req.body)
       const {
         firstName,
         lastName,
@@ -62,7 +63,9 @@ class clientController {
       }
 
       try {
-        const result = await cloudinaryUpload(req.file.path);
+        const result = await cloudinaryUpload(req.file.path, {
+          transaction: t,
+        });
         // console.log(result);
         profileImg = result.url;
         // console.log(profileImg);
@@ -88,27 +91,46 @@ class clientController {
           profileImg,
           linkedinUrl,
           description,
+        },
+        { transaction: t }
+      );
+
+      // console.log(school);
+      if (typeof school == "string") {
+        await userSchool.create(
+          { UserId: user.id, school, major, scholarship, year },
+          { transaction: t }
+        );
+      } else {
+        let userSchoolData = [];
+
+        for (let i = 0; i < school.length; i++) {
+          userSchoolData.push({
+            UserId: user.id,
+            school: school[i],
+            major: major[i],
+            scholarship: scholarship[i],
+            year: year[i],
+          });
         }
-        // { transaction: t }
-      );
+        // console.log(userSchoolData);
+        await userSchool.bulkCreate(userSchoolData, { transaction: t });
+      }
 
-      await userSchool.create(
-        { UserId: user.id, school, major, scholarship, year }
-        // { transaction: t }
-      );
-
+      t.commit();
       res.status(201).json({
         message:
           "succesfully registered, please wait a few days for our team to validate your mentor application",
       });
     } catch (err) {
       console.log(err);
-      //   t.rollback();
+      t.rollback();
       next(err);
     }
   }
 
   static async registerUserMentee(req, res, next) {
+    const t = await sequelize.transaction();
     try {
       const {
         firstName,
@@ -131,7 +153,9 @@ class clientController {
           .json({ message: "please fill in the input field" });
       }
       try {
-        const result = await cloudinaryUpload(req.file.path);
+        const result = await cloudinaryUpload(req.file.path, {
+          transaction: t,
+        });
         // console.log(result);
         profileImg = result.url;
         // console.log(profileImg);
@@ -147,22 +171,30 @@ class clientController {
         profileImg = "https://source.boringavatars.com/beam/40/bryan";
       }
 
-      const user = await User.create({
-        firstName,
-        lastName,
-        email,
-        password,
-        role: "mentee",
-        profileImg,
-        linkedinUrl,
-        description,
-      });
+      const user = await User.create(
+        {
+          firstName,
+          lastName,
+          email,
+          password,
+          role: "mentee",
+          profileImg,
+          linkedinUrl,
+          description,
+        },
+        { transaction: t }
+      );
 
-      await userSchool.create({ UserId: user.id, school, major, year });
+      await userSchool.create(
+        { UserId: user.id, school, major, year },
+        { transaction: t }
+      );
 
+      t.commit();
       res.status(201).json({ message: "succesfully registered" });
     } catch (err) {
       console.log(err);
+      t.rollback();
       next(err);
     }
   }
@@ -194,13 +226,22 @@ class clientController {
   static async getAllThreads(req, res, next) {
     try {
       const threads = await Thread.findAll({
+        where: { isActive: true },
         include: [
           {
             model: User,
             attributes: {
-              exclude: ["createdAt","updatedAt","password", "email", "linkedinUrl", "description", "isAwardeeValidate"],
+              exclude: [
+                "createdAt",
+                "updatedAt",
+                "password",
+                "email",
+                "linkedinUrl",
+                "description",
+                "isAwardeeValidate",
+              ],
             },
-          }
+          },
         ],
         attributes: {
           exclude: ["updatedAt"],
@@ -209,7 +250,7 @@ class clientController {
       });
       res.status(200).json(threads);
     } catch (err) {
-    console.log(err)
+      console.log(err);
       next(err);
     }
   }
@@ -222,13 +263,21 @@ class clientController {
           {
             model: User,
             attributes: {
-              exclude: ["createdAt","updatedAt","password", "email", "linkedinUrl", "description", "isAwardeeValidate"],
+              exclude: [
+                "createdAt",
+                "updatedAt",
+                "password",
+                "email",
+                "linkedinUrl",
+                "description",
+                "isAwardeeValidate",
+              ],
             },
           },
           {
             model: Comment,
-            order: [["createdAt"]]
-          }
+            order: [["createdAt"]],
+          },
         ],
         attributes: {
           exclude: ["updatedAt"],
@@ -236,10 +285,12 @@ class clientController {
       });
       res.status(200).json(thread);
     } catch (err) {
-    console.log(err)
+      console.log(err);
       next(err);
     }
   }
+
+  
 }
 
 module.exports = clientController;

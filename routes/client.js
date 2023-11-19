@@ -28,8 +28,13 @@ router.get('/threads/:threadsId', clientController.getThreadsById) //include com
 // router.post('/mentoring', clientController.postMentoring)
 // router.get('/mentoring/:mentoringId', clientController.getMentoringById)
 
+// router.post('/bookmarks/scholarships', clientController.postBookmarkScholarship)
 // router.get('/bookmarks/scholarships', clientController.getAllBookmarkScholarship)
+
+// router.post('/bookmarks/threads', clientController.postBookmarkThreads)
 // router.get('/bookmarks/threads', clientController.getAllBookmarkThreads)
+
+// router.post('/bookmarks/mentoring', clientController.postBookmarkMentoring)
 // router.get('/bookmarks/mentoring', clientController.getAllBookmarkMentoring)
 
 
