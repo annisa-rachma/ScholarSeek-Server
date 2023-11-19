@@ -1,0 +1,30 @@
+[
+    {
+        "UserId" : 2,
+        "ThreadId": 1,
+        "like" : 0,
+        "dislike" : 0,
+        "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit" 
+    },
+    {
+        "UserId" : 2,
+        "ThreadId": 1,
+        "like" : 2,
+        "dislike" : 0,
+        "content" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."   
+    },
+    {
+        "UserId" : 4,
+        "ThreadId": 1,
+        "like" : 2,
+        "dislike" : 0,
+        "content" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."   
+    },
+    {
+        "UserId" : 4,
+        "ThreadId": 2,
+        "like" : 2,
+        "dislike" : 0,
+        "content" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."   
+    }
+]
