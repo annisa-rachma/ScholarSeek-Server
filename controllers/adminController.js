@@ -16,13 +16,19 @@ class adminController {
         order: [["id", "ASC"]],
         attributes: {
           exclude: [
-            "name",
-            "slug",
-            "isFullyFunded",
-            "countries",
-            "degrees",
-            "registrationOpen",
-            "registrationDeadline",
+            "description",
+            "links",
+            "gpaRequirement",
+            "isOpen",
+            "university",
+            "ageRequirement",
+            "major",
+            "benefit",
+            "englishTest",
+            "otherLangTest",
+            "standarizedTest",
+            "documents",
+            "others",
           ],
         },
       };
@@ -175,10 +181,12 @@ class adminController {
   }
   static async putScholarshipsById(req, res, next) {
     try {
-        // console.log(req.params.slug, "ini params <<<<<<<<");
-      const scholarship = await Scholarship.findOne({where: {slug: req.params.slug}});
+      // console.log(req.params.slug, "ini params <<<<<<<<");
+      const scholarship = await Scholarship.findOne({
+        where: { slug: req.params.slug },
+      });
       if (!scholarship) throw { name: "NotFound" };
-        console.log(scholarship, '<<<<<<');
+      console.log(scholarship, "<<<<<<");
       const booleanFields = ["isFullyFunded"];
       const currentDate = new Date();
       const registrationDeadline = new Date(req.body.registrationDeadline);
@@ -207,12 +215,12 @@ class adminController {
         data[field] = req.body[field] === "Fully Funded";
       });
 
-     const result = await Scholarship.update(
+      const result = await Scholarship.update(
         {
-            ...req.body,
-            ...data,
-            isOpen,
-        //   userId: req.user.id,
+          ...req.body,
+          ...data,
+          isOpen,
+          //   userId: req.user.id,
         },
         {
           where: { slug: req.params.slug },
@@ -222,7 +230,9 @@ class adminController {
       console.log(result);
       res
         .status(200)
-        .json({ message: `Your Scholarship id ${scholarship.id} has been updated` });
+        .json({
+          message: `Your Scholarship id ${scholarship.id} has been updated`,
+        });
     } catch (err) {
       console.log(err);
       next(err);
@@ -230,14 +240,15 @@ class adminController {
   }
   static async deleteScholarshipsById(req, res, next) {
     try {
-      const data = await Scholarship.findOne({ where: { slug: req.params.slug } });
+      const data = await Scholarship.findOne({
+        where: { slug: req.params.slug },
+      });
       await Scholarship.destroy({ where: { slug: req.params.slug } });
       res.status(200).json({ message: `${data.name} success to delete` });
     } catch (err) {
       next(err);
     }
   }
-
 }
 
 module.exports = adminController;
