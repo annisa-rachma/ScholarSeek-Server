@@ -31,6 +31,7 @@ class clientController {
       res.status(200).json({
         access_token,
         id: user.id,
+        name : `${user.firstName} ${user.lastName}`,
         email: user.email,
         role: user.role,
         profileImg: user.profileImg,
