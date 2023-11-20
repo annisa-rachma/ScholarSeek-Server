@@ -234,6 +234,7 @@ class clientController {
 
   static async getAllScholarships(req, res, next) {
     try {
+      // console.log(req.query)
       const page =
         req.query.page && !isNaN(req.query.page) ? +req.query.page : 1;
       const size =
