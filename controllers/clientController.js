@@ -731,9 +731,37 @@ class clientController {
     try {
       const bookmarkMentoring = await MentoringSessions.findAll({ 
         where: { UserId: req.user.id },
-        order: [["id"]] 
+        order: [["id"]] ,
+        include : [
+          {
+            model : Mentoring,
+            include: [
+              {
+                model: User,
+                include: [
+                  {
+                    model: userSchool,
+                  }
+                ],
+              }
+            ],
+          }
+        ]
       });
-      res.status(200).json(bookmarkMentoring);
+      let result = bookmarkMentoring.map((el)=> {
+        return {
+          slug : el.Mentoring.slug,
+          imageUrl : el.Mentoring.imageUrl,
+          schedule : formatDate(el.Mentoring.schedule),
+          hour : el.Mentoring.hour,
+          title : el.Mentoring.title,
+          name : `${el.Mentoring.User.firstName} ${el.Mentoring.User.lastName}`,
+          profileImg : el.Mentoring.User.profileImg,
+          status : `Awardee ${el.Mentoring.User.userSchools[0].scholarship}`
+        }
+      })
+      
+      res.status(200).json(result);
     } catch (err) {
       next(err);
     }
