@@ -7,7 +7,7 @@ const {
   sequelize,
   Scholarship,
   Mentoring,
-  MentoringSessions
+  MentoringSessions, BookmarkScholarship
 } = require("../models");
 const { comparePassword } = require("../helpers/bcrypt");
 const { signToken } = require("../helpers/jwt");
@@ -609,6 +609,14 @@ class clientController {
       const mentoring = await Mentoring.findAll({
         where: { slug }
       });
+
+      const bookmarkMentoring = await MentoringSessions.findAll({ 
+        where: { UserId: req.user.id },
+        order: [["id"]] 
+      });
+      if(bookmarkMentoring) {
+        return res.status(400).json({message: "already booked this session"})
+      }
       // console.log(mentoring[0].id, '<<<<<')
       // console.log(mentoring.dataValues.id, "<<<<<")
       await MentoringSessions.create({ UserId: req.user.id, MentoringId: mentoring[0].id });
@@ -617,6 +625,50 @@ class clientController {
         .json({ message: `Successfully join mentoring session` });
     } catch (err) {
       console.log(err)
+      next(err);
+    }
+  }
+
+  // getAllBookmarkMentoring
+  static async getAllBookmarkMentoring(req, res, next) {
+    try {
+      const bookmarkMentoring = await MentoringSessions.findAll({ 
+        where: { UserId: req.user.id },
+        order: [["id"]] 
+      });
+      res.status(200).json(bookmarkMentoring);
+    } catch (err) {
+      next(err);
+    }
+  }
+
+  // postBookmarkScholarship
+  static async postBookmarkScholarship(req, res, next) {
+    try {
+      // const { slug } = req.params;
+      const data = await Scholarship.findOne({
+        where: { slug: req.params.slug },
+      });
+      // console.log(data, "<<<")
+      await BookmarkScholarship.create({ UserId: req.user.id, ScholarshipId: data.id });
+      res
+        .status(201)
+        .json({ message: `Successfully added scholarship to bookmark` });
+    } catch (err) {
+      console.log(err)
+      next(err);
+    }
+  }
+
+  // getAllBookmarkScholarship
+  static async getAllBookmarkScholarship(req, res, next) {
+    try {
+      const bookmarkScholarship = await BookmarkScholarship.findAll({ 
+        where: { UserId: req.user.id },
+        order: [["id"]] 
+      });
+      res.status(200).json(bookmarkScholarship);
+    } catch (err) {
       next(err);
     }
   }

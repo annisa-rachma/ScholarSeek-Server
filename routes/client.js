@@ -15,7 +15,7 @@ router.use(authentication)
 
 router.get('/profile/:userId', clientController.getProfileById)
 
-// router.post('/bookmarks/:scholarshipId/bookmarks', clientController.postBookmarkScholarship)
+router.post('/scholarships/:slug/bookmarks', clientController.postBookmarkScholarship)
 
 router.get('/threads', clientController.getAllThreads)
 router.post('/threads', clientController.postThreads)
@@ -31,8 +31,8 @@ router.get('/mentoring/:slug', clientController.getMentoringById)
 router.post('/mentoring/:slug/bookmarks', clientController.postBookmarkMentoring)
 
 router.get('/bookmarks/thread', clientController.getAllBookmarkThreads)
-// router.get('/bookmarks/scholarships', clientController.getAllBookmarkScholarship)
-// router.get('/bookmarks/mentoring', clientController.getAllBookmarkMentoring)
+router.get('/bookmarks/scholarships', clientController.getAllBookmarkScholarship)
+router.get('/bookmarks/mentoring', clientController.getAllBookmarkMentoring)
 
 
 
