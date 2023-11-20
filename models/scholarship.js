@@ -27,6 +27,7 @@ module.exports = (sequelize, DataTypes) => {
       links: DataTypes.TEXT,
       degrees: DataTypes.ARRAY(DataTypes.STRING),
       countries: DataTypes.ARRAY(DataTypes.STRING),
+      countryCode: DataTypes.STRING,
       gpaRequirement: DataTypes.STRING,
     },
     {

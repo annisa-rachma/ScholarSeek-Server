@@ -66,6 +66,9 @@ module.exports = {
       countries: {
         type: Sequelize.ARRAY(Sequelize.STRING)
       },
+      countryCode: {
+        type: Sequelize.STRING
+      },
       gpaRequirement: {
         type: Sequelize.STRING
       },

@@ -237,7 +237,7 @@ class clientController {
       const page =
         req.query.page && !isNaN(req.query.page) ? +req.query.page : 1;
       const size =
-        req.query.size && !isNaN(req.query.size) ? +req.query.size : 6;
+        req.query.size && !isNaN(req.query.size) ? +req.query.size : 8;
 
       const option = {
         offset: (page - 1) * size,
@@ -340,6 +340,7 @@ class clientController {
         isFullyFunded: data.isFullyFunded,
         degrees: data.degrees,
         countries: data.countries,
+        countryCode: data.countryCode,
         registrationOpen: data.registrationOpen,
         registrationDeadline: data.registrationDeadline,
         Detail: {
