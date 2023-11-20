@@ -13,7 +13,7 @@ router.get('/scholarships/:slug', clientController.getScholarshipsById)
 
 router.use(authentication)
 
-router.get('/profile/:userId', clientController.getProfileById)
+router.get('/profile/:slug', clientController.getProfileById)
 
 router.post('/scholarships/:slug/bookmarks', clientController.postBookmarkScholarship)
 

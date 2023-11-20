@@ -14,6 +14,7 @@ const { signToken } = require("../helpers/jwt");
 const cloudinary = require("../utils/cloudinary");
 const promisify = require("util.promisify");
 const { Op } = require("sequelize");
+const { formatDate, formatTime } = require("../helpers/dateFormat");
 const cloudinaryUpload = promisify(cloudinary.uploader.upload);
 
 class clientController {
@@ -37,6 +38,7 @@ class clientController {
         email: user.email,
         role: user.role,
         profileImg: user.profileImg,
+        slug: user.slug
       });
     } catch (err) {
       console.log(err);
@@ -214,7 +216,7 @@ class clientController {
   static async getProfileById(req, res, next) {
     try {
       const user = await User.findOne({
-        where: { id: req.params.userId },
+        where: { slug: req.params.slug },
         include: [
           {
             model: userSchool,
@@ -562,7 +564,7 @@ class clientController {
   // getAllMentoring
   static async getAllMentoring(req, res, next) {
     try {
-      const { count, rows } = await Mentoring.findAndCountAll({
+      let option = {
         include: [
           {
             model: User,
@@ -580,13 +582,31 @@ class clientController {
             include: [
               {
                 model: userSchool,
-                
               }
             ],
           }
         ],
-      });
+      }
+      if (req.query.title)
+        option.where = {
+          title: {
+            [Op.iLike]: `%${req.query.title}%`,
+          },
+        };
+      let { count, rows } = await Mentoring.findAndCountAll(option);
       // const mentoring = await Mentoring.findAll();
+      rows = rows.map((el)=> {
+        return {
+          slug : el.slug,
+          imageUrl : el.imageUrl,
+          schedule : formatDate(el.schedule),
+          hour : el.hour,
+          title : el.title,
+          name : `${el.User.firstName} ${el.User.lastName}`,
+          profileImg : el.User.profileImg,
+          status : `Awardee ${el.User.userSchools[0].scholarship}`
+        }
+      })
       res.status(200).json({ mentoring: rows, totalMentoring: count });
     } catch (err) {
       console.log(err)
@@ -597,7 +617,7 @@ class clientController {
   // getMentoringById
   static async getMentoringById(req, res, next) {
     try {
-      const mentoring = await Mentoring.findAll({
+      const mentoring = await Mentoring.findOne({
         where: { slug: req.params.slug },
         include: [
           {
@@ -613,10 +633,64 @@ class clientController {
                 "isAwardeeValidate",
               ],
             },
+            include: [
+              {
+                model: userSchool,
+              }
+            ],
+          }, {
+            model : MentoringSessions, 
+            attributes : {
+              exclude : [
+                "createdAt",
+                  "updatedAt",
+              ]
+            },
+            include : [
+              {
+                model: User,
+                attributes: {
+                exclude: [
+                  "createdAt",
+                  "updatedAt",
+                  "password",
+                  "email",
+                  "linkedinUrl",
+                  "description",
+                  "isAwardeeValidate",
+                  "firstName",
+                  "lastName",
+                  "slug",
+                  "role"
+                  ],
+                },
+              }
+            ]
           }
         ],
       });
-      res.status(200).json(mentoring);
+      let atendees = mentoring.MentoringSessions.map((el) => {
+        return el.User.profileImg
+      })
+      if(atendees.length>4) {
+        atendees.slice(0, 4)
+      }
+
+      // console.log(atendees)
+      
+      let result = {
+        title : mentoring.title,
+        date : formatDate(mentoring.schedule),
+        time : mentoring.hour,
+        imageUrl : mentoring.imageUrl,
+        profilePicture : mentoring.User.profileImg,
+        username : `${mentoring.User.firstName} ${mentoring.User.lastName}`,
+        status : `Awardee ${mentoring.User.userSchools[0].scholarship}`,
+        topics : mentoring.topik,
+        totalAtendees : mentoring.MentoringSessions.length,
+        atendees : atendees
+      }
+      res.status(200).json(result);
     } catch (err) {
       console.log(err)
       next(err);
@@ -688,9 +762,26 @@ class clientController {
     try {
       const bookmarkScholarship = await BookmarkScholarship.findAll({ 
         where: { UserId: req.user.id },
+        include : [
+          {
+            model : Scholarship
+          }
+        ],
         order: [["id"]] 
       });
-      res.status(200).json(bookmarkScholarship);
+      let result = bookmarkScholarship.map((el) => {
+        return {
+          isFullyFunded : el.Scholarship.isFullyFunded,
+          name : el.Scholarship.name,
+          slug : el.Scholarship.slug,
+          registrationOpen : el.Scholarship.registrationOpen,
+          registrationDeadline : el.Scholarship.registrationDeadline,
+          degrees : el.Scholarship.degrees,
+          countries : el.Scholarship.countries,
+          countryCode : el.Scholarship.countryCode,
+        }
+      })
+      res.status(200).json(result);
     } catch (err) {
       next(err);
     }
