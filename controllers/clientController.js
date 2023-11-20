@@ -562,9 +562,32 @@ class clientController {
   // getAllMentoring
   static async getAllMentoring(req, res, next) {
     try {
-
-      const mentoring = await Mentoring.findAll();
-      res.status(200).json(mentoring);
+      const { count, rows } = await Mentoring.findAndCountAll({
+        include: [
+          {
+            model: User,
+            attributes: {
+              exclude: [
+                "createdAt",
+                "updatedAt",
+                "password",
+                "email",
+                "linkedinUrl",
+                "description",
+                "isAwardeeValidate",
+              ],
+            },
+            include: [
+              {
+                model: userSchool,
+                
+              }
+            ],
+          }
+        ],
+      });
+      // const mentoring = await Mentoring.findAll();
+      res.status(200).json({ mentoring: rows, totalMentoring: count });
     } catch (err) {
       console.log(err)
       next(err);
