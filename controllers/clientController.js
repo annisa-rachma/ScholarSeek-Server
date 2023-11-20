@@ -5,7 +5,9 @@ const {
   Comment,
   BookmarkThread,
   sequelize,
-  Scholarship
+  Scholarship,
+  Mentoring,
+  MentoringSessions
 } = require("../models");
 const { comparePassword } = require("../helpers/bcrypt");
 const { signToken } = require("../helpers/jwt");
@@ -546,7 +548,78 @@ class clientController {
     }
   }
 
+  static async postMentoring(req, res, next) {
+    try {
+
+      await Mentoring.create({ ...req.body, CreatorId: req.user.id });
+      res.status(201).json({ message: `Successfully added new Mentoring Session` });
+    } catch (err) {
+      console.log(err)
+      next(err);
+    }
+  }
   
+  // getAllMentoring
+  static async getAllMentoring(req, res, next) {
+    try {
+
+      const mentoring = await Mentoring.findAll();
+      res.status(200).json(mentoring);
+    } catch (err) {
+      console.log(err)
+      next(err);
+    }
+  }
+
+  // getMentoringById
+  static async getMentoringById(req, res, next) {
+    try {
+      const mentoring = await Mentoring.findAll({
+        where: { slug: req.params.slug },
+        include: [
+          {
+            model: User,
+            attributes: {
+              exclude: [
+                "createdAt",
+                "updatedAt",
+                "password",
+                "email",
+                "linkedinUrl",
+                "description",
+                "isAwardeeValidate",
+              ],
+            },
+          }
+        ],
+      });
+      res.status(200).json(mentoring);
+    } catch (err) {
+      console.log(err)
+      next(err);
+    }
+  }
+
+  // postBookmarkMentoring
+  static async postBookmarkMentoring(req, res, next) {
+    try {
+      // console.log('<<<masuk')
+      const { slug } = req.params;
+      // console.log(req.params.threadsId)
+      const mentoring = await Mentoring.findAll({
+        where: { slug }
+      });
+      // console.log(mentoring[0].id, '<<<<<')
+      // console.log(mentoring.dataValues.id, "<<<<<")
+      await MentoringSessions.create({ UserId: req.user.id, MentoringId: mentoring[0].id });
+      res
+        .status(201)
+        .json({ message: `Successfully join mentoring session` });
+    } catch (err) {
+      console.log(err)
+      next(err);
+    }
+  }
 }
 
 module.exports = clientController;
