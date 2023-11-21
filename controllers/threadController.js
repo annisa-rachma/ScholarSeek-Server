@@ -47,7 +47,7 @@ module.exports = class ThreadController {
         try {
             const threads = await Thread.findAll(option)
             const datas = threads
-            console.log(datas)
+            // console.log(datas)
             res.status(200).json({ datas, totalData: threads.length })
         } catch (err) {
             console.log(err)

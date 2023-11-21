@@ -119,7 +119,7 @@ module.exports = class MentoringController {
             })
             // console.log(atendees)
 
-            // console.log(mentoring.status)
+            // console.log(mentoring)
             let result = {
                 title: mentoring.title,
                 CreatorId: mentoring.CreatorId,
@@ -134,7 +134,8 @@ module.exports = class MentoringController {
                 atendeesImage: atendeesImage,
                 atendees: atendees,
                 slug: mentoring.slug,
-                mentoringStatus : mentoring.status
+                mentoringStatus : mentoring.status,
+                quota : mentoring.quota
             }
             res.status(200).json(result)
         } catch (err) {
