@@ -4,8 +4,8 @@ const { Op } = require("sequelize")
 
 module.exports = class ScholarshipController {
     static async getAllScholarships(req, res, next) {
-        const { page, size, name, degrees, isFullyFunded, country } = req.query
-
+        const { page, size, name, degrees, isFullyFunded, countries } = req.query
+        console.log(req.query, 'INI QUERYNYA BRO')
         const { offset, limit } = getPagination(page, size)
 
         const QUERY_OPTION = {
@@ -27,7 +27,7 @@ module.exports = class ScholarshipController {
             order: [["id", "ASC"]],
         }
 
-        if (name || degrees || isFullyFunded || country) QUERY_OPTION.where = {}
+        if (name || degrees || isFullyFunded || countries) QUERY_OPTION.where = {}
 
         if (name) QUERY_OPTION.where.name = { [Op.iLike]: `%${name}%` }
 
@@ -38,6 +38,11 @@ module.exports = class ScholarshipController {
             const degreeArr = degrees.split(",")
             if (degreeArr.length)
                 QUERY_OPTION.where.degrees = { [Op.contains]: degreeArr }
+        }
+        if (countries) {
+            const countriesArr = countries.split(",").map(el => el.charAt(0).toUpperCase() + el.slice(1))
+            if (countriesArr.length)
+            QUERY_OPTION.where.countries = { [Op.contains]: countriesArr }
         }
         try {
             const { count, rows } = await Scholarship.findAndCountAll(
