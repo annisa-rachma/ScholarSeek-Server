@@ -52,23 +52,20 @@ class adminController {
 
   static async getAllScholarships(req, res, next) {
     try {
-      const page =
-        req.query.page && !isNaN(req.query.page) ? +req.query.page : 1;
-      const size =
-        req.query.size && !isNaN(req.query.size) ? +req.query.size : 5;
+      // const page =
+      //   req.query.page && !isNaN(req.query.page) ? +req.query.page : 1;
+      // const size =
+      //   req.query.size && !isNaN(req.query.size) ? +req.query.size : 10;
 
       const option = {
-        offset: (page - 1) * size,
-        limit: size,
+        // offset: (page - 1) * size,
+        // limit: size,
         where: {},
         order: [["id", "ASC"]],
         attributes: {
           exclude: [
             "description",
-            "links",
             "gpaRequirement",
-            "isOpen",
-            "university",
             "ageRequirement",
             "major",
             "benefit",
@@ -127,7 +124,7 @@ class adminController {
           };
         }
       }
-      console.log(option, "INI OPTIONNYA BOSS");
+      // console.log(option, "INI OPTIONNYA BOSS");
 
       const { count, rows } = await Scholarship.findAndCountAll(option);
 
@@ -228,6 +225,7 @@ class adminController {
     }
   }
   static async putScholarshipsById(req, res, next) {
+    console.log(req.body, 'INI BODY FFORM');
     try {
       // console.log(req.params.slug, "ini params <<<<<<<<");
       const scholarship = await Scholarship.findOne({
@@ -235,7 +233,7 @@ class adminController {
       });
       if (!scholarship) throw { name: "NotFound" };
       console.log(scholarship, "<<<<<<");
-      const booleanFields = ["isFullyFunded"];
+      // const booleanFields = ["isFullyFunded"];
       const currentDate = new Date();
       const registrationDeadline = new Date(req.body.registrationDeadline);
       const isOpen = registrationDeadline >= currentDate;
@@ -259,9 +257,9 @@ class adminController {
           data[field] = req.body[field];
         }
       });
-      booleanFields.forEach((field) => {
-        data[field] = req.body[field] === "Fully Funded";
-      });
+      // booleanFields.forEach((field) => {
+      //   data[field] = req.body[field] === "Fully Funded";
+      // });
 
       const result = await Scholarship.update(
         {

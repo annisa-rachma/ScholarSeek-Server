@@ -5,7 +5,7 @@ const { authentication } = require('../middlewares/authentication')
 
 router.post('/login', adminController.loginUser)
 
-router.use(authentication)
+// router.use(authentication)
 
 router.post('/register', adminController.registerUser)
 
