@@ -2,19 +2,37 @@
     {
         "CreatorId" : 2,
         "title": "Tips Menulis Essay Beasiswa",
-        "schedule" : "2023-11-20T00:00:00.000Z",
+        "schedule" : "2023-11-25T00:00:00.000Z",
         "hour" : "20:00:00",
         "quota" : 20,
         "topik" : ["Beasiswa", "essay"],
-        "imageUrl" : "https://i.pinimg.com/564x/0f/95/08/0f9508cffb40a3160e893681a5b7da2a.jpg"
+        "imageUrl" : "https://i.pinimg.com/564x/e8/20/bb/e820bbe6a09672b4f893ca5a152d3703.jpg"
     },
     {
         "CreatorId" : 2,
         "title": "All About Australia Award Scholarship",
-        "schedule" : "2023-11-20T00:00:00.000Z",
+        "schedule" : "2023-11-25T00:00:00.000Z",
         "hour" : "20:00:00",
         "quota" : 20,
         "topik" : ["Beasiswa", "essay"],
-        "imageUrl" : "https://i.pinimg.com/564x/a3/b2/b8/a3b2b8ec4dfc64fb614dd18359bff149.jpg"
+        "imageUrl" : "https://i.pinimg.com/564x/83/4f/bd/834fbd6e46d428d491356a7d7a2f2d76.jpg"
+    },
+    {
+        "CreatorId" : 5,
+        "title": "Informasi beasiswa MEXT",
+        "schedule" : "2023-11-25T00:00:00.000Z",
+        "hour" : "20:00:00",
+        "quota" : 20,
+        "topik" : ["Beasiswa", "essay"],
+        "imageUrl" : "https://i.pinimg.com/564x/91/ee/ee/91eeee712b5f407061bd2a7fbb647dd0.jpg"
+    },
+    {
+        "CreatorId" : 2,
+        "title": "Tips & Trick Lolos LPDP",
+        "schedule" : "2023-11-25T00:00:00.000Z",
+        "hour" : "20:00:00",
+        "quota" : 20,
+        "topik" : ["Beasiswa", "essay"],
+        "imageUrl" : "https://i.pinimg.com/564x/96/33/86/96338672aa41abc3be1a7ad9ffa02d79.jpg"
     }
 ]

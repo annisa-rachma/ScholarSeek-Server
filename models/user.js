@@ -42,6 +42,18 @@ module.exports = (sequelize, DataTypes) => {
     slug :{
       type: DataTypes.STRING,
     },
+    username: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notNull: {
+          msg : "Password is required"
+        },
+        notEmpty: {
+          msg : "Password is required"
+        }
+      }
+    },
     email: {
       type: DataTypes.STRING,
       allowNull: false,

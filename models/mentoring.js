@@ -12,6 +12,7 @@ module.exports = (sequelize, DataTypes) => {
   Mentoring.init({
     CreatorId: DataTypes.INTEGER,
     title: DataTypes.STRING,
+    description:DataTypes.TEXT,
     slug:DataTypes.STRING,
     schedule: DataTypes.DATE,
     hour: DataTypes.TIME,
