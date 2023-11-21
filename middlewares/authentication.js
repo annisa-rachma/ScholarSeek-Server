@@ -2,6 +2,8 @@ const { verifyToken } = require('../helpers/jwt')
 const {User} = require('../models')
 
 const authentication = async (req, res, next) => {
+    console.log(req.headers)
+    console.log(req.headers.access_token, 'INI ACCES TOKEN')
     try {
         const {access_token} = req.headers
         if(!access_token) throw {name : "InvalidToken"}
