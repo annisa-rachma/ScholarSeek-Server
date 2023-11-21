@@ -276,7 +276,7 @@ class adminController {
         }
       );
       console.log(result);
-      res.status(200).json({
+      res.status(201).json({
         message: `Your Scholarship id ${scholarship.id} has been updated`,
       });
     } catch (err) {
@@ -289,6 +289,7 @@ class adminController {
       const data = await Scholarship.findOne({
         where: { slug: req.params.slug },
       });
+      if (!data) throw { name: "NotFound" };
       await Scholarship.destroy({ where: { slug: req.params.slug } });
       res.status(200).json({ message: `${data.name} success to delete` });
     } catch (err) {

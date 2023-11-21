@@ -61,20 +61,19 @@ class clientController {
       let profileImg = "";
 
       if (!linkedinUrl) {
-        return res
-          .status(400)
-          .json({ message: "please fill in the linkedin link" });
+        throw { name: "ErrorClientRegister" }
       }
       if (!school || !major || !scholarship || !year) {
-        return res
-          .status(400)
-          .json({ message: "please fill in the input field" });
+        throw { name: "ErrorClientRegister2" }
       }
 
       try {
-        const result = await cloudinaryUpload(req.file.path, {
-          transaction: t,
-        });
+        const result = await cloudinaryUpload(req.file.path
+          // , 
+          //   {
+          //   transaction: t,
+          // }
+        );
         // console.log(result);
         profileImg = result.url;
         // console.log(profileImg);
@@ -86,9 +85,9 @@ class clientController {
         });
       }
 
-      if (profileImg == "") {
-        profileImg = "https://source.boringavatars.com/beam/40/bryan";
-      }
+      // if (profileImg == "") {
+      //   profileImg = "https://source.boringavatars.com/beam/40/bryan";
+      // }
 
       const user = await User.create(
         {
@@ -156,10 +155,11 @@ class clientController {
 
       let profileImg = "";
 
+      if (!linkedinUrl) {
+        throw { name: "ErrorClientRegister" }
+      }
       if (!school || !major || !year) {
-        return res
-          .status(400)
-          .json({ message: "please fill in the input field" });
+        throw { name: "ErrorClientRegister2" }
       }
       try {
         const result = await cloudinaryUpload(req.file.path, {
@@ -176,9 +176,9 @@ class clientController {
         });
       }
 
-      if (profileImg == "") {
-        profileImg = "https://source.boringavatars.com/beam/40/bryan";
-      }
+      // if (profileImg == "") {
+      //   profileImg = "https://source.boringavatars.com/beam/40/bryan";
+      // }
 
       const user = await User.create(
         {
@@ -370,10 +370,10 @@ class clientController {
   }
 
   static async getAllThreads(req, res, next) {
-    const { search, page } = req.query;
+    const { search } = req.query;
 
-    let limit;
-    let offset;
+    // let limit;
+    // let offset;
 
     const option = {
       where: { isActive: true },
@@ -445,6 +445,7 @@ class clientController {
 
   static async getThreadsById(req, res, next) {
     try {
+      console.log("HELO GET THREAD BY ID");
       const thread = await Thread.findOne({
         where: { id: req.params.threadsId },
         include: [
@@ -487,6 +488,7 @@ class clientController {
           exclude: ["updatedAt"],
         },
       });
+      thread.dataValues.SUCCES = "ANJING LAH"
       res.status(200).json(thread);
     } catch (err) {
       console.log(err);
@@ -513,6 +515,7 @@ class clientController {
       });
       res.status(201).json({ message: `Successfully added new comment` });
     } catch (err) {
+      console.log(err);
       next(err);
     }
   }
@@ -534,9 +537,9 @@ class clientController {
 
   static async getAllBookmarkThreads(req, res, next) {
     try {
-      const bookmarkThreads = await BookmarkThread.findAll({ 
+      const bookmarkThreads = await BookmarkThread.findAll({
         where: { UserId: req.user.id },
-        order: [["id"]] 
+        order: [["id"]]
       });
       res.status(200).json(bookmarkThreads);
     } catch (err) {
@@ -544,7 +547,7 @@ class clientController {
     }
   }
 
-  
+
 }
 
 module.exports = clientController;

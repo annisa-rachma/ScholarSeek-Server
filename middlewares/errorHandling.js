@@ -1,32 +1,38 @@
 const errHandler = (err, req, res, next) => {
-    switch(err.name) {
-        case "SequelizeValidationError" :
+    switch (err.name) {
+        case "SequelizeValidationError":
         case "SequelizeUniqueConstraintError":
-            res.status(400).json({message : err.errors[0].message})
+            res.status(400).json({ message: err.errors[0].message })
             break;
-        case "InvalidInput" :
-            res.status(400).json({message : "Email or Password cannot empty"});
+        case "InvalidInput":
+            res.status(400).json({ message: "Email or Password cannot empty" });
             break;
-        case "InvalidEmail/Password" :
-            res.status(401).json({message : "Invalid email or password"});
+        case "InvalidEmail/Password":
+            res.status(401).json({ message: "Invalid email or password" });
             break;
-        case "NotFound" :
-            res.status(404).json({message: "Lodging not found"})
+        case "NotFound":
+            res.status(404).json({ message: "Lodging not found" })
             break;
-        case "AlreadyBookmarked" :
-            res.status(400).json({message : "Lodging already bookmarked"});
+        // case "AlreadyBookmarked" :
+        //     res.status(400).json({message : "Lodging already bookmarked"});
+        //     break;
+        case "JsonWebTokenError":
+        case "InvalidToken":
+            res.status(401).json({ message: "Invalid Token" });
             break;
-        case "JsonWebTokenError" :
-        case "InvalidToken" : 
-            res.status(401).json({message : "Invalid Token"});
+        case "ErrorClientRegister":
+            res.status(400).json({ message: "please fill in the linkedin link" });
             break;
-        case "Forbidden" :
-            res.status(403).json({message : "Forbidden"});
+        case "ErrorClientRegister2":
+            res.status(400).json({ message: "please fill in the input field" });
             break;
-        default :
+        // case "Forbidden" :
+        //     res.status(403).json({message : "Forbidden"});
+        //     break;
+        default:
             console.log(err.name)
-            res.status(500).json({message: "Internal Server Error"})
+            res.status(500).json({ message: "Internal Server Error" })
     }
 }
 
-module.exports = {errHandler}
+module.exports = { errHandler }
