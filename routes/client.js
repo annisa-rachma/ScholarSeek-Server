@@ -30,9 +30,9 @@ router.post('/threads/:threadsId/bookmarks', UserController.postBookmarkThreads)
 // router.put('/comments/:commentId, clientController.putLikeDislikeComments)
 
 router.get('/mentoring', MentoringController.getAllMentoring)
-router.post('/mentoring', MentoringController.postMentoring)
+router.post('/mentoring', multer.single('image'), MentoringController.postMentoring)
 router.get('/mentoring/:slug', MentoringController.getMentoringById)
-router.post('/mentoring/:slug', multer.single('image'), UserController.postBookmarkMentoring)
+router.post('/mentoring/:slug',  UserController.postBookmarkMentoring)
 router.put('/mentoring/:slug', MentoringController.editStatusMentoring)
 
 router.get('/bookmarks/thread', UserController.getAllBookmarkThreads)

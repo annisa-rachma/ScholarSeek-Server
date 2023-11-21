@@ -1,7 +1,9 @@
-const { Mentoring, User, userSchool, MentoringSessions } = require("../models")
+const { Mentoring, User, userSchool, MentoringSessions, sequelize } = require("../models")
 const formatDate = require("../helpers/formatDate")
 const { Op } = require("sequelize")
-
+const cloudinary = require("../utils/cloudinary")
+const promisify = require("util.promisify")
+const cloudinaryUpload = promisify(cloudinary.uploader.upload)
 module.exports = class MentoringController {
     static async getAllMentoring(req, res, next) {
         try {
@@ -145,13 +147,40 @@ module.exports = class MentoringController {
     }
 
     static async postMentoring(req, res, next) {
+        const t = await sequelize.transaction()
         try {
-            await Mentoring.create({ ...req.body, CreatorId: req.user.id })
+            const{title, description,schedule, hour, quota, topik} = req.body
+            // imageUrl
+            let bannerImage = ""
+
+            try {
+                const result = await cloudinaryUpload(req.file.path, {
+                    transaction: t,
+                })
+                bannerImage = result.url
+            } catch (err) {
+                console.log(err)
+                return res.status(500).json({
+                    success: false,
+                    message: "Error",
+                })
+            }
+
+            if (bannerImage == "") {
+                bannerImage = "https://i.pinimg.com/564x/5c/22/37/5c2237f4360dadbcdae3887711877963.jpg"
+            }
+
+            const mentoring = await Mentoring.create({ ...req.body, imageUrl: bannerImage ,CreatorId: req.user.id },  { transaction: t })
+
+            await MentoringSessions.create({UserId: req.user.id, MentoringId: mentoring.id}, { transaction: t })
+
+            t.commit()
             res.status(201).json({
                 message: `Successfully added new Mentoring Session`,
             })
         } catch (err) {
             console.log(err)
+            t.rollback()
             next(err)
         }
     }
