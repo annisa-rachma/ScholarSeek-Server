@@ -1,31 +1,40 @@
 const express = require('express')
 const router = express.Router()
 const clientController = require('../controllers/clientController')
-// const { authentication } = require('../middlewares/authentication')
-// const { authorization, authorizationForStatus } = require('../middlewares/authorization')
+const { authentication } = require('../middlewares/authentication')
+const multer = require('../middlewares/multer')
 
+router.post('/login', clientController.loginUser)
+router.post('/register/awardee', multer.single('image'), clientController.registerUserAwardee)
+router.post('/register/mentee', multer.single('image'), clientController.registerUserMentee)
 
-// router.post('/login', clientController.loginUser)
-// router.post('/register', clientController.registerUser)
-// router.post('/google-signin', clientController.loginGoogle)
+router.get('/scholarships', clientController.getAllScholarships)
+router.get('/scholarships/:slug', clientController.getScholarshipsById)
 
-// router.get('/scholarships', clientController.getAllScholarships)
-// router.get('/scholarships/:scholarshipId', clientController.getScholarshipsById)
+router.use(authentication)
 
-// router.use(authentication)
+router.get('/profile/:userId', clientController.getProfileById)
 
+// router.post('/bookmarks/:scholarshipId/bookmarks', clientController.postBookmarkScholarship)
 
-// router.get('/threads', clientController.getAllThreads)
-// router.get('/threads/:threadsId', clientController.getThreadsById) //include comments
+router.get('/threads', clientController.getAllThreads)
+router.post('/threads', clientController.postThreads)
+router.get('/threads/:threadsId', clientController.getThreadsById) //include comments
+// router.put('/threads/:threadsId, clientController.putLikeDislikeThreads)
+router.post('/threads/:threadsId/comment', clientController.postComments)
+router.post('/threads/:threadsId/bookmarks', clientController.postBookmarkThreads)
+// router.put('/comments/:commentId, clientController.putLikeDislikeComments)
 
 // router.get('/mentoring', clientController.getAllMentoring)
+// router.post('/mentoring', clientController.postMentoring)
 // router.get('/mentoring/:mentoringId', clientController.getMentoringById)
+// router.post('/mentoring/:mentoringId/bookmarks', clientController.postBookmarkMentoring)
 
-// router.get('/profile/:userId', clientController.getProfileById)
-
+router.get('/bookmarks/thread', clientController.getAllBookmarkThreads)
 // router.get('/bookmarks/scholarships', clientController.getAllBookmarkScholarship)
-// router.get('/bookmarks/threads', clientController.getAllBookmarkThreads)
 // router.get('/bookmarks/mentoring', clientController.getAllBookmarkMentoring)
+
+
 
 
 module.exports = router

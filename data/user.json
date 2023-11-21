@@ -1,0 +1,42 @@
+[
+    {
+        "firstName" : "admin1",
+        "lastName" : "admin1",
+        "email" : "admin1@mail.com",
+        "password" : "12345",
+        "role" : "admin",
+        "profileImg" : "https://xsgames.co/randomusers/avatar.php?g=male",
+        "isAwardeeValidate" : false
+    },
+    {
+        "firstName" : "awardee1",
+        "lastName" : "awardee1",
+        "email" : "awardee1@mail.com",
+        "password" : "12345",
+        "role" : "awardee",
+        "profileImg" : "https://xsgames.co/randomusers/avatar.php?g=male",
+        "linkedinUrl" : "linkedin.com/awardee1",
+        "description" : "Hey there! I'm Alex, and my academic journey has been quite the ride. I kicked things off at University College London (UCL), where I dove into the world of S2 studies. The vibrant atmosphere and top-notch education there laid the groundwork for what was to come. But the adventure didn't stop at UCL. I took the plunge into a Ph.D. at TU Delft, and let me tell you, it's been a whirlwind of research and innovation. Delft's dynamic research landscape has been the perfect playground for exploring the depths of my field.",
+        "isAwardeeValidate" : false
+    },
+    {
+        "firstName" : "mentee1",
+        "lastName" : "mentee1",
+        "email" : "mentee1@mail.com",
+        "password" : "12345",
+        "role" : "mentee",
+        "profileImg" : "https://xsgames.co/randomusers/avatar.php?g=female",
+        "description" : "Hey, I'm Sarah, currently immersing myself in the world of architecture at Institut Teknologi Bandung (ITB). The creative vibes here are incredible, fueling my passion for blending design and functionality. I'm all about envisioning spaces that go beyond the ordinary and finding innovative solutions. Keep an eye out—I'm on my way to leave my mark in the architecture scene, courtesy of ITB's inspiring program.",
+        "isAwardeeValidate" : false
+    },
+    {
+        "firstName" : "mentee2",
+        "lastName" : "mentee2",
+        "email" : "mentee2@mail.com",
+        "password" : "12345",
+        "role" : "mentee",
+        "profileImg" : "https://xsgames.co/randomusers/avatar.php?g=female",
+        "description" : "Hey, kndaln  kadlaml kancnacnols canncalmca cnackanalca",
+        "isAwardeeValidate" : false
+    }
+]
