@@ -230,7 +230,14 @@ class clientController {
         },
       });
       if (!user) throw { name: "NotFound" };
-      res.status(200).json(user);
+      let result = {
+        name : `${user.firstName} ${user.lastName}`,
+        profileImg : user.profileImg,
+        description : user.description,
+        schools : user.userSchools,
+        status : user.role == "awardee" ? `Awardee ${user.userSchools[0].scholarship}` : `Student at ${user.userSchools[0].school}`
+      }
+      res.status(200).json(result);
     } catch (err) {
       console.log(err);
       next(err);
@@ -669,13 +676,16 @@ class clientController {
           }
         ],
       });
-      let atendees = mentoring.MentoringSessions.map((el) => {
+      let atendeesImage = mentoring.MentoringSessions.map((el) => {
         return el.User.profileImg
       })
-      if(atendees.length>4) {
-        atendees.slice(0, 4)
+      if(atendeesImage.length>4) {
+        atendeesImage.slice(0, 4)
       }
 
+      let atendees = mentoring.MentoringSessions.map((el) => {
+        return el.User.id
+      })
       // console.log(atendees)
       
       let result = {
@@ -688,7 +698,9 @@ class clientController {
         status : `Awardee ${mentoring.User.userSchools[0].scholarship}`,
         topics : mentoring.topik,
         totalAtendees : mentoring.MentoringSessions.length,
-        atendees : atendees
+        atendeesImage : atendeesImage,
+        atendees : atendees,
+        slug : mentoring.slug
       }
       res.status(200).json(result);
     } catch (err) {
@@ -703,20 +715,28 @@ class clientController {
       // console.log('<<<masuk')
       const { slug } = req.params;
       // console.log(req.params.threadsId)
-      const mentoring = await Mentoring.findAll({
+      const mentoring = await Mentoring.findOne({
         where: { slug }
       });
 
       const bookmarkMentoring = await MentoringSessions.findAll({ 
-        where: { UserId: req.user.id },
+        where: { UserId: req.user.id, MentoringId : mentoring.id},
         order: [["id"]] 
       });
-      if(bookmarkMentoring) {
+      // console.log(mentoring.id, '<<< mentoring')
+      console.log(bookmarkMentoring.length, "<<<<")
+      // if(bookmarkMentoring[0].MentoringId == mentoring.id) {
+      //   return res.status(400).json({message: "already booked this session"})
+      // }
+      if(bookmarkMentoring.length == 0) {
+        await MentoringSessions.create({ UserId: req.user.id, MentoringId: mentoring.id });
+
+      } else {
         return res.status(400).json({message: "already booked this session"})
+
       }
       // console.log(mentoring[0].id, '<<<<<')
       // console.log(mentoring.dataValues.id, "<<<<<")
-      await MentoringSessions.create({ UserId: req.user.id, MentoringId: mentoring[0].id });
       res
         .status(201)
         .json({ message: `Successfully join mentoring session` });
