@@ -119,8 +119,10 @@ module.exports = class MentoringController {
             })
             // console.log(atendees)
 
+            // console.log(mentoring.status)
             let result = {
                 title: mentoring.title,
+                CreatorId: mentoring.CreatorId,
                 date: formatDate(mentoring.schedule),
                 time: mentoring.hour,
                 imageUrl: mentoring.imageUrl,
@@ -132,6 +134,7 @@ module.exports = class MentoringController {
                 atendeesImage: atendeesImage,
                 atendees: atendees,
                 slug: mentoring.slug,
+                mentoringStatus : mentoring.status
             }
             res.status(200).json(result)
         } catch (err) {
@@ -145,6 +148,18 @@ module.exports = class MentoringController {
             await Mentoring.create({ ...req.body, CreatorId: req.user.id })
             res.status(201).json({
                 message: `Successfully added new Mentoring Session`,
+            })
+        } catch (err) {
+            console.log(err)
+            next(err)
+        }
+    }
+
+    static async editStatusMentoring(req, res, next) {
+        try {
+            const mentoring = await Mentoring.update({ status: 'ongoing' }, {where : {slug: req.params.slug }})
+            res.status(201).json({
+                message: `Successfully updated mentoring status`
             })
         } catch (err) {
             console.log(err)

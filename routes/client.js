@@ -33,6 +33,7 @@ router.get('/mentoring', MentoringController.getAllMentoring)
 router.post('/mentoring', MentoringController.postMentoring)
 router.get('/mentoring/:slug', MentoringController.getMentoringById)
 router.post('/mentoring/:slug', UserController.postBookmarkMentoring)
+router.put('/mentoring/:slug', MentoringController.editStatusMentoring)
 
 router.get('/bookmarks/thread', UserController.getAllBookmarkThreads)
 router.get('/bookmarks/scholarships', UserController.getAllBookmarkScholarship)
