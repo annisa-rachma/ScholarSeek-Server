@@ -5,7 +5,6 @@ const { Op } = require("sequelize")
 module.exports = class ScholarshipController {
     static async getAllScholarships(req, res, next) {
         const { page, size, name, degrees, isFullyFunded, countries } = req.query
-        console.log(req.query, 'INI QUERYNYA BRO')
         const { offset, limit } = getPagination(page, size)
 
         const QUERY_OPTION = {
