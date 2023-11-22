@@ -261,6 +261,8 @@ module.exports = class UserController {
                 ],
                 order: [["id"]],
             })
+            // console.log(bookmarkScholarship, '<<<< INI RESULTLTLT')
+
             let result = bookmarkScholarship.map((el) => {
                 return {
                     isFullyFunded: el.Scholarship.isFullyFunded,
@@ -273,6 +275,7 @@ module.exports = class UserController {
                     countryCode: el.Scholarship.countryCode,
                 }
             })
+            // console.log(result, '<<<< INI RESULTLTLT')
             res.status(200).json(result)
         } catch (err) {
             next(err)
