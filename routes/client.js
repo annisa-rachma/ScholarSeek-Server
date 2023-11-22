@@ -25,11 +25,11 @@ router.post('/scholarships/:slug', UserController.postBookmarkScholarship)
 
 router.get('/threads', ThreadController.getAllThreads)
 router.post('/threads', ThreadController.postThreads)
-router.get('/threads/:threadsId', ThreadController.getThreadsById) //include comments
-// router.put('/threads/:threadsId, clientController.putLikeDislikeThreads)
-router.post('/threads/:threadsId/comment', CommentContoroller.postComments)
-router.post('/threads/:threadsId/bookmarks', UserController.postBookmarkThreads)
-// router.put('/comments/:commentId, clientController.putLikeDislikeComments)
+router.get('/threads/:slug', ThreadController.getThreadsById) //include comments
+// router.put('/threads/:slug, clientController.putLikeDislikeThreads)
+router.post('/threads/:slug/comment', CommentContoroller.postComments)
+router.post('/threads/:slug/bookmarks', UserController.postBookmarkThreads)
+// router.put('/comments/:slug, clientController.putLikeDislikeComments)
 
 router.get('/mentoring', MentoringController.getAllMentoring)
 router.post('/mentoring', multer.single('image'), MentoringController.postMentoring)

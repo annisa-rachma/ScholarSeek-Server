@@ -45,7 +45,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     hooks: {
       beforeCreate: (el) => {
-        el.slug = el.title.toLowerCase().split(' ').join('-')
+        el.slug = el.title.toLowerCase().replace(/[^a-z0-9\s]+/g, '').replaceAll(' ','-')
         el.like = el.dislike = 0
         el.isActive = true
       }
