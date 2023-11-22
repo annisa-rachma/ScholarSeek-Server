@@ -53,6 +53,7 @@ module.exports = class UserController {
             const {
                 firstName,
                 lastName,
+                username,
                 email,
                 password,
                 linkedinUrl,
@@ -61,7 +62,7 @@ module.exports = class UserController {
                 major,
                 scholarship,
                 year,
-            } = req.body
+            } = JSON.parse(req.body.input)
             let profileImg = ""
 
             if (!linkedinUrl) {
@@ -97,6 +98,7 @@ module.exports = class UserController {
             const user = await User.create(
                 {
                     firstName,
+                    username,
                     lastName,
                     email,
                     password,
@@ -146,6 +148,7 @@ module.exports = class UserController {
         const t = await sequelize.transaction()
         try {
             const {
+                username,
                 firstName,
                 lastName,
                 email,
@@ -155,12 +158,13 @@ module.exports = class UserController {
                 year,
                 linkedinUrl,
                 description,
-            } = req.body
+            } = JSON.parse(req.body.input)
             //   console.log(req.body)
-
+            // let input = JSON.parse(req.body.input)
+            // console.log(input, "<<<<")
             let profileImg = ""
 
-            if (!school || !major || !year) {
+            if (!school ) {
                 return res
                     .status(400)
                     .json({ message: "please fill in the input field" })
@@ -188,6 +192,7 @@ module.exports = class UserController {
                 {
                     firstName,
                     lastName,
+                    username,
                     email,
                     password,
                     role: "mentee",

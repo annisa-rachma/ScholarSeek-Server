@@ -1,6 +1,6 @@
 const { Op } = require("sequelize")
+const timeAgo = require("../helpers/timeAgo")
 const { User, Thread, Comment, Sequelize } = require("../models")
-
 module.exports = class ThreadController {
     static async getAllThreads(req, res, next) {
         const { search, page } = req.query
@@ -46,8 +46,13 @@ module.exports = class ThreadController {
 
         try {
             const threads = await Thread.findAll(option)
-            const datas = threads
-            // console.log(datas)
+            const datas = threads.map((el) => {
+                // el.createdAt = timeAgo(el.createdAt)
+                el.timeAgo = timeAgo(el.createdAt)
+                return el
+            })
+            console.log(datas)
+            console.log(timeAgo(datas[0].createdAt), '<<<')
             res.status(200).json({ datas, totalData: threads.length })
         } catch (err) {
             console.log(err)
@@ -57,8 +62,9 @@ module.exports = class ThreadController {
 
     static async getThreadsById(req, res, next) {
         try {
+            // console.log(req.params.slug, '<<<<')
             const thread = await Thread.findOne({
-                where: { id: req.params.threadsId },
+                where: { slug: req.params.slug },
                 include: [
                     {
                         model: User,
@@ -99,7 +105,18 @@ module.exports = class ThreadController {
                     exclude: ["updatedAt"],
                 },
             })
-            res.status(200).json(thread)
+            let obj = {
+                title : thread.title,
+                slug : thread.slug,
+                like : thread.like,
+                dislike : thread.dislike,
+                content : thread.content,
+                createdAt : timeAgo(thread.createdAt),
+                username : thread.User.username,
+                profileImg : thread.User.profileImg,
+                Comments : thread.Comments
+            }
+            res.status(200).json(obj)
         } catch (err) {
             console.log(err)
             next(err)
