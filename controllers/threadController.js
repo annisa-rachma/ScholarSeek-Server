@@ -9,7 +9,7 @@ module.exports = class ThreadController {
         let offset
 
         const option = {
-            where: { isActive: true },
+            // where: { isActive: true },
             include: [
                 {
                     model: User,
