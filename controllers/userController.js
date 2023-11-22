@@ -18,26 +18,27 @@ const { comparePassword } = require("../helpers/bcrypt")
 module.exports = class UserController {
     static async loginUser(req, res, next) {
         try {
-            // console.log(req.body);
             const { email, password } = req.body
             if (!email || !password) throw { name: "InvalidInput" }
 
-            const user = await User.findOne({ where: { email } })
-            if (!user) throw { name: "InvalidEmail/Password" }
+            const loggedInUser = await User.findOne({
+                where: { email },
+                attributes: ['password', 'id']
+            })
+            if (!loggedInUser) throw { name: "InvalidEmail/Password" }
 
-            const isValidPassword = comparePassword(password, user.password)
+            const isValidPassword = comparePassword(password, loggedInUser.password)
             if (!isValidPassword) throw { name: "InvalidEmail/Password" }
 
-            const access_token = signToken({ id: user.id })
-            res.status(200).json({
-                access_token,
-                id: user.id,
-                name: `${user.firstName} ${user.lastName}`,
-                email: user.email,
-                role: user.role,
-                profileImg: user.profileImg,
-                slug: user.slug,
+            const access_token = signToken({ id: loggedInUser.id })
+
+            const user = await User.findOne({
+                where: { email },
+                attributes: {exclude: ['password', 'createdAt', 'updatedAt']}
             })
+            res.status(200).json(
+                {access_token, user}
+            )
         } catch (err) {
             console.log(err)
             next(err)
@@ -229,6 +230,7 @@ module.exports = class UserController {
             })
             if (!user) throw { name: "NotFound" }
             let result = {
+                username: user.username,
                 name: `${user.firstName} ${user.lastName}`,
                 profileImg: user.profileImg,
                 description: user.description,

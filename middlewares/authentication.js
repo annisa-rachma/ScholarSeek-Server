@@ -9,18 +9,12 @@ const authentication = async (req, res, next) => {
         if(!access_token) throw {name : "InvalidToken"}
 
         const verify = verifyToken(access_token)
-        const user = await User.findByPk(verify.id)
+        const user = await User.findByPk(verify.id, {
+            attributes: {exclude: ['password', 'createdAt', 'updatedAt']}
+        })
         if(!user) throw {name : "InvalidToken"}
 
-
-
-        req.user = {
-            name: `${user.firstName} ${user.lastName}`,
-            role: user.role,
-            profileImg: user.profileImg,
-            slug: user.slug,
-            id: user.id,
-        }
+        req.user = user
         // console.log(req.user, '<<<req.user')
         next()
     } catch (err) {
