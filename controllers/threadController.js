@@ -51,8 +51,8 @@ module.exports = class ThreadController {
                 el.timeAgo = timeAgo(el.createdAt)
                 return el
             })
-            console.log(datas)
-            console.log(timeAgo(datas[0].createdAt), '<<<')
+            // console.log(datas)
+            // console.log(timeAgo(datas[0].createdAt), '<<<')
             res.status(200).json({ datas, totalData: threads.length })
         } catch (err) {
             console.log(err)
@@ -82,7 +82,7 @@ module.exports = class ThreadController {
                     },
                     {
                         model: Comment,
-                        order: [["createdAt"]],
+                        order: [["createdAt", 'DESC']],
                         include: [
                             {
                                 model: User,
@@ -105,6 +105,17 @@ module.exports = class ThreadController {
                     exclude: ["updatedAt"],
                 },
             })
+            let comments = thread.Comments.map((el) => {
+                return {
+                    username:el.User.username,
+                    profileImg:el.User.profileImg,
+                    createdAt: timeAgo(el.createdAt),
+                    like : el.like,
+                    dislike : el.dislike,
+                    content : el.content
+                };
+            })
+            // console.log(comments)
             let obj = {
                 title : thread.title,
                 slug : thread.slug,
@@ -114,7 +125,7 @@ module.exports = class ThreadController {
                 createdAt : timeAgo(thread.createdAt),
                 username : thread.User.username,
                 profileImg : thread.User.profileImg,
-                Comments : thread.Comments
+                Comments : comments
             }
             res.status(200).json(obj)
         } catch (err) {
