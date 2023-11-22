@@ -4,7 +4,7 @@ module.exports = class CommentContoroller {
     static async postComments(req, res, next) {
         try {
             // const { slug } = req.params
-            console.log(req.body)
+            // console.log(req.body)
             const thread = await Thread.findOne({
                 where: { slug: req.params.slug }})
             await Comment.create({

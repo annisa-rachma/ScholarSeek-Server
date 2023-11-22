@@ -37,7 +37,7 @@ module.exports = class ThreadController {
                 exclude: ["updatedAt"],
             },
             group: ["Comments.ThreadId", "Thread.id", "User.id"],
-            order: [["createdAt"]],
+            order: [["createdAt", "DESC"]],
         }
 
         if (search !== "" && typeof search !== "undefined") {
@@ -104,6 +104,7 @@ module.exports = class ThreadController {
                 attributes: {
                     exclude: ["updatedAt"],
                 },
+                order: [["createdAt", 'DESC']],
             })
             let comments = thread.Comments.map((el) => {
                 return {
@@ -139,6 +140,30 @@ module.exports = class ThreadController {
             await Thread.create({ ...req.body, UserId: req.user.id })
             res.status(201).json({ message: `Successfully added new thread` })
         } catch (err) {
+            next(err)
+        }
+    }
+
+    static async putLikeThreads(req, res, next) {
+        try {
+            await Thread.increment('like',{ by: 1 , where : {slug: req.params.slug }})
+            res.status(201).json({
+                message: `like`
+            })
+        } catch (err) {
+            console.log(err)
+            next(err)
+        }
+    }
+
+    static async putDislikeThreads(req, res, next) {
+        try {
+            await Thread.increment('dislike',{ by: 1 , where : {slug: req.params.slug }})
+            res.status(201).json({
+                message: `dislike`
+            })
+        } catch (err) {
+            console.log(err)
             next(err)
         }
     }
