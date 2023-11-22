@@ -151,6 +151,9 @@ module.exports = class MentoringController {
         try {
             const{title, description,schedule, hour, quota, topik} = req.body
             // imageUrl
+            let input = JSON.parse(req.body.input)
+            // console.log( JSON.parse(req.body.input), '<<<<<')
+            // console.log(req.file.path, '<<<path')
             let bannerImage = ""
 
             try {
@@ -170,7 +173,7 @@ module.exports = class MentoringController {
                 bannerImage = "https://i.pinimg.com/564x/5c/22/37/5c2237f4360dadbcdae3887711877963.jpg"
             }
 
-            const mentoring = await Mentoring.create({ ...req.body, imageUrl: bannerImage ,CreatorId: req.user.id },  { transaction: t })
+            const mentoring = await Mentoring.create({ ...input, imageUrl: bannerImage ,CreatorId: req.user.id },  { transaction: t })
 
             await MentoringSessions.create({UserId: req.user.id, MentoringId: mentoring.id}, { transaction: t })
 
