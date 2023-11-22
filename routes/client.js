@@ -17,6 +17,8 @@ router.get('/scholarships/:slug', ScholarshipController.getScholarshipsById)
 
 router.use(authentication)
 
+router.get('/profile', (req, res) => res.status(200).json(req.user))
+
 router.get('/profile/:slug', UserController.getProfileById)
 
 router.post('/scholarships/:slug', UserController.postBookmarkScholarship)

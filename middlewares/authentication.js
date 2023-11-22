@@ -12,7 +12,15 @@ const authentication = async (req, res, next) => {
         const user = await User.findByPk(verify.id)
         if(!user) throw {name : "InvalidToken"}
 
-        req.user = user
+
+
+        req.user = {
+            name: `${user.firstName} ${user.lastName}`,
+            role: user.role,
+            profileImg: user.profileImg,
+            slug: user.slug,
+            id: user.id,
+        }
         // console.log(req.user, '<<<req.user')
         next()
     } catch (err) {
