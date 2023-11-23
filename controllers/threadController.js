@@ -145,6 +145,7 @@ module.exports = class ThreadController {
     }
 
     static async putLikeThreads(req, res, next) {
+        console.log('KE LIKE BROOOO!')
         try {
             await Thread.increment('like',{ by: 1 , where : {slug: req.params.slug }})
             res.status(201).json({

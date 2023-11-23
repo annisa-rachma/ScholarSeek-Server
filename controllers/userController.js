@@ -3,10 +3,13 @@ const {
     userSchool,
     BookmarkThread,
     sequelize,
+    Comment,
     Scholarship,
     Mentoring,
     MentoringSessions,
+    Thread,
     BookmarkScholarship,
+    Sequelize,
 } = require("../models")
 const cloudinary = require("../utils/cloudinary")
 const promisify = require("util.promisify")
@@ -327,11 +330,77 @@ module.exports = class UserController {
     }
 
     static async getAllBookmarkThreads(req, res, next) {
+
+        const option = {
+            include: [
+                {
+                    model: User,
+                    attributes: {
+                        exclude: [
+                            "createdAt",
+                            "updatedAt",
+                            "password",
+                            "email",
+                            "linkedinUrl",
+                            "description",
+                            "isAwardeeValidate",
+                        ],
+                    },
+                },
+                { model: Comment, attributes: [] },
+            ],
+            attributes: {
+                include: [
+                    [
+                        Sequelize.fn("COUNT", "Comments.ThreadId"),
+                        "commentCount",
+                    ],
+                ],
+                exclude: ["updatedAt"],
+            },
+            group: ["Comments.ThreadId", "Thread.id", "User.id"],
+        }
+
         try {
             const bookmarkThreads = await BookmarkThread.findAll({
                 where: { UserId: req.user.id },
                 order: [["id"]],
+                include: [
+                    {
+                        model: User,
+                        attributes: {
+                            exclude: [
+                                "createdAt",
+                                "updatedAt",
+                                "password",
+                                "email",
+                                "linkedinUrl",
+                                "description",
+                                "isAwardeeValidate",
+                            ],
+                        },
+                    },
+                    {   
+                        model : Thread,
+                        include: [
+                            {model: Comment}
+                        ]
+                    }
+                    // { model: Comment, attributes: [] },
+                ],
+                
+                // attributes: {
+                //     include: [
+                //         [
+                //             Sequelize.fn("COUNT", "Comments.ThreadId"),
+                //             "commentCount",
+                //         ],
+                //     ],
+                //     exclude: ["updatedAt"],
+                // },
+                // group: ["Comments.ThreadId", "Thread.id", "User.id"],
             })
+            console.log(bookmarkThreads)
             res.status(200).json(bookmarkThreads)
         } catch (err) {
             next(err)
@@ -400,11 +469,12 @@ module.exports = class UserController {
     static async postBookmarkThreads(req, res, next) {
         try {
             // console.log('<<<masuk')
-            const { threadsId } = req.params
+            const { slug } = req.params
             // console.log(req.params.threadsId)
+            const thread = await Thread.findOne({where: {slug}})
             await BookmarkThread.create({
                 UserId: req.user.id,
-                ThreadId: threadsId,
+                ThreadId: thread.id,
             })
             res.status(201).json({
                 message: `Successfully added thread to bookmark`,
