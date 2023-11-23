@@ -4,7 +4,7 @@
 module.exports = {
   async up (queryInterface, Sequelize) {
     let dataThread = require('../data/thread.json').map((el)=> {
-      el.slug = el.title.toLowerCase().split(' ').join('-')
+      el.slug = el.title.toLowerCase().replace(/[^a-z0-9\s]+/g, '').replaceAll(' ','-')
       el.createdAt = el.updatedAt = new Date()
       return el
     })

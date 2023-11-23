@@ -24,6 +24,12 @@ module.exports = {
       title: {
         type: Sequelize.STRING
       },
+      description: {
+        type: Sequelize.TEXT
+      },
+      slug: {
+        type: Sequelize.STRING
+      },
       schedule: {
         type: Sequelize.DATE
       },
@@ -41,6 +47,9 @@ module.exports = {
       },
       topik: {
         type: Sequelize.ARRAY(Sequelize.STRING)
+      },
+      imageUrl: {
+        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,

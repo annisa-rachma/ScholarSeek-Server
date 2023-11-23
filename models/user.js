@@ -16,31 +16,16 @@ module.exports = (sequelize, DataTypes) => {
   }
   User.init({
     firstName: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      validate: {
-        notNull: {
-          msg : "First name is required"
-        },
-        notEmpty: {
-          msg : "First name is required"
-        }
-      }
+      type: DataTypes.STRING
     },
     lastName: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      validate: {
-        notNull: {
-          msg : "Last name is required"
-        },
-        notEmpty: {
-          msg : "Last name is required"
-        }
-      }
+      type: DataTypes.STRING
     },
     slug :{
       type: DataTypes.STRING,
+    },
+    username: {
+      type: DataTypes.STRING
     },
     email: {
       type: DataTypes.STRING,
@@ -82,9 +67,13 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     hooks: {
       beforeCreate: (user) => {
-        let firstName = user.firstName.toLowerCase().split(' ').join('-')
-        let lastName = user.lastName.toLowerCase().split(' ').join('-')
-        user.slug = `${firstName}-${lastName}`
+        if(user.firstName || user.lastName) {
+          let firstName = user.firstName.toLowerCase().split(' ').join('-')
+          let lastName = user.lastName.toLowerCase().split(' ').join('-')
+          user.slug = `${firstName}-${lastName}`
+        } else {
+          user.slug = user.username
+        }
         user.password = hashPassword(user.password);
         user.isAwardeeValidate = false
       }

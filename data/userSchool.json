@@ -18,5 +18,12 @@
         "school" : "ITB",
         "major" : "S1 Arsitektur",
         "year" : "2020-present"
+    },
+    {
+        "UserId" : 5,
+        "school" : "University of Kyoto",
+        "major" : "MSc. Environmental Engineering",
+        "scholarship" : "MEXT Scholarship",
+        "year" : "2020-2022"
     }
 ]

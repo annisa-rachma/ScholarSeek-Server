@@ -17,14 +17,12 @@ class adminController {
       if (!isValidPassword) throw { name: "InvalidEmail/Password" };
 
       const access_token = signToken({ id: user.id });
-      res
-        .status(200)
-        .json({
-          access_token,
-          id: user.id,
-          email: user.email,
-          profileImg: user.profileImg,
-        });
+      res.status(200).json({
+        access_token,
+        id: user.id,
+        email: user.email,
+        profileImg: user.profileImg,
+      });
     } catch (err) {
       console.log(err);
       next(err);
@@ -50,12 +48,53 @@ class adminController {
     }
   }
 
+  static async getAllUser(req, res, next) {
+    try {
+      const data = await User.findAll({
+        where : {role: ['awardee', 'admin']},
+        attributes: [
+          "id",
+          "firstName",
+          "lastName",
+          "username",
+          "email",
+          "role",
+          "isAwardeeValidate",
+        ],
+      });
+      res.status(200).json(data);
+    } catch (err) {
+      console.log(err);
+      next(err);
+    }
+  }
+  static async patchIsValidateUser(req, res, next) {
+    try {
+      console.log(11111);
+      console.log(req.body,111111);
+      const { isAwardeeValidate } = req.body;
+      const user = await User.findByPk(req.params.id);
+      if (!user) throw { name: "NotFound" };
+      const data = await User.update(
+        { isAwardeeValidate },
+        {
+          where: { id: req.params.id },
+          returning: true,
+        }
+      );
+      res.status(200).json({ message: `User id ${user.id} has been updated` });
+    } catch (err) {
+      console.log(err);
+      next(err);
+    }
+  }
+
   static async getAllScholarships(req, res, next) {
     try {
       // const page =
       //   req.query.page && !isNaN(req.query.page) ? +req.query.page : 1;
       // const size =
-      //   req.query.size && !isNaN(req.query.size) ? +req.query.size : 10;
+
 
       const option = {
         // offset: (page - 1) * size,
@@ -192,33 +231,34 @@ class adminController {
           name: "NotFound",
         };
 
-      const result = {
-        name: data.name,
-        isFullyFunded: data.isFullyFunded,
-        degrees: data.degrees,
-        countries: data.countries,
-        registrationOpen: data.registrationOpen,
-        registrationDeadline: data.registrationDeadline,
-        Detail: {
-          About: [
-            { Description: data.description },
-            { University: data.university },
-            { Major: data.major },
-            { Benefit: data.benefit },
-          ],
-          Requirement: [
-            {
-              Age: data.ageRequirement,
-            },
-            { GPA: data.gpaRequirement },
-            { "English Test": data.englishTest },
-            { Documents: data.documents },
-            { "Other Language Test": data.otherLangTest },
-            { "Standarized Test": data.standarizedTest },
-          ],
-        },
-      };
-      res.status(200).json(result);
+      // const result = {
+      //   name: data.name,
+      //   isFullyFunded: data.isFullyFunded,
+      //   degrees: data.degrees,
+      //   countries: data.countries,
+      //   registrationOpen: data.registrationOpen,
+      //   registrationDeadline: data.registrationDeadline,
+      //   description: data.description,
+      //   Detail: {
+      //     About: [
+      //       { Description: data.description },
+      //       { University: data.university },
+      //       { Major: data.major },
+      //       { Benefit: data.benefit },
+      //     ],
+      //     Requirement: [
+      //       {
+      //         Age: data.ageRequirement,
+      //       },
+      //       { GPA: data.gpaRequirement },
+      //       { "English Test": data.englishTest },
+      //       { Documents: data.documents },
+      //       { "Other Language Test": data.otherLangTest },
+      //       { "Standarized Test": data.standarizedTest },
+      //     ],
+      //   },
+      // };
+      res.status(200).json(data);
     } catch (err) {
       console.log(err);
       next(err);
