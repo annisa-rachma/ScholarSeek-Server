@@ -23,22 +23,23 @@ module.exports = class UserController {
 
             const loggedInUser = await User.findOne({
                 where: { email },
-                attributes: ['password', 'id']
+                attributes: ["password", "id"],
             })
             if (!loggedInUser) throw { name: "InvalidEmail/Password" }
 
-            const isValidPassword = comparePassword(password, loggedInUser.password)
+            const isValidPassword = comparePassword(
+                password,
+                loggedInUser.password
+            )
             if (!isValidPassword) throw { name: "InvalidEmail/Password" }
 
             const access_token = signToken({ id: loggedInUser.id })
 
             const user = await User.findOne({
                 where: { email },
-                attributes: {exclude: ['password', 'createdAt', 'updatedAt']}
+                attributes: { exclude: ["password", "createdAt", "updatedAt"] },
             })
-            res.status(200).json(
-                {access_token, user}
-            )
+            res.status(200).json({ access_token, user })
         } catch (err) {
             console.log(err)
             next(err)
@@ -164,7 +165,7 @@ module.exports = class UserController {
             // console.log(input, "<<<<")
             let profileImg = ""
 
-            if (!school ) {
+            if (!school) {
                 return res
                     .status(400)
                     .json({ message: "please fill in the input field" })
@@ -253,6 +254,7 @@ module.exports = class UserController {
     }
 
     static async getAllBookmarkScholarship(req, res, next) {
+        console.log(1231131, 'masul ke guaaa', req.user.id)
         try {
             const bookmarkScholarship = await BookmarkScholarship.findAll({
                 where: { UserId: req.user.id },
@@ -263,7 +265,7 @@ module.exports = class UserController {
                 ],
                 order: [["id"]],
             })
-            // console.log(bookmarkScholarship, '<<<< INI RESULTLTLT')
+            console.log(bookmarkScholarship, '<<<< INI RESULTLTLT')
 
             let result = bookmarkScholarship.map((el) => {
                 return {
